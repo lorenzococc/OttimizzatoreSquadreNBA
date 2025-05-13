@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 import com.gurobi.gurobi.GRBEnv;
+import com.gurobi.gurobi.GRBException;
 import com.gurobi.gurobi.GRBLinExpr;
 import com.gurobi.gurobi.GRBModel;
 import com.gurobi.gurobi.GRBVar;
@@ -248,6 +249,11 @@ public class MainOttimizzatore {
 						
 		//altri possibili vincoli
 			
+			addConstr_height(model, listaGiocatori, h, x, NumOfPlayers);
+			addConstr_gamesPlayed(model, listaGiocatori, gp, x, NumOfPlayers);
+			addConstr_age(model, listaGiocatori, age, x, NumOfPlayers);
+			addConstr_defense(model, listaGiocatori, def, x, NumOfPlayers);
+		
 						
 		// Ottimizza il modello
 						
@@ -259,5 +265,106 @@ public class MainOttimizzatore {
 			
 	}catch(Exception e) {}
 	}
+	
+	private static void addConstr_height(GRBModel model, ArrayList<Giocatore> listaGiocatori, ArrayList<Integer> h,
+			GRBVar[] x, int NumOfPlayers) {
+		
+			// (sum( h[i] * x[i]) / sum(x[i]) >= minAvgHeight
+			//ma sum x[i] = NumOfPlayers
+			// -> sum((h[i] / NumOfPlayers) * x[i]) >= minAvgHeight
+			
+			double minAvgHeight = 200.0;
+			
+			GRBLinExpr expr = new GRBLinExpr();
+			
+			for(int i = 0; i< listaGiocatori.size(); i++) {
+				expr.addTerm((double) h.get(i) /  NumOfPlayers, x[i]);
+			}
+			
+			try {
+				model.addConstr(expr , GRB.GREATER_EQUAL, minAvgHeight, "const_Height");
+			} catch (GRBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	
+	private static void addConstr_gamesPlayed(GRBModel model, ArrayList<Giocatore> listaGiocatori,
+				ArrayList<Integer> gp, GRBVar[] x, int NumOfPlayers) {
+		
+				// (sum( gp[i] * x[i]) / sum(x[i]) >= minAvgGamesPlayed
+				//ma sum x[i] = NumOfPlayers
+				// -> sum((gp[i] / NumOfPlayers) * x[i]) >= minAvgGamesPlayed
+		
+			int minAvgGamesPlayed = 42; //Giocatori che mediamente abbiano giocato più della metà delle gare
+			
+			GRBLinExpr expr = new GRBLinExpr();
+			
+			for(int i = 0; i< listaGiocatori.size(); i++) {
+				expr.addTerm(((double) gp.get(i) / NumOfPlayers), x[i]);
+			}
+					
+			try {
+				model.addConstr(expr , GRB.GREATER_EQUAL, minAvgGamesPlayed, "const_GamesPlayed");
+			} catch (GRBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	}
+
+	private static void addConstr_age(GRBModel model, ArrayList<Giocatore> listaGiocatori, ArrayList<Integer> age,
+			GRBVar[] x, int NumOfPlayers) {
+		
+			// (sum( age[i] * x[i]) / sum(x[i]) <= maxAvgAge
+			//ma sum x[i] = NumOfPlayers
+			// -> sum((age[i] / NumOfPlayers) * x[i]) >= minAvgHeight
+					
+			double maxAvgAge = 26.23; //Average age across all teams 2024-2025 NBA Season
+					
+			GRBLinExpr expr = new GRBLinExpr();
+					
+			for(int i = 0; i< listaGiocatori.size(); i++) {
+				expr.addTerm((double) age.get(i) /  NumOfPlayers, x[i]);
+			}
+					
+			try {
+				model.addConstr(expr , GRB.LESS_EQUAL, maxAvgAge, "const_Age");
+			} catch (GRBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
+	}
+
+	private static void addConstr_defense(GRBModel model, ArrayList<Giocatore> listaGiocatori, ArrayList<Float> def,
+			GRBVar[] x, int NumOfPlayers) {
+		
+		// (sum( def[i] * x[i]) / sum(x[i]) >= minAvgDefense
+		//ma sum x[i] = NumOfPlayers
+		// -> sum((def[i] / NumOfPlayers) * x[i]) >= minAvgDefense
+		
+			int sommaDef = 0;
+			for(Giocatore g : listaGiocatori) {
+				sommaDef += g.getDefense();
+			}
+			
+			double minAvgDef = ((double)sommaDef) / listaGiocatori.size(); //Average defense across all players
+			
+			GRBLinExpr expr = new GRBLinExpr();
+			
+			for(int i = 0; i< listaGiocatori.size(); i++) {
+				expr.addTerm((double) def.get(i) /  NumOfPlayers, x[i]);
+			}
+			
+			try {
+				model.addConstr(expr , GRB.GREATER_EQUAL, minAvgDef, "const_Defense");
+			} catch (GRBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+	}
+
+	
 
 }
