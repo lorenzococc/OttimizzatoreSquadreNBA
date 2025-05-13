@@ -102,7 +102,7 @@ public class MainOttimizzatore {
 				ppg.add(g.getPointsPerGame());
 				fpg.add(g.getFoulsPerGame());
 				mpg.add(g.getMinutesPlayedPerGame());
-				//perc_td.add(z.getTripleDoubles());
+				perc_td.add(g.getTripleDoublesLastSeason());
 				mFGpg.add(g.getMadeShotsPerGame());
 				aFGpg.add(g.getAttemptedShotsPerGame());
 				perc_FG.add(g.getShots_Percentage());
