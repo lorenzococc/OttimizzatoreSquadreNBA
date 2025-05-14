@@ -32,7 +32,7 @@ public class MainOttimizzatore {
 		//Inserimento parametri
 			
 			long B = 140588000000L; 
-			int N = listaGiocatori.size();
+			int N =30; //listaGiocatori.size(); // Specificare il numero di giocatori tra cui scegliere
 			int MPG = 48;
 			int NumOfPlayers = 12;
 			
@@ -142,11 +142,12 @@ public class MainOttimizzatore {
 			
 		// Creazione delle variabili
 			
-			GRBVar[] x = new GRBVar [listaGiocatori.size()];   // x[i]  = 1 se il giocatore i-esimo   convocato, 0 altrimenti
+			GRBVar[] x = new GRBVar [N];   // x[i]  = 1 se il giocatore i-esimo   convocato, 0 altrimenti
 			
 			
 			int contaGiocatori = 0;
-			for(Giocatore g : listaGiocatori) {
+			for(int i=0; i<N; i++) {
+				Giocatore g = listaGiocatori.get(i);
 				String name = "x_" + g.getName();
 					
 				x[contaGiocatori++] = model.addVar(0.0, 1.0, 0.0, GRB.BINARY, name);
@@ -168,7 +169,7 @@ public class MainOttimizzatore {
 		
 			GRBLinExpr expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(c.get(i), x[i]);
 			}
 			
@@ -181,7 +182,7 @@ public class MainOttimizzatore {
 			
 			expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(PG.get(i), x[i]);
 			}
 			
@@ -191,7 +192,7 @@ public class MainOttimizzatore {
 			
 			expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(SG.get(i), x[i]);
 			}
 			
@@ -201,7 +202,7 @@ public class MainOttimizzatore {
 			
 			expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(SF.get(i), x[i]);
 			}
 			
@@ -211,7 +212,7 @@ public class MainOttimizzatore {
 			
 			expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(PF.get(i), x[i]);
 			}
 			
@@ -221,7 +222,7 @@ public class MainOttimizzatore {
 			
 			expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(C.get(i), x[i]);
 			}
 			
@@ -232,7 +233,7 @@ public class MainOttimizzatore {
 			
 			expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(1.0, x[i]);
 			}
 			
@@ -241,7 +242,7 @@ public class MainOttimizzatore {
 		// Aggiunta della funzione obiettivo: max sum ( valore[i] * x[i] )
 			
 			GRBLinExpr fo = new GRBLinExpr();
-			for(int i=0; i< listaGiocatori.size(); i++) {
+			for(int i=0; i< N; i++) {
 				fo.addTerm(valore.get(i), x[i]);
 			}
 						
@@ -249,17 +250,17 @@ public class MainOttimizzatore {
 						
 		//altri possibili vincoli
 			
-			addConstr_height(model, listaGiocatori, h, x, NumOfPlayers);
-			addConstr_gamesPlayed(model, listaGiocatori, gp, x, NumOfPlayers);
-			addConstr_age(model, listaGiocatori, age, x, NumOfPlayers);
-			addConstr_defense(model, listaGiocatori, def, x, NumOfPlayers);
+			addConstr_height(model, listaGiocatori, h, x, NumOfPlayers, N);
+			addConstr_gamesPlayed(model, listaGiocatori, gp, x, NumOfPlayers, N);
+			addConstr_age(model, listaGiocatori, age, x, NumOfPlayers, N);
+			addConstr_defense(model, listaGiocatori, def, x, NumOfPlayers, N);
 		
 						
 		// Ottimizza il modello
 						
 			model.optimize();
 			
-			for(int i =0; i< listaGiocatori.size(); i++) {
+			for(int i =0; i< N; i++) {
 				System.out.println(x[i].get(GRB.StringAttr.VarName) + " " + x[i].get(GRB.DoubleAttr.X));
 			}		
 			
@@ -267,7 +268,7 @@ public class MainOttimizzatore {
 	}
 	
 	private static void addConstr_height(GRBModel model, ArrayList<Giocatore> listaGiocatori, ArrayList<Integer> h,
-			GRBVar[] x, int NumOfPlayers) {
+			GRBVar[] x, int NumOfPlayers, int N) {
 		
 			// (sum( h[i] * x[i]) / sum(x[i]) >= minAvgHeight
 			//ma sum x[i] = NumOfPlayers
@@ -277,7 +278,7 @@ public class MainOttimizzatore {
 			
 			GRBLinExpr expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm((double) h.get(i) /  NumOfPlayers, x[i]);
 			}
 			
@@ -290,7 +291,7 @@ public class MainOttimizzatore {
 		}
 	
 	private static void addConstr_gamesPlayed(GRBModel model, ArrayList<Giocatore> listaGiocatori,
-				ArrayList<Integer> gp, GRBVar[] x, int NumOfPlayers) {
+				ArrayList<Integer> gp, GRBVar[] x, int NumOfPlayers, int N) {
 		
 				// (sum( gp[i] * x[i]) / sum(x[i]) >= minAvgGamesPlayed
 				//ma sum x[i] = NumOfPlayers
@@ -300,7 +301,7 @@ public class MainOttimizzatore {
 			
 			GRBLinExpr expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm(((double) gp.get(i) / NumOfPlayers), x[i]);
 			}
 					
@@ -313,7 +314,7 @@ public class MainOttimizzatore {
 	}
 
 	private static void addConstr_age(GRBModel model, ArrayList<Giocatore> listaGiocatori, ArrayList<Integer> age,
-			GRBVar[] x, int NumOfPlayers) {
+			GRBVar[] x, int NumOfPlayers, int N) {
 		
 			// (sum( age[i] * x[i]) / sum(x[i]) <= maxAvgAge
 			//ma sum x[i] = NumOfPlayers
@@ -323,7 +324,7 @@ public class MainOttimizzatore {
 					
 			GRBLinExpr expr = new GRBLinExpr();
 					
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm((double) age.get(i) /  NumOfPlayers, x[i]);
 			}
 					
@@ -337,22 +338,23 @@ public class MainOttimizzatore {
 	}
 
 	private static void addConstr_defense(GRBModel model, ArrayList<Giocatore> listaGiocatori, ArrayList<Float> def,
-			GRBVar[] x, int NumOfPlayers) {
+			GRBVar[] x, int NumOfPlayers, int N) {
 		
 		// (sum( def[i] * x[i]) / sum(x[i]) >= minAvgDefense
 		//ma sum x[i] = NumOfPlayers
 		// -> sum((def[i] / NumOfPlayers) * x[i]) >= minAvgDefense
 		
 			int sommaDef = 0;
-			for(Giocatore g : listaGiocatori) {
+			for(int i = 0; i< N; i++) {
+				Giocatore g = listaGiocatori.get(i);
 				sommaDef += g.getDefense();
 			}
 			
-			double minAvgDef = ((double)sommaDef) / listaGiocatori.size(); //Average defense across all players
+			double minAvgDef = ((double)sommaDef) / N; //Average defense across all players
 			
 			GRBLinExpr expr = new GRBLinExpr();
 			
-			for(int i = 0; i< listaGiocatori.size(); i++) {
+			for(int i = 0; i< N; i++) {
 				expr.addTerm((double) def.get(i) /  NumOfPlayers, x[i]);
 			}
 			
