@@ -1544,3 +1544,57 @@ Solution count 4: 16753.8 16687.7 16613.9 5033.76
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.675379980469e+04, best bound 1.675380001424e+04, gap 0.0000%
+
+Gurobi 12.0.2 (win64, Java) logging started Sun May 18 12:41:08 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 5 4600H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  0
+Presolve  0
+
+Optimize a model with 5 rows, 528 columns and 1560 nonzeros
+Model fingerprint: 0xa35302c0
+Variable types: 0 continuous, 528 integer (528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [5e-01, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 1e+02]
+Found heuristic solution: objective 5033.7600231
+Variable types: 0 continuous, 528 integer (528 binary)
+
+Root relaxation: objective 1.682355e+04, 62 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16823.5485    0    2 5033.76002 16823.5485   234%     -    0s
+H    0     0                    16613.889771 16823.5485  1.26%     -    0s
+H    0     0                    16687.689819 16823.5485  0.81%     -    0s
+H    0     0                    16753.799805 16823.5485  0.42%     -    0s
+     0     0 16820.4420    0    2 16753.7998 16820.4420  0.40%     -    0s
+     0     0 16792.7543    0    5 16753.7998 16792.7543  0.23%     -    0s
+     0     0 16792.5843    0    5 16753.7998 16792.5843  0.23%     -    0s
+     0     0 16778.9708    0    7 16753.7998 16778.9708  0.15%     -    0s
+
+Cutting planes:
+  Cover: 2
+  MIR: 1
+  StrongCG: 1
+  GUB cover: 1
+
+Explored 1 nodes (76 simplex iterations) in 0.07 seconds (0.01 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 16753.8 16687.7 16613.9 5033.76 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.675379980469e+04, best bound 1.675380001424e+04, gap 0.0000%
