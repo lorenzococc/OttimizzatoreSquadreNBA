@@ -197,7 +197,7 @@ public class MainOttimizzatore {
 			model.addConstr(expr, GRB.EQUAL, 2.0, "const_C");
 			
 			
-		//Aggiunta vincolo sul numero di convocati
+		//Aggiunta vincolo sul numero di convocati : sum x[j][i] = NumOfPlayers
 			
 			expr = new GRBLinExpr();
 			
@@ -209,7 +209,96 @@ public class MainOttimizzatore {
 			
 			model.addConstr(expr, GRB.EQUAL, NumOfPlayers, "const_NumOfplayers");
 			
-		// Aggiunta della funzione obiettivo: max sum ( valore[i] * x[i] )
+		//Calcolo alcuni valori medi di statistiche che possono servire per alcuni vincoli o funzioni obiettivo
+			
+			double mediaPTS=0;
+			double mediaAST=0;
+			double mediaREB=0;
+			double mediaTOV=0;
+			double mediaBLK=0;
+			double mediaSTL=0;
+			
+			calcolaMedie(listaGiocatori, mediaPTS, mediaAST, mediaREB, mediaTOV, mediaBLK, mediaSTL);
+			
+		//Aggiunta vincolo sulla media dei punti: sum (avgPPG[j][i] * x[j][i])>= avgPPGMEdio
+
+			
+			expr = new GRBLinExpr();
+			
+			for(int j = 0; j< 3; j++) {
+				for(int i = 0; i< x[j].length; i++) {
+					expr.addTerm((double)PTS[j][i] / GP[j][i], x[j][i]);
+				}
+			}
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL, mediaPTS*NumOfPlayers, "const_AvgPointsPerGame");
+			
+		//Aggiunta dei vincoli specifici alle Guardie
+			//Aggiunta vincolo sugli assist : sum(avgAst[i] * x[i]) >= mediaAST
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[0].length; i++) {
+				expr.addTerm((double)AST[0][i] / GP[0][i], x[0][i]);
+			}
+			
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL,mediaAST*NumOfPlayers, "const_AvgAssists");
+			
+			//Aggiunta vincoli sui Turnovers: sum(avgTov[i] * x[i]) <= mediaTOV
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[0].length; i++) {
+				expr.addTerm((double)TOV[0][i] / GP[0][i], x[0][i]);
+			}
+			
+			
+			model.addConstr(expr, GRB.LESS_EQUAL,mediaTOV*NumOfPlayers, "const_AvgTurnovers");
+			
+		//Aggiunta dei vincoli specifici ai Forward
+			//Aggiunta vincolo sulle palle rubate: sum(avgStl[i] * x[i]) >= mediaSTL
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[1].length; i++) {
+				expr.addTerm((double)STL[1][i] / GP[1][i], x[1][i]);
+			}
+			
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL,mediaSTL*NumOfPlayers, "const_AvgSteals");
+			
+			
+			
+		//Aggiunta dei vincoli specifici ai Centri
+			//Aggiunta vincolo sui rimbalzi : sum( avgReb[i] * x[i]) >= mediaReb
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[2].length; i++) {
+				expr.addTerm((double)REB[2][i] / GP[2][i], x[2][i]);
+			}
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL, mediaREB*NumOfPlayers, "const_AvgRbounds");
+			
+			//Aggiunta vincolo sulle stoppate: sum(avgBlk[i] * x[i]) >= mediaBlk
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[2].length; i++) {
+				expr.addTerm((double)BLK[2][i] / GP[2][i], x[2][i]);
+			}
+			
+			
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL, mediaBLK*NumOfPlayers, "const_AvgBlocks");
+			
+			
+		// Aggiunta della funzione obiettivo: max sum ( PDK[j][i] * x[j][i] )
 			
 			GRBLinExpr fo = new GRBLinExpr();
 			
@@ -247,6 +336,30 @@ public class MainOttimizzatore {
 		
 			
 	}catch(Exception e) {}
+	}
+
+	private static void calcolaMedie(ArrayList<Giocatore> listaGiocatori, double mediaPTS, double mediaAST,
+			double mediaREB, double mediaTOV, double mediaBLK, double mediaSTL) {
+		for(Giocatore g: listaGiocatori) {
+			
+			int gamesPlayed = g.getGP();
+			mediaPTS += (double)g.getPTS() / gamesPlayed;
+			mediaAST += (double)g.getAST() / gamesPlayed;
+			mediaREB += (double)g.getREB() / gamesPlayed;
+			mediaTOV += (double)g.getTOV() / gamesPlayed;
+			mediaBLK += (double)g.getBLK() / gamesPlayed;
+			mediaSTL += (double)g.getSTL() / gamesPlayed;
+		}
+		
+		int sizeListaGIocatori = listaGiocatori.size();
+		
+		mediaPTS = mediaPTS / sizeListaGIocatori;
+		mediaAST = mediaAST / sizeListaGIocatori;
+		mediaREB = mediaREB / sizeListaGIocatori;
+		mediaTOV = mediaTOV / sizeListaGIocatori;
+		mediaBLK = mediaBLK / sizeListaGIocatori;
+		mediaSTL = mediaSTL / sizeListaGIocatori;
+		
 	}
 
 	private static void setArraySizes(int contaG, int contaF, int contaC, String[][] pLAYER, Position[][] pos,
