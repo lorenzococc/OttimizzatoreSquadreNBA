@@ -81,6 +81,7 @@ public class MainOttimizzatore {
 			int[][] PF = new int[3][];
 			int[][] FD = new int[3][];
 			int[][] PLUS_MINUS = new int[3][];
+			Float[][] value = new Float[3][];
 			
 			
 			
@@ -89,7 +90,7 @@ public class MainOttimizzatore {
 			
 		
 			setArraySizes(contaG, contaF, contaC, PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-					AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS,
+					AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
 					arrayGiocatori);
 			
 			
@@ -103,18 +104,18 @@ public class MainOttimizzatore {
 				switch(g.getPos()) {
 					case G:
 						contaG = counterAfterFillingArrays(PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS,
+							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
 							arrayGiocatori, contaG, g, 0);
 							break;
 							
 					case F:
 						contaF = counterAfterFillingArrays(PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS,
+							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
 							arrayGiocatori, contaF, g, 1);
 							break;
 					case C:
 						contaC = counterAfterFillingArrays(PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS,
+							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
 							arrayGiocatori, contaC, g, 2);
 							break;
 					
@@ -298,14 +299,14 @@ public class MainOttimizzatore {
 			model.addConstr(expr, GRB.GREATER_EQUAL, mediaBLK*NumOfPlayers, "const_AvgBlocks");
 			
 			
-		// Aggiunta della funzione obiettivo: max sum ( PDK[j][i] * x[j][i] )
+		// Aggiunta della funzione obiettivo: max sum ( value[j][i] * x[j][i] )
 			
 			GRBLinExpr fo = new GRBLinExpr();
 			
 			
 			for(int j = 0; j<3; j++) {
 				for(int i = 0; i<x[j].length; i++) {
-					fo.addTerm(PDK[j][i], x[j][i]);
+					fo.addTerm(value[j][i], x[j][i]);
 				}
 			}
 		
@@ -366,7 +367,7 @@ public class MainOttimizzatore {
 			String[][] team, Float[][] pDK, Float[][] cR, int[][] gP, int[][] mIN, int[][] sT, int[][] pTS, int[][] rEB,
 			int[][] aST, int[][] sTL, int[][] bLK, int[][] bA, int[][] mFG, int[][] aFG, int[][] pERC_FG, int[][] m3p,
 			int[][] a3p, int[][] pERC_3P, int[][] mFT, int[][] aFT, int[][] pERC_FT, int[][] oREB, int[][] dREB,
-			int[][] tOV, int[][] pF, int[][] fD, int[][] pLUS_MINUS, Giocatore[][] arrayGiocatori) {
+			int[][] tOV, int[][] pF, int[][] fD, int[][] pLUS_MINUS, Float[][] value, Giocatore[][] arrayGiocatori) {
 		
 		
 		arrayGiocatori[0] = new Giocatore[contaG];
@@ -489,6 +490,9 @@ public class MainOttimizzatore {
 		pLUS_MINUS[1] = new int[contaF];
 		pLUS_MINUS[2] = new int[contaC];
 		
+		value[0] = new Float[contaG];
+		value[1] = new Float[contaF];
+		value[2] = new Float[contaC];
 		
 	}
 
@@ -496,7 +500,7 @@ public class MainOttimizzatore {
 			Float[][] CR, int[][] GP, int[][] MIN, int[][] ST, int[][] PTS, int[][] REB, int[][] AST, int[][] STL,
 			int[][] BLK, int[][] BA, int[][] MFG, int[][] AFG, int[][] PERC_FG, int[][] M3P, int[][] A3P,
 			int[][] PERC_3P, int[][] MFT, int[][] AFT, int[][] PERC_FT, int[][] OREB, int[][] DREB, int[][] TOV,
-			int[][] PF, int[][] FD, int[][] PLUS_MINUS, Giocatore[][] arrayGiocatori, int contaPos, Giocatore g, int posNumber) {
+			int[][] PF, int[][] FD, int[][] PLUS_MINUS, Float[][] value, Giocatore[][] arrayGiocatori, int contaPos, Giocatore g, int posNumber) {
 		
 				arrayGiocatori [posNumber][contaPos] = g;
 		
@@ -530,7 +534,22 @@ public class MainOttimizzatore {
 				FD[posNumber][contaPos] = g.getFD();
 				PLUS_MINUS[posNumber][contaPos]  = g.getPLUS_MINUS();
 				
+				value[posNumber][contaPos] = decideValue(g);
+				
 				return ++contaPos;
+	}
+
+	private static float decideValue(Giocatore g) {
+		
+		int tiriSbagliati = g.getAFG() - g.getMFG();
+		int tiriLiberiSbagliati = g.getAFT() - g.getMFT();
+		
+		double punteggio = g.getPTS() + 1.2 * g.getREB() + 1.5* g.getAST() + 1.5* g.getSTL() - 1.5*g.getTOV() + 1.5*g.getBLK() - 0.5* g.getBA() - tiriSbagliati - tiriLiberiSbagliati; 
+
+		return (float) punteggio;
+		
+		
+		
 	}
 	
 
