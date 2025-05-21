@@ -128,7 +128,7 @@ public class MainOttimizzatore {
 				//g.printInfo();
 			}
 			
-			
+		
 			
 			
 			if(N>listaGiocatori.size()) N = listaGiocatori.size(); //Controlla che il valore di N non superi la dimensione massima concessa
@@ -212,16 +212,21 @@ public class MainOttimizzatore {
 			
 		//Calcolo alcuni valori medi di statistiche che possono servire per alcuni vincoli o funzioni obiettivo
 			
-			double mediaPTS=0;
-			double mediaAST=0;
-			double mediaREB=0;
-			double mediaTOV=0;
-			double mediaBLK=0;
-			double mediaSTL=0;
+			double mediaPTS= calcolaMedia(PTS, GP);
+			double mediaAST=calcolaMedia(AST, GP);
+			double mediaREB=calcolaMedia(REB, GP);
+			double mediaTOV=calcolaMedia(TOV, GP);
+			double mediaBLK=calcolaMedia(BLK, GP);
+			double mediaSTL=calcolaMedia(STL, GP);
+			double mediaBA =calcolaMedia(BA, GP);
+			double mediaFG_Perc = calcolaPercentualiMedie(PERC_FG);
+			double media3PT_Perc = calcolaPercentualiMedie(PERC_3P);
 			
-			calcolaMedie(listaGiocatori, mediaPTS, mediaAST, mediaREB, mediaTOV, mediaBLK, mediaSTL);
+			//calcolaMedie(listaGiocatori, mediaPTS, mediaAST, mediaREB, mediaTOV, mediaBLK, mediaSTL, mediaBA, mediaFG_Perc, media3PT_Perc);
 			
-		//Aggiunta vincolo sulla media dei punti: sum (avgPPG[j][i] * x[j][i])>= avgPPGMEdio
+			System.out.println(mediaFG_Perc + "\t" + media3PT_Perc);
+			
+		//Aggiunta vincolo sulla media dei punti: sum (avgPPG[j][i] * x[j][i])>= avgPPGMEdio *NumOfPlayers
 
 			
 			expr = new GRBLinExpr();
@@ -235,7 +240,7 @@ public class MainOttimizzatore {
 			model.addConstr(expr, GRB.GREATER_EQUAL, mediaPTS*NumOfPlayers, "const_AvgPointsPerGame");
 			
 		//Aggiunta dei vincoli specifici alle Guardie
-			//Aggiunta vincolo sugli assist : sum(avgAst[i] * x[i]) >= mediaAST
+			//Aggiunta vincolo sugli assist : sum(avgAst[i] * x[i]) >= mediaAST *4
 			
 			expr = new GRBLinExpr();
 			
@@ -245,9 +250,9 @@ public class MainOttimizzatore {
 			}
 			
 			
-			model.addConstr(expr, GRB.GREATER_EQUAL,mediaAST*NumOfPlayers, "const_AvgAssists");
+			model.addConstr(expr, GRB.GREATER_EQUAL,mediaAST*4, "const_AvgAssists");
 			
-			//Aggiunta vincoli sui Turnovers: sum(avgTov[i] * x[i]) <= mediaTOV
+			//Aggiunta vincolo sui Turnovers: sum(avgTov[i] * x[i]) <= mediaTOV *4
 			
 			expr = new GRBLinExpr();
 			
@@ -257,7 +262,30 @@ public class MainOttimizzatore {
 			}
 			
 			
-			model.addConstr(expr, GRB.LESS_EQUAL,mediaTOV*NumOfPlayers, "const_AvgTurnovers");
+			model.addConstr(expr, GRB.LESS_EQUAL,mediaTOV*4, "const_AvgTurnovers");
+			
+			//Aggiunta vincolo su rapporto ast/tov: sum((ast[i] / Tov[i] ) * x[i]) >= mediaAST / mediaTOV *4
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[0].length; i++) {
+				expr.addTerm((double)AST[0][i] / (TOV[0][i] +1), x[0][i]);
+				
+			}
+			
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL, ((double)mediaAST / mediaTOV) * 4, "const_AstToTovRatio");
+
+			//Aggiunta vincolo su tiro da 3PT: sum(
+			
+			expr = new GRBLinExpr();
+			
+			for(int i = 0; i< x[0].length; i++) {
+				expr.addTerm(PERC_3P[0][i], x[0][i]);
+			}
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL, media3PT_Perc * 4, "const_3P_Perc");
 			
 		//Aggiunta dei vincoli specifici ai Forward
 			//Aggiunta vincolo sulle palle rubate: sum(avgStl[i] * x[i]) >= mediaSTL
@@ -269,7 +297,18 @@ public class MainOttimizzatore {
 			}
 			
 			
-			model.addConstr(expr, GRB.GREATER_EQUAL,mediaSTL*NumOfPlayers, "const_AvgSteals");
+			model.addConstr(expr, GRB.GREATER_EQUAL,mediaSTL*4, "const_AvgSteals");
+			
+			//Aggiunta vincolo sui rimbalzi : sum( avgReb[i] * x[i]) >= mediaReb
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[1].length; i++) {
+				expr.addTerm((double)REB[1][i] / GP[1][i], x[1][i]);
+			}
+			
+			model.addConstr(expr, GRB.GREATER_EQUAL, mediaREB*4, "const_AvgRboundsF");
 			
 			
 			
@@ -283,9 +322,9 @@ public class MainOttimizzatore {
 				expr.addTerm((double)REB[2][i] / GP[2][i], x[2][i]);
 			}
 			
-			model.addConstr(expr, GRB.GREATER_EQUAL, mediaREB*NumOfPlayers, "const_AvgRbounds");
+			model.addConstr(expr, GRB.GREATER_EQUAL, mediaREB*2, "const_AvgRboundsC");
 			
-			//Aggiunta vincolo sulle stoppate: sum(avgBlk[i] * x[i]) >= mediaBlk
+			//Aggiunta vincolo sulle stoppate fatte: sum(avgBlk[i] * x[i]) >= mediaBlk
 			
 			expr = new GRBLinExpr();
 			
@@ -296,7 +335,31 @@ public class MainOttimizzatore {
 			
 			
 			
-			model.addConstr(expr, GRB.GREATER_EQUAL, mediaBLK*NumOfPlayers, "const_AvgBlocks");
+			model.addConstr(expr, GRB.GREATER_EQUAL, mediaBLK*2, "const_AvgBlocks");
+			
+			//Aggiunta vincolo sulle stoppate subite: sum(avgBkS[i] *  x[i]) >= mediaBlkSubiti
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[2].length; i++) {
+				expr.addTerm((double)BA[2][i] / GP[2][i], x[2][i]);
+			}
+			
+
+			model.addConstr(expr, GRB.LESS_EQUAL, mediaBA*2, "const_AvgBlocksSubiti");
+			
+			//Aggiunta vincolo sul tiro FG%
+			
+			expr = new GRBLinExpr();
+			
+			
+			for(int i = 0; i< x[2].length; i++) {
+				expr.addTerm( PERC_FG[2][i], x[2][i]);
+			}
+			
+
+			model.addConstr(expr, GRB.GREATER_EQUAL, mediaFG_Perc * 2, "const_AvgFG_Perc");
 			
 			
 		// Aggiunta della funzione obiettivo: max sum ( value[j][i] * x[j][i] )
@@ -309,6 +372,8 @@ public class MainOttimizzatore {
 					fo.addTerm(value[j][i], x[j][i]);
 				}
 			}
+			
+			
 		
 			model.setObjective(fo, GRB.MAXIMIZE);
 						
@@ -330,7 +395,7 @@ public class MainOttimizzatore {
 			for(int j = 0; j<3; j++) {
 				for(int i = 0; i<x[j].length; i++) {
 					if(x[j][i].get(GRB.DoubleAttr.X) == 1) {
-						System.out.println(x[j][i].get(GRB.StringAttr.VarName) + " " + x[j][i].get(GRB.DoubleAttr.X) + "(" + Pos[j][i] + ")");						
+						System.out.println(x[j][i].get(GRB.StringAttr.VarName) + " " + x[j][i].get(GRB.DoubleAttr.X) + "(" + Pos[j][i] + " - " + Team[j][i] +")");						
 					}
 				}
 			}
@@ -339,8 +404,35 @@ public class MainOttimizzatore {
 	}catch(Exception e) {}
 	}
 
+	private static double calcolaPercentualiMedie(int[][] percentage) {
+		int numOfplayers = 0;
+		double sumOfPercentages = 0; 
+		
+		for(int j=0; j<3; j++) {
+			for(int i =0; i<percentage[j].length; i++) {
+				sumOfPercentages += percentage[j][i];
+				numOfplayers++;
+			}
+		}
+		return sumOfPercentages /  numOfplayers;
+	}
+
+	private static double calcolaMedia(int[][] statsArray, int[][] gamesPlayed) {
+		double sumOfAvgStats = 0;
+		int numOfPlayers =0;
+		
+		for(int j=0; j<3; j++) {
+			for(int i =0; i< statsArray[j].length; i++) {
+				sumOfAvgStats += (double) statsArray[j][i] / gamesPlayed[j][i];
+				numOfPlayers++;
+			}
+	
+		}
+		return sumOfAvgStats / numOfPlayers;
+	}
+
 	private static void calcolaMedie(ArrayList<Giocatore> listaGiocatori, double mediaPTS, double mediaAST,
-			double mediaREB, double mediaTOV, double mediaBLK, double mediaSTL) {
+			double mediaREB, double mediaTOV, double mediaBLK, double mediaSTL, double mediaBA, double mediaFG_Perc, double media3pt_Perc) {
 		for(Giocatore g: listaGiocatori) {
 			
 			int gamesPlayed = g.getGP();
@@ -350,6 +442,9 @@ public class MainOttimizzatore {
 			mediaTOV += (double)g.getTOV() / gamesPlayed;
 			mediaBLK += (double)g.getBLK() / gamesPlayed;
 			mediaSTL += (double)g.getSTL() / gamesPlayed;
+			mediaBA  += (double)g.getBA()  / gamesPlayed;
+			mediaFG_Perc += (double)g.getPERC_FG();
+			media3pt_Perc += (double)g.getPERC_3P();
 		}
 		
 		int sizeListaGIocatori = listaGiocatori.size();
@@ -360,6 +455,9 @@ public class MainOttimizzatore {
 		mediaTOV = mediaTOV / sizeListaGIocatori;
 		mediaBLK = mediaBLK / sizeListaGIocatori;
 		mediaSTL = mediaSTL / sizeListaGIocatori;
+		mediaBA  = mediaBA  / sizeListaGIocatori;
+		mediaFG_Perc = mediaFG_Perc / sizeListaGIocatori;
+		media3pt_Perc = media3pt_Perc / sizeListaGIocatori;
 		
 	}
 
