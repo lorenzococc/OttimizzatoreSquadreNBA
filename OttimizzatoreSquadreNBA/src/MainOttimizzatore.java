@@ -221,11 +221,7 @@ public class MainOttimizzatore {
 			double mediaBA =calcolaMedia(BA, GP);
 			double mediaFG_Perc = calcolaPercentualiMedie(PERC_FG);
 			double media3PT_Perc = calcolaPercentualiMedie(PERC_3P);
-			
-			//calcolaMedie(listaGiocatori, mediaPTS, mediaAST, mediaREB, mediaTOV, mediaBLK, mediaSTL, mediaBA, mediaFG_Perc, media3PT_Perc);
-			
-			System.out.println(mediaFG_Perc + "\t" + media3PT_Perc);
-			
+		
 		//Aggiunta vincolo sulla media dei punti: sum (avgPPG[j][i] * x[j][i])>= avgPPGMEdio *NumOfPlayers
 
 			
@@ -369,7 +365,7 @@ public class MainOttimizzatore {
 			
 			for(int j = 0; j<3; j++) {
 				for(int i = 0; i<x[j].length; i++) {
-					fo.addTerm(value[j][i], x[j][i]);
+					fo.addTerm(PDK[j][i], x[j][i]);
 				}
 			}
 			
