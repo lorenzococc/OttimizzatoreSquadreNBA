@@ -55,8 +55,8 @@ public class MainOttimizzatore {
 			String[][] PLAYER = new String [3][];
 			Position[][] Pos = new Position[3][];
 			String[][] Team = new String [3][];
-			Float[][] PDK = new Float[3][];
-			Float[][] CR = new Float[3][];
+			double[][] PDK = new double[3][];
+			double[][] CR = new double[3][];
 			int[][] GP = new int[3][];
 			int[][] MIN = new int[3][];
 			int[][] ST = new int[3][];
@@ -81,7 +81,7 @@ public class MainOttimizzatore {
 			int[][] PF = new int[3][];
 			int[][] FD = new int[3][];
 			int[][] PLUS_MINUS = new int[3][];
-			Float[][] value = new Float[3][];
+			double[][] value = new double[3][];
 			
 			
 			
@@ -121,7 +121,6 @@ public class MainOttimizzatore {
 					
 					default: throw new IllegalArgumentException("Unexpected value: " + g.getPos());
 				}
-				
 				
 				
 				
@@ -381,6 +380,9 @@ public class MainOttimizzatore {
 //			addConstr_gamesPlayed(model, listaGiocatori, gp, x, NumOfPlayers, N);
 //			addConstr_age(model, listaGiocatori, age, x, NumOfPlayers, N);
 //			addConstr_defense(model, listaGiocatori, def, x, NumOfPlayers, N);
+			
+			 // Scrittura del modello in formato .lp
+            model.write("model.lp");
 		
 						
 		// Ottimizza il modello
@@ -395,6 +397,14 @@ public class MainOttimizzatore {
 					}
 				}
 			}
+			
+		// Scrittura della soluzione in formato .sol
+            model.write("solution.sol");
+            
+         // Pulizia
+            model.dispose();
+            env.dispose();
+
 		
 			
 	}catch(Exception e) {}
@@ -427,41 +437,13 @@ public class MainOttimizzatore {
 		return sumOfAvgStats / numOfPlayers;
 	}
 
-	private static void calcolaMedie(ArrayList<Giocatore> listaGiocatori, double mediaPTS, double mediaAST,
-			double mediaREB, double mediaTOV, double mediaBLK, double mediaSTL, double mediaBA, double mediaFG_Perc, double media3pt_Perc) {
-		for(Giocatore g: listaGiocatori) {
-			
-			int gamesPlayed = g.getGP();
-			mediaPTS += (double)g.getPTS() / gamesPlayed;
-			mediaAST += (double)g.getAST() / gamesPlayed;
-			mediaREB += (double)g.getREB() / gamesPlayed;
-			mediaTOV += (double)g.getTOV() / gamesPlayed;
-			mediaBLK += (double)g.getBLK() / gamesPlayed;
-			mediaSTL += (double)g.getSTL() / gamesPlayed;
-			mediaBA  += (double)g.getBA()  / gamesPlayed;
-			mediaFG_Perc += (double)g.getPERC_FG();
-			media3pt_Perc += (double)g.getPERC_3P();
-		}
-		
-		int sizeListaGIocatori = listaGiocatori.size();
-		
-		mediaPTS = mediaPTS / sizeListaGIocatori;
-		mediaAST = mediaAST / sizeListaGIocatori;
-		mediaREB = mediaREB / sizeListaGIocatori;
-		mediaTOV = mediaTOV / sizeListaGIocatori;
-		mediaBLK = mediaBLK / sizeListaGIocatori;
-		mediaSTL = mediaSTL / sizeListaGIocatori;
-		mediaBA  = mediaBA  / sizeListaGIocatori;
-		mediaFG_Perc = mediaFG_Perc / sizeListaGIocatori;
-		media3pt_Perc = media3pt_Perc / sizeListaGIocatori;
-		
-	}
+
 
 	private static void setArraySizes(int contaG, int contaF, int contaC, String[][] pLAYER, Position[][] pos,
-			String[][] team, Float[][] pDK, Float[][] cR, int[][] gP, int[][] mIN, int[][] sT, int[][] pTS, int[][] rEB,
+			String[][] team, double[][] pDK, double[][] cR, int[][] gP, int[][] mIN, int[][] sT, int[][] pTS, int[][] rEB,
 			int[][] aST, int[][] sTL, int[][] bLK, int[][] bA, int[][] mFG, int[][] aFG, int[][] pERC_FG, int[][] m3p,
 			int[][] a3p, int[][] pERC_3P, int[][] mFT, int[][] aFT, int[][] pERC_FT, int[][] oREB, int[][] dREB,
-			int[][] tOV, int[][] pF, int[][] fD, int[][] pLUS_MINUS, Float[][] value, Giocatore[][] arrayGiocatori) {
+			int[][] tOV, int[][] pF, int[][] fD, int[][] pLUS_MINUS, double[][] value, Giocatore[][] arrayGiocatori) {
 		
 		
 		arrayGiocatori[0] = new Giocatore[contaG];
@@ -480,13 +462,13 @@ public class MainOttimizzatore {
 		team[1] = new String[contaF];
 		team[2] = new String[contaC];
 		
-		pDK[0] = new Float[contaG];
-		pDK[1] = new Float[contaF];
-		pDK[2] = new Float[contaC];
+		pDK[0] = new double[contaG];
+		pDK[1] = new double[contaF];
+		pDK[2] = new double[contaC];
 		
-		cR[0] = new Float[contaG];
-		cR[1] = new Float[contaF];
-		cR[2] = new Float[contaC];
+		cR[0] = new double[contaG];
+		cR[1] = new double[contaF];
+		cR[2] = new double[contaC];
 		
 		gP[0] = new int[contaG];
 		gP[1] = new int[contaF];
@@ -584,17 +566,17 @@ public class MainOttimizzatore {
 		pLUS_MINUS[1] = new int[contaF];
 		pLUS_MINUS[2] = new int[contaC];
 		
-		value[0] = new Float[contaG];
-		value[1] = new Float[contaF];
-		value[2] = new Float[contaC];
+		value[0] = new double[contaG];
+		value[1] = new double[contaF];
+		value[2] = new double[contaC];
 		
 	}
 
-	private static int counterAfterFillingArrays(String[][] PLAYER, Position[][] Pos, String[][] Team, Float[][] PDK,
-			Float[][] CR, int[][] GP, int[][] MIN, int[][] ST, int[][] PTS, int[][] REB, int[][] AST, int[][] STL,
+	private static int counterAfterFillingArrays(String[][] PLAYER, Position[][] Pos, String[][] Team, double[][] PDK,
+			double[][] CR, int[][] GP, int[][] MIN, int[][] ST, int[][] PTS, int[][] REB, int[][] AST, int[][] STL,
 			int[][] BLK, int[][] BA, int[][] MFG, int[][] AFG, int[][] PERC_FG, int[][] M3P, int[][] A3P,
 			int[][] PERC_3P, int[][] MFT, int[][] AFT, int[][] PERC_FT, int[][] OREB, int[][] DREB, int[][] TOV,
-			int[][] PF, int[][] FD, int[][] PLUS_MINUS, Float[][] value, Giocatore[][] arrayGiocatori, int contaPos, Giocatore g, int posNumber) {
+			int[][] PF, int[][] FD, int[][] PLUS_MINUS, double[][] value, Giocatore[][] arrayGiocatori, int contaPos, Giocatore g, int posNumber) {
 		
 				arrayGiocatori [posNumber][contaPos] = g;
 		
@@ -633,14 +615,14 @@ public class MainOttimizzatore {
 				return ++contaPos;
 	}
 
-	private static float decideValue(Giocatore g) {
+	private static double decideValue(Giocatore g) {
 		
 		int tiriSbagliati = g.getAFG() - g.getMFG();
 		int tiriLiberiSbagliati = g.getAFT() - g.getMFT();
 		
 		double punteggio = g.getPTS() + 1.2 * g.getREB() + 1.5* g.getAST() + 1.5* g.getSTL() - 1.5*g.getTOV() + 1.5*g.getBLK() - 0.5* g.getBA() - tiriSbagliati - tiriLiberiSbagliati; 
 
-		return (float) punteggio;
+		return (double) punteggio;
 		
 		
 		

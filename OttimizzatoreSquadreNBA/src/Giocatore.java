@@ -5,8 +5,8 @@ public class Giocatore {
 	private String Player;
 	private Position Pos;
 	private String Team;
-	private float PDK;
-	private float CR;
+	private double PDK;
+	private double CR;
 	private int GP;
 	private int MIN;
 	private int ST;
@@ -51,16 +51,16 @@ public class Giocatore {
 	public void setTeam(String team) {
 		Team = team;
 	}
-	public float getPDK() {
+	public double getPDK() {
 		return PDK;
 	}
-	public void setPDK(float pDK) {
+	public void setPDK(double pDK) {
 		PDK = pDK;
 	}
-	public float getCR() {
+	public double getCR() {
 		return CR;
 	}
-	public void setCR(float cR) {
+	public void setCR(double cR) {
 		CR = cR;
 	}
 	public int getGP() {

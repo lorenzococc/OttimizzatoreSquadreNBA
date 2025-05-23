@@ -61,9 +61,9 @@ public class Reader {
 					value = Integer.valueOf((int) cell.getNumericCellValue());
 				}
 				
-				else if (fields[i].getType() == float.class) {
+				else if (fields[i].getType() == double.class) {
 					
-					value = Float.valueOf((float) cell.getNumericCellValue());
+					value = cell.getNumericCellValue();
 					
 				}
 			}
@@ -111,5 +111,7 @@ public class Reader {
 		
 		return g;
 	}
+	
+
 	
 }
