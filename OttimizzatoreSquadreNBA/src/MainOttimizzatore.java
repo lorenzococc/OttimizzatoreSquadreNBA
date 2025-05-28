@@ -152,11 +152,7 @@ public class MainOttimizzatore {
 				}
 			}
 			
-			for(int j =0; j<3; j++) {
-				for(int i =0 ; i< x[j].length; i++) {
-					System.out.println("2p%: " + PERC_2P[j][i]);
-				}
-			}
+		
 			
 		//Aggiunta vincolo sul budget: sum (CR[j][i] * x[j][i]) <= B
 			
@@ -487,7 +483,7 @@ public class MainOttimizzatore {
             model.write("solution.sol");
             
         //Salvataggio della squadra
-          //  Writer.write(x);
+            Writer.write(x, Pos, Team, arrayGiocatori);
             
         // Pulizia
             model.dispose();
