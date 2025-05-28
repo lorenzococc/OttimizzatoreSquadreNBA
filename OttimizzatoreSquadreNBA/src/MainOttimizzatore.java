@@ -69,6 +69,9 @@ public class MainOttimizzatore {
 			int[][] MFG = new int[3][];
 			int[][] AFG = new int[3][];
 			int[][] PERC_FG = new int[3][];
+			int[][] M2P = new int[3][];
+			int[][] A2P = new int[3][];
+			int[][] PERC_2P = new int[3][];
 			int[][] M3P = new int[3][];
 			int[][] A3P = new int[3][];
 			int[][] PERC_3P = new int[3][];
@@ -90,7 +93,7 @@ public class MainOttimizzatore {
 			
 		
 			setArraySizes(contaG, contaF, contaC, PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-					AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
+					AFG, PERC_FG, M2P, A2P, PERC_2P, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
 					arrayGiocatori);
 			
 			
@@ -98,36 +101,38 @@ public class MainOttimizzatore {
 			contaF =0;
 			contaC =0;
 			
+			
 			for(Giocatore g : listaGiocatori) {
 				
 				
 				switch(g.getPos()) {
 					case G:
 						contaG = counterAfterFillingArrays(PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
-							arrayGiocatori, contaG, g, 0);
+							AFG, PERC_FG, M2P, A2P, PERC_2P, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
+							arrayGiocatori, contaG, g, 0);						
 							break;
 							
 					case F:
 						contaF = counterAfterFillingArrays(PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
+							AFG, PERC_FG, M2P, A2P, PERC_2P, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
 							arrayGiocatori, contaF, g, 1);
 							break;
 					case C:
 						contaC = counterAfterFillingArrays(PLAYER, Pos, Team, PDK, CR, GP, MIN, ST, PTS, REB, AST, STL, BLK, BA, MFG,
-							AFG, PERC_FG, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
-							arrayGiocatori, contaC, g, 2);
+							AFG, PERC_FG, M2P, A2P, PERC_2P, M3P, A3P, PERC_3P, MFT, AFT, PERC_FT, OREB, DREB, TOV, PF, FD, PLUS_MINUS, value,
+							arrayGiocatori, contaC, g, 2);						
 							break;
 					
 					default: throw new IllegalArgumentException("Unexpected value: " + g.getPos());
 				}
 				
 				
-				
 				//g.printInfo();
 			}
 			
+			
 		
+			
 			
 			
 			if(N>listaGiocatori.size()) N = listaGiocatori.size(); //Controlla che il valore di N non superi la dimensione massima concessa
@@ -142,12 +147,16 @@ public class MainOttimizzatore {
 			
 			for(int j =0; j<3; j++) {
 				for(int i=0; i<x[j].length; i++) {
-					String name  = "x_" + arrayGiocatori[j][i].getPlayer();
+					String name  = "x_" + listaGiocatori.indexOf(arrayGiocatori[j][i]);
 					x[j][i] = model.addVar(0.0, 1.0, 0.0, GRB.BINARY, name);
 				}
 			}
 			
-			
+			for(int j =0; j<3; j++) {
+				for(int i =0 ; i< x[j].length; i++) {
+					System.out.println("2p%: " + PERC_2P[j][i]);
+				}
+			}
 			
 		//Aggiunta vincolo sul budget: sum (CR[j][i] * x[j][i]) <= B
 			
@@ -357,20 +366,95 @@ public class MainOttimizzatore {
 			model.addConstr(expr, GRB.GREATER_EQUAL, mediaFG_Perc * 2, "const_AvgFG_Perc");
 			
 			
-		// Aggiunta della funzione obiettivo: max sum ( value[j][i] * x[j][i] )
 			
-			GRBLinExpr fo = new GRBLinExpr();
+			
+		// Aggiunta della funzione obiettivo: max sum ( pdk[j][i] * x[j][i] )
+			
+			GRBLinExpr f0 = new GRBLinExpr();
 			
 			
 			for(int j = 0; j<3; j++) {
 				for(int i = 0; i<x[j].length; i++) {
-					fo.addTerm(PDK[j][i], x[j][i]);
+					f0.addTerm(PDK[j][i], x[j][i]);
 				}
 			}
 			
 			
+		// Aggiunta della funzione obiettivo: max sum ( value[j][i] * x[j][i] )
+			
+			GRBLinExpr f1 = new GRBLinExpr();
+			
+			
+			for(int j = 0; j<3; j++) {
+				for(int i = 0; i<x[j].length; i++) {
+					f1.addTerm(value[j][i], x[j][i]);
+				}
+			}
+			
+			
+		// Aggiunta della funzione obiettivo: max sum ( (ppg[j][i] + ast[j][i] + fg_%[j][i]) * x[j][i] )
+			
+			GRBLinExpr f2 = new GRBLinExpr();
+			
+			
+			for(int j = 0; j<3; j++) {
+				for(int i = 0; i<x[j].length; i++) {
+					f2.addTerm((PTS[j][i] + AST[j][i] ) / GP[j][i] + PERC_FG[j][i], x[j][i]);
+				}
+			}
+			
+			
+		// Aggiunta della funzione obiettivo: max sum (( blk[j][i]  + stl[j][i]) * x[j][i] )
+			
+			GRBLinExpr f3 = new GRBLinExpr();
+			
+			
+			for(int j = 0; j<3; j++) {
+				for(int i = 0; i<x[j].length; i++) {
+					f3.addTerm((BLK[j][i] + STL[j][i]) / GP[j][i], x[j][i]);
+				}
+			}
+			
+			
+		// Aggiunta della funzione obiettivo: max sum (( 2p%[j][i] + 3p%[j][i] + ft%[j][i]) * x[j][i] )
+			
+			GRBLinExpr f4 = new GRBLinExpr();
+			
+			
+			for(int j = 0; j<3; j++) {
+				for(int i = 0; i<x[j].length; i++) {
+					f4.addTerm(PERC_2P[j][i] + PERC_3P[j][i] + PERC_FT[j][i], x[j][i]);
+				}
+			}
+			
+			
+		// Aggiunta della funzione obiettivo: max sum (( 2 * 2p%[j][i] + 3 * 3p%[j][i] + ft%[j][i]) * x[j][i] )
+			
+			GRBLinExpr f5 = new GRBLinExpr();
+			
+			
+			for(int j = 0; j<3; j++) {
+				for(int i = 0; i<x[j].length; i++) {
+					f5.addTerm( 2 * PERC_2P[j][i] + 3 * PERC_3P[j][i] + PERC_FT[j][i], x[j][i]);
+				}
+			}
+			
+			
+		// Aggiunta della funzione obiettivo: max sum (( -GP[j][i] * x[j][i] )  = min sum(GP[j][i]  * x[j][i])
+			
+			GRBLinExpr f6 = new GRBLinExpr();
+			
+			
+			for(int j = 0; j<3; j++) {
+				for(int i = 0; i<x[j].length; i++) {
+					f6.addTerm( -1 * GP[j][i], x[j][i]);
+				}
+			}
+			
 		
-			model.setObjective(fo, GRB.MAXIMIZE);
+			
+		
+			model.setObjective(f0, GRB.MAXIMIZE);
 						
 		//altri possibili vincoli
 			
@@ -393,7 +477,8 @@ public class MainOttimizzatore {
 			for(int j = 0; j<3; j++) {
 				for(int i = 0; i<x[j].length; i++) {
 					if(x[j][i].get(GRB.DoubleAttr.X) == 1) {
-						System.out.println(x[j][i].get(GRB.StringAttr.VarName) + " " + x[j][i].get(GRB.DoubleAttr.X) + "(" + Pos[j][i] + " - " + Team[j][i] +")");						
+						System.out.println(x[j][i].get(GRB.StringAttr.VarName) + " :\t" + arrayGiocatori[j][i].getPlayer() + " " +
+								x[j][i].get(GRB.DoubleAttr.X) + "(" + Pos[j][i] + " - " + Team[j][i] +")");						
 					}
 				}
 			}
@@ -401,7 +486,10 @@ public class MainOttimizzatore {
 		// Scrittura della soluzione in formato .sol
             model.write("solution.sol");
             
-         // Pulizia
+        //Salvataggio della squadra
+          //  Writer.write(x);
+            
+        // Pulizia
             model.dispose();
             env.dispose();
 
@@ -441,8 +529,8 @@ public class MainOttimizzatore {
 
 	private static void setArraySizes(int contaG, int contaF, int contaC, String[][] pLAYER, Position[][] pos,
 			String[][] team, double[][] pDK, double[][] cR, int[][] gP, int[][] mIN, int[][] sT, int[][] pTS, int[][] rEB,
-			int[][] aST, int[][] sTL, int[][] bLK, int[][] bA, int[][] mFG, int[][] aFG, int[][] pERC_FG, int[][] m3p,
-			int[][] a3p, int[][] pERC_3P, int[][] mFT, int[][] aFT, int[][] pERC_FT, int[][] oREB, int[][] dREB,
+			int[][] aST, int[][] sTL, int[][] bLK, int[][] bA, int[][] mFG, int[][] aFG, int[][] pERC_FG, int[][] m2p, int[][] a2p, int[][]pERC_2P,
+			int[][] m3p, int[][] a3p, int[][] pERC_3P, int[][] mFT, int[][] aFT, int[][] pERC_FT, int[][] oREB, int[][] dREB,
 			int[][] tOV, int[][] pF, int[][] fD, int[][] pLUS_MINUS, double[][] value, Giocatore[][] arrayGiocatori) {
 		
 		
@@ -518,6 +606,18 @@ public class MainOttimizzatore {
 		pERC_FG[1] = new int[contaF];
 		pERC_FG[2] = new int[contaC];
 		
+		m2p[0] = new int[contaG];
+		m2p[1] = new int[contaF];
+		m2p[2] = new int[contaC];
+		
+		a2p[0] = new int[contaG];
+		a2p[1] = new int[contaF];
+		a2p[2] = new int[contaC];
+		
+		pERC_2P[0] = new int[contaG];
+		pERC_2P[1] = new int[contaF];
+		pERC_2P[2] = new int[contaC];
+		
 		m3p[0] = new int[contaG];
 		m3p[1] = new int[contaF];
 		m3p[2] = new int[contaC];
@@ -574,9 +674,9 @@ public class MainOttimizzatore {
 
 	private static int counterAfterFillingArrays(String[][] PLAYER, Position[][] Pos, String[][] Team, double[][] PDK,
 			double[][] CR, int[][] GP, int[][] MIN, int[][] ST, int[][] PTS, int[][] REB, int[][] AST, int[][] STL,
-			int[][] BLK, int[][] BA, int[][] MFG, int[][] AFG, int[][] PERC_FG, int[][] M3P, int[][] A3P,
-			int[][] PERC_3P, int[][] MFT, int[][] AFT, int[][] PERC_FT, int[][] OREB, int[][] DREB, int[][] TOV,
-			int[][] PF, int[][] FD, int[][] PLUS_MINUS, double[][] value, Giocatore[][] arrayGiocatori, int contaPos, Giocatore g, int posNumber) {
+			int[][] BLK, int[][] BA, int[][] MFG, int[][] AFG, int[][] PERC_FG,int[][] M2P, int[][] A2P,
+			int[][] PERC_2P, int[][] M3P, int[][] A3P,int[][] PERC_3P, int[][] MFT, int[][] AFT, int[][] PERC_FT,
+			int[][] OREB, int[][] DREB, int[][] TOV,int[][] PF, int[][] FD, int[][] PLUS_MINUS, double[][] value, Giocatore[][] arrayGiocatori, int contaPos, Giocatore g, int posNumber) {
 		
 				arrayGiocatori [posNumber][contaPos] = g;
 		
@@ -597,6 +697,9 @@ public class MainOttimizzatore {
 				MFG[posNumber][contaPos]  = g.getMFG();
 				AFG[posNumber][contaPos]  = g.getAFG();
 				PERC_FG[posNumber][contaPos]  = g.getPERC_FG();
+				M2P[posNumber][contaPos]  = g.getMFG() - g.getM3P();
+				A2P[posNumber][contaPos]  = g.getAFG() - g.getA3P();
+				PERC_2P[posNumber][contaPos]  = calculate2P_perc(M2P[posNumber][contaPos], PERC_2P[posNumber][contaPos]);
 				M3P[posNumber][contaPos]  = g.getM3P();
 				A3P[posNumber][contaPos]  = g.getA3P();
 				PERC_3P[posNumber][contaPos]  = g.getPERC_3P();
@@ -610,9 +713,15 @@ public class MainOttimizzatore {
 				FD[posNumber][contaPos] = g.getFD();
 				PLUS_MINUS[posNumber][contaPos]  = g.getPLUS_MINUS();
 				
+		
 				value[posNumber][contaPos] = decideValue(g);
 				
 				return ++contaPos;
+	}
+
+	private static int calculate2P_perc(int m, int a) { //Serve nel caso si abbia un giocatore con 0 attempted
+		int result = (int) ((m  * 100 ) / (a + Double.MIN_VALUE));
+		return result;
 	}
 
 	private static double decideValue(Giocatore g) {

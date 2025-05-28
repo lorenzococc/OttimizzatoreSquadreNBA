@@ -4286,3 +4286,440 @@ Optimal solution found (tolerance 1.00e-04)
 Best objective 1.641837000000e+04, best bound 1.641837000000e+04, gap 0.0000%
 Warning: variable name "x_S. Gilgeous-Alexander" has a space
 Warning: default variable names used to write solution file
+
+Gurobi 12.0.2 (win64, Java) logging started Mon May 26 14:24:12 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 5 4600H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  0
+Presolve  0
+
+Optimize a model with 16 rows, 528 columns and 3747 nonzeros
+Model fingerprint: 0x06acc35c
+Variable types: 0 continuous, 528 integer (528 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 8e+01]
+  Objective range  [5e-01, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e-01, 1e+02]
+Variable types: 0 continuous, 528 integer (528 binary)
+Found heuristic solution: objective 13300.650000
+
+Root relaxation: objective 1.659021e+04, 128 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16590.2057    0    6 13300.6500 16590.2057  24.7%     -    0s
+H    0     0                    16352.670000 16590.2057  1.45%     -    0s
+H    0     0                    16367.700000 16590.2057  1.36%     -    0s
+H    0     0                    16367.790000 16590.2057  1.36%     -    0s
+H    0     0                    16418.370000 16590.2057  1.05%     -    0s
+     0     0 16564.0751    0    4 16418.3700 16564.0751  0.89%     -    0s
+     0     0 16548.9903    0    7 16418.3700 16548.9903  0.80%     -    0s
+     0     0 16548.9339    0    4 16418.3700 16548.9339  0.80%     -    0s
+     0     0 16545.9590    0    8 16418.3700 16545.9590  0.78%     -    0s
+     0     0 16533.4061    0   10 16418.3700 16533.4061  0.70%     -    0s
+     0     0 16532.3255    0   11 16418.3700 16532.3255  0.69%     -    0s
+     0     0 16532.1225    0   11 16418.3700 16532.1225  0.69%     -    0s
+     0     0 16525.5526    0   12 16418.3700 16525.5526  0.65%     -    0s
+     0     0 16491.9111    0   12 16418.3700 16491.9111  0.45%     -    0s
+     0     0 16490.9704    0   13 16418.3700 16490.9704  0.44%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     2 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+
+Cutting planes:
+  Cover: 5
+  Clique: 1
+  MIR: 7
+  StrongCG: 7
+  Inf proof: 1
+
+Explored 150 nodes (587 simplex iterations) in 0.32 seconds (0.07 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 5: 16418.4 16367.8 16367.7 ... 13300.6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.641837000000e+04, best bound 1.641837000000e+04, gap 0.0000%
+
+Gurobi 12.0.2 (win64, Java) logging started Mon May 26 14:24:47 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 5 4600H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  0
+Presolve  0
+
+Optimize a model with 16 rows, 528 columns and 3747 nonzeros
+Model fingerprint: 0x06acc35c
+Variable types: 0 continuous, 528 integer (528 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 8e+01]
+  Objective range  [5e-01, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e-01, 1e+02]
+Variable types: 0 continuous, 528 integer (528 binary)
+Found heuristic solution: objective 13300.650000
+
+Root relaxation: objective 1.659021e+04, 128 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16590.2057    0    6 13300.6500 16590.2057  24.7%     -    0s
+H    0     0                    16352.670000 16590.2057  1.45%     -    0s
+H    0     0                    16367.700000 16590.2057  1.36%     -    0s
+H    0     0                    16367.790000 16590.2057  1.36%     -    0s
+H    0     0                    16418.370000 16590.2057  1.05%     -    0s
+     0     0 16564.0751    0    4 16418.3700 16564.0751  0.89%     -    0s
+     0     0 16548.9903    0    7 16418.3700 16548.9903  0.80%     -    0s
+     0     0 16548.9339    0    4 16418.3700 16548.9339  0.80%     -    0s
+     0     0 16545.9590    0    8 16418.3700 16545.9590  0.78%     -    0s
+     0     0 16533.4061    0   10 16418.3700 16533.4061  0.70%     -    0s
+     0     0 16532.3255    0   11 16418.3700 16532.3255  0.69%     -    0s
+     0     0 16532.1225    0   11 16418.3700 16532.1225  0.69%     -    0s
+     0     0 16525.5526    0   12 16418.3700 16525.5526  0.65%     -    0s
+     0     0 16491.9111    0   12 16418.3700 16491.9111  0.45%     -    0s
+     0     0 16490.9704    0   13 16418.3700 16490.9704  0.44%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     2 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+
+Cutting planes:
+  Cover: 5
+  Clique: 1
+  MIR: 7
+  StrongCG: 7
+  Inf proof: 1
+
+Explored 150 nodes (587 simplex iterations) in 0.23 seconds (0.07 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 5: 16418.4 16367.8 16367.7 ... 13300.6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.641837000000e+04, best bound 1.641837000000e+04, gap 0.0000%
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:24:25 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:25:36 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:25:50 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:26:10 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:27:18 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:27:42 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:28:17 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:30:00 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:34:28 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:35:17 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:38:51 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:39:54 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:40:10 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:40:20 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:40:37 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:40:54 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:41:03 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:41:25 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:41:49 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:43:34 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:45:29 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:45:43 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:46:02 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:46:18 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:47:24 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:53:47 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 5 4600H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  0
+Presolve  0
+
+Optimize a model with 16 rows, 528 columns and 3747 nonzeros
+Model fingerprint: 0x06acc35c
+Variable types: 0 continuous, 528 integer (528 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 8e+01]
+  Objective range  [5e-01, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e-01, 1e+02]
+Variable types: 0 continuous, 528 integer (528 binary)
+Found heuristic solution: objective 13300.650000
+
+Root relaxation: objective 1.659021e+04, 128 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16590.2057    0    6 13300.6500 16590.2057  24.7%     -    0s
+H    0     0                    16352.670000 16590.2057  1.45%     -    0s
+H    0     0                    16367.700000 16590.2057  1.36%     -    0s
+H    0     0                    16367.790000 16590.2057  1.36%     -    0s
+H    0     0                    16418.370000 16590.2057  1.05%     -    0s
+     0     0 16564.0751    0    4 16418.3700 16564.0751  0.89%     -    0s
+     0     0 16548.9903    0    7 16418.3700 16548.9903  0.80%     -    0s
+     0     0 16548.9339    0    4 16418.3700 16548.9339  0.80%     -    0s
+     0     0 16545.9590    0    8 16418.3700 16545.9590  0.78%     -    0s
+     0     0 16533.4061    0   10 16418.3700 16533.4061  0.70%     -    0s
+     0     0 16532.3255    0   11 16418.3700 16532.3255  0.69%     -    0s
+     0     0 16532.1225    0   11 16418.3700 16532.1225  0.69%     -    0s
+     0     0 16525.5526    0   12 16418.3700 16525.5526  0.65%     -    0s
+     0     0 16491.9111    0   12 16418.3700 16491.9111  0.45%     -    0s
+     0     0 16490.9704    0   13 16418.3700 16490.9704  0.44%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     2 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+
+Cutting planes:
+  Cover: 5
+  Clique: 1
+  MIR: 7
+  StrongCG: 7
+  Inf proof: 1
+
+Explored 150 nodes (587 simplex iterations) in 0.31 seconds (0.07 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 5: 16418.4 16367.8 16367.7 ... 13300.6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.641837000000e+04, best bound 1.641837000000e+04, gap 0.0000%
+
+Gurobi 12.0.2 (win64, Java) logging started Wed May 28 11:56:17 2025
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2026-05-09
+Set parameter Presolve to value 0
+Set parameter Method to value 0
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 5 4600H with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  0
+Presolve  0
+
+Optimize a model with 16 rows, 528 columns and 3747 nonzeros
+Model fingerprint: 0x06acc35c
+Variable types: 0 continuous, 528 integer (528 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 8e+01]
+  Objective range  [5e-01, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e-01, 1e+02]
+Variable types: 0 continuous, 528 integer (528 binary)
+Found heuristic solution: objective 13300.650000
+
+Root relaxation: objective 1.659021e+04, 128 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16590.2057    0    6 13300.6500 16590.2057  24.7%     -    0s
+H    0     0                    16352.670000 16590.2057  1.45%     -    0s
+H    0     0                    16367.700000 16590.2057  1.36%     -    0s
+H    0     0                    16367.790000 16590.2057  1.36%     -    0s
+H    0     0                    16418.370000 16590.2057  1.05%     -    0s
+     0     0 16564.0751    0    4 16418.3700 16564.0751  0.89%     -    0s
+     0     0 16548.9903    0    7 16418.3700 16548.9903  0.80%     -    0s
+     0     0 16548.9339    0    4 16418.3700 16548.9339  0.80%     -    0s
+     0     0 16545.9590    0    8 16418.3700 16545.9590  0.78%     -    0s
+     0     0 16533.4061    0   10 16418.3700 16533.4061  0.70%     -    0s
+     0     0 16532.3255    0   11 16418.3700 16532.3255  0.69%     -    0s
+     0     0 16532.1225    0   11 16418.3700 16532.1225  0.69%     -    0s
+     0     0 16525.5526    0   12 16418.3700 16525.5526  0.65%     -    0s
+     0     0 16491.9111    0   12 16418.3700 16491.9111  0.45%     -    0s
+     0     0 16490.9704    0   13 16418.3700 16490.9704  0.44%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     0 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+     0     2 16483.0368    0   11 16418.3700 16483.0368  0.39%     -    0s
+
+Cutting planes:
+  Cover: 5
+  Clique: 1
+  MIR: 7
+  StrongCG: 7
+  Inf proof: 1
+
+Explored 150 nodes (587 simplex iterations) in 0.24 seconds (0.07 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 5: 16418.4 16367.8 16367.7 ... 13300.6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.641837000000e+04, best bound 1.641837000000e+04, gap 0.0000%

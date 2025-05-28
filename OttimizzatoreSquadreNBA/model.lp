@@ -1,1675 +1,1194 @@
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Maximize
-  3068.01 x_S._Gilgeous-Alexander + 2689.94 x_J._Harden + 2673.67 x_T._Young
-   + 2588.74 x_T._Haliburton + 2493.19 x_C._Cunningham
-   + 2478.69 x_A._Edwards + 2446.48 x_J._Hart + 2338.22 x_D._Booker
-   + 2278.72 x_T._Herro + 2235.51 x_S._Curry + 2087.49 x_J._Giddey
-   + 2067.4 x_D._Garland + 2056.47 x_D._Mitchell + 2048.94 x_J._Brunson
-   + 2048.49 x_A._Reaves + 2027.19 x_L._Doncic + 2004.8 x_D._White
-   + 1958.6 x_D._Lillard + 1927.91 x_Z._LaVine + 1917.73 x_D._Bane
-   + 1891.83 x_J._Murray + 1874.85 x_D._Daniels + 1873.39 x_A._Thompson
-   + 1831.49 x_C._Paul + 1804.58 x_C._Braun + 1786.05 x_J._Green
-   + 1776.87 x_D._Fox + 1751.37 x_C._White + 1692.81 x_P._Pritchard
-   + 1583.11 x_T._Maxey + 1570.96 x_R._Westbrook + 1534.23 x_J._Poole
-   + 1516.72 x_A._Simons + 1487.6 x_T._Jones + 1464.43 x_K._Irving
-   + 1446.84 x_M._Monk + 1432.45 x_L._Ball + 1426.69 x_M._Beasley
-   + 1399.27 x_J._Morant + 1392.4 x_Q._Grimes + 1377.14 x_S._Sharpe
-   + 1354.19 x_F._VanVleet + 1340.35 x_S._Pippen_Jr. + 1325.31 x_S._Castle
-   + 1324.38 x_N._Powell + 1322.98 x_D._Schroder + 1312.84 x_K._George
-   + 1309.84 x_C._Carrington + 1294.05 x_D._Vassell + 1289.48 x_B._Mathurin
-   + 1281.45 x_C._McCollum + 1265.31 x_S._Dinwiddie + 1207.42 x_K._Thompson
-   + 1203.27 x_C._Sexton + 1195.67 x_J._Holiday + 1189.52 x_L._Dort
-   + 1184.8 x_A._Wiggins + 1184.42 x_B._Podziemski + 1173.04 x_T._Jerome
-   + 1160.25 x_M._Conley + 1152.45 x_T._McConnell + 1117.52 x_B._Hield
-   + 1116.29 x_B._Beal + 1111.28 x_K._Ellis + 1109.09 x_A._Nembhard
-   + 1095.59 x_N._Alexander-Walker + 1094.98 x_D._DiVincenzo
-   + 1062.96 x_I._Collier + 1054 x_C._LeVert + 1045.15 x_D._Mitchell
-   + 1044.74 x_C._Wallace + 1031.54 x_K._Porter_Jr.
-   + 1030.62 x_S._Henderson + 1029.54 x_D._Russell + 1024.96 x_B._Coulibaly
-   + 1022.37 x_K._Dunn + 1018.69 x_A._Thompson + 1008.27 x_I._Joe
-   + 998.03 x_K._Johnson + 994.64 x_K._Caldwell-Pope + 980.85 x_M._Christie
-   + 973.78 x_J._Champagnie + 964.02 x_G._Trent_Jr. + 962.45 x_A._Black
-   + 950.69 x_K._Huerter + 935.06 x_L._Kennard + 929.55 x_O._Agbaji
-   + 927.93 x_G._Allen + 902.54 x_K._George + 895.09 x_M._Moody
-   + 887.05 x_J._Alvarado + 882.29 x_M._McBride + 845.73 x_M._Strus
-   + 844.11 x_A._Dosunmu + 835.32 x_P._Watson + 820.27 x_D._Murray
-   + 817.91 x_C._Anthony + 810.43 x_T._Rozier + 804.52 x_B._Simmons
-   + 799.85 x_D._Knecht + 797.61 x_G._Dick + 768.35 x_A._Green
-   + 768.31 x_J._Shead + 766.75 x_A._Coffey + 760.12 x_I._Quickley
-   + 747 x_V._Krejci + 743.63 x_J._Green + 736.1 x_S._Merrill
-   + 735.89 x_B._Bogdanovic + 731.59 x_T._Mann + 729.43 x_K._Williams
-   + 727.92 x_A._Caruso + 725.36 x_J._Butler + 712.08 x_C._Payne
-   + 689.72 x_J._Juzang + 671.22 x_J._Suggs + 658.79 x_T._Jones
-   + 657.92 x_G._Payton_II + 630.17 x_J._Strawther + 616.11 x_R._Council_IV
-   + 603.62 x_J._Clarkson + 599.75 x_J._Green + 594.33 x_N._Smith_Jr.
-   + 580.04 x_J._Ivey + 567.29 x_G._Vincent + 560.81 x_B._Sheppard
-   + 560.2 x_J._Hawkins + 559.9 x_C._Thomas + 538.99 x_J._Walter
-   + 530.57 x_S._Curry + 527.15 x_B._Boston_Jr. + 520.03 x_R._Rollins
-   + 494.86 x_A._Burks + 490.33 x_L._Ball + 485.61 x_M._Sasser
-   + 480.77 x_A._Jackson_Jr. + 474.94 x_B._Brown + 437.1 x_G._Mathews
-   + 429.44 x_S._Milton + 423.92 x_D._Jeffries + 423.01 x_J._Hardy
-   + 421 x_T._Horton-Tucker + 406.8 x_A._Holiday + 403.23 x_M._Smart
-   + 394.16 x_M._Brogdon + 378.86 x_J._Okogie + 378.19 x_J._Dowtin
-   + 368.08 x_J._McCain + 363.98 x_J._Pickett + 363.13 x_S._Mykhailiuk
-   + 355.76 x_K._Simpson + 351.04 x_P._Larsson + 350.75 x_C._Gillespie
-   + 348.86 x_E._Gordon + 343.09 x_J._Konchar + 342.82 x_P._Connaughton
-   + 337.76 x_B._Williams + 332.94 x_K._Lowry + 325.13 x_A._Mitchell
-   + 323.58 x_C._Houstan + 320.06 x_B._Wesley + 317.44 x_R._Sheppard
-   + 315.24 x_C._Joseph + 313.98 x_V._Micic + 309.14 x_E._Payton
-   + 307.72 x_A._Reeves + 305.77 x_L._Shamet + 300.86 x_J._Goodwin
-   + 300.61 x_M._Morris + 293.87 x_C._Porter_Jr. + 284.53 x_K._Wallace
-   + 283.3 x_L._Walker_IV + 274.02 x_A._Lawson + 267.76 x_D._Wright
-   + 264.01 x_C._Jones + 257.59 x_R._Dillingham + 254.88 x_V._Williams_Jr.
-   + 250.35 x_J._Tyson + 249.41 x_J._Clark + 245.91 x_W._Moore_Jr.
-   + 242.4 x_J._Howard + 242.09 x_Q._Jackson + 237.7 x_A._Johnson
-   + 222.77 x_G._Harris + 219.01 x_D._Exum + 218.82 x_T._Queen
-   + 200.54 x_D._Carter + 189.38 x_B._Scheierman + 181.82 x_J._Carter
-   + 180.75 x_T._Mann + 176.81 x_R._Beekman + 176.64 x_J._Furphy
-   + 175.44 x_J._Springer + 173.99 x_J._Miller + 172.82 x_T._Shannon_Jr.
-   + 168.62 x_R._Rupert + 166.17 x_B._Hyland + 164.52 x_J._McLaughlin
-   + 164.18 x_J._Rhoden + 162.75 x_C._Spencer + 158.71 x_T._Kolek
-   + 154.17 x_P._Spencer + 152.16 x_D._Smith + 143.45 x_J._Walsh
-   + 135.44 x_D._Baugh + 125.03 x_P._Mills + 120.79 x_J._Hood-Schifino
-   + 102.5 x_G._Temple + 100.3 x_J._Martin + 85.25 x_D._Melton
-   + 84.8 x_L._Quinones + 81.83 x_M._Fultz + 65.48 x_D._Lee
-   + 63.21 x_B._James + 61.17 x_K._Bufkin + 58.07 x_A._Flagler
-   + 56.38 x_Y._Kawamura + 55.34 x_E._Harkless + 53.25 x_D._Plowden
-   + 52.85 x_N._Williams + 50.87 x_R._Dennis + 46.13 x_T._Etienne
-   + 42.01 x_S._Cissoko + 40.89 x_M._Jones + 39.45 x_T._Washington_Jr.
-   + 33.2 x_J._Davison + 31.28 x_T._Alexander + 28.6 x_J._Christopher
-   + 28.17 x_J._Bouyea + 26.41 x_C._Christie + 22.83 x_S._Umude
-   + 20.96 x_J._Young + 16.75 x_D._Duke_Jr. + 15.33 x_K._McCullar_Jr.
-   + 8 x_R._Harper_Jr. + 4.13 x_B._McGowens + 3.7 x_T._Newton
-   + 3.52 x_M._McClung + 3.17 x_D._Jenkins + 1.68 x_I._Stevens
-   + 1.15 x_J._Bridges + 0.53 x_T._Davis - x_Z._Pullin
-   + 3069.96 x_G._Antetokounmpo + 2696.15 x_J._Tatum + 2648.13 x_L._James
-   + 2279.75 x_E._Mobley + 2143.21 x_P._Siakam + 1973.59 x_K._Durant
-   + 1971.98 x_M._Porter_Jr. + 1948.62 x_J._Williams + 1913.06 x_D._DeRozan
-   + 1891.45 x_S._Barnes + 1876.42 x_J._Jackson_Jr.
-   + 1856.24 x_V._Wembanyama + 1776.12 x_J._Randle + 1773.91 x_M._Bridges
-   + 1758.78 x_D._Avdija + 1689.23 x_O._Anunoby + 1662.2 x_M._Bridges
-   + 1654.62 x_F._Wagner + 1614.39 x_J._Brown + 1594.96 x_J._McDaniels
-   + 1538.4 x_J._Butler + 1529.73 x_K._Murray + 1488.44 x_T._Camara
-   + 1466.71 x_T._Harris + 1445.44 x_R._Barrett + 1440.18 x_D._Green
-   + 1374.11 x_T._Murphy_III + 1370.25 x_H._Barnes + 1363.55 x_S._Aldama
-   + 1358.25 x_C._Johnson + 1337.73 x_P._Banchero + 1272.69 x_P._Washington
-   + 1253.88 x_A._Wiggins + 1224.38 x_N._Marshall + 1216.7 x_D._Brooks
-   + 1216.09 x_G._Yabusele + 1211.06 x_K._Oubre_Jr. + 1179.96 x_D._Hunter
-   + 1178.49 x_R._O'Neale + 1171.56 x_J._Johnson + 1169.01 x_K._Johnson
-   + 1150.64 x_O._Toppin + 1141.88 x_K._Porzingis + 1112.38 x_J._Champagnie
-   + 1098.39 x_T._Eason + 1091.17 x_T._Prince + 1074.69 x_R._Hachimura
-   + 1059.35 x_B._Portis + 1040.66 x_A._Gordon + 1040.42 x_J._Wells
-   + 1037.05 x_K._Kuzma + 1035.84 x_Z._Risacher + 1033.47 x_J._Smith_Jr.
-   + 1030.43 x_J._Collins + 1019.45 x_I._Stewart + 1015.63 x_K._Leonard
-   + 1013.63 x_L._Markkanen + 1000.85 x_D._Jones_Jr. + 990.04 x_J._Sochan
-   + 989.07 x_D._Robinson + 983.15 x_T._Hardaway_Jr. + 958.48 x_G._Niang
-   + 939.59 x_B._Clarke + 936.9 x_Z._Williamson + 925.47 x_P._George
-   + 904.61 x_M._Buzelis + 892 x_M._Diabate + 883.04 x_J._Wilson
-   + 880.75 x_B._Sensabaugh + 876.86 x_S._Hauser + 871.94 x_Z._Williams
-   + 869.04 x_D._Finney-Smith + 861.91 x_H._Highsmith
-   + 846.23 x_J._Jaquez_Jr. + 819.02 x_T._Jackson-Davis
-   + 790.11 x_J._LaRavia + 787.59 x_J._Mogbo + 772.24 x_Z._Collins
-   + 767.75 x_T._Lyles + 767.27 x_C._Kispert + 757.02 x_R._Dunn
-   + 751.41 x_J._Isaac + 750.11 x_J._Grant + 748.68 x_T._da_Silva
-   + 747.15 x_P._Williams + 731.71 x_A._Nesmith + 730.63 x_J._Williams
-   + 730.28 x_J._Kuminga + 713.93 x_P._Achiuwa + 703.42 x_N._Jovic
-   + 702.91 x_J._Walker + 695.2 x_K._Anderson + 678 x_C._Boucher
-   + 677.96 x_T._Martin + 676.59 x_N._Batum + 664.33 x_D._Wade
-   + 653.54 x_K._Middleton + 647.52 x_K._Olynyk + 634.71 x_A._Bona
-   + 628.04 x_B._Miller + 626.36 x_D._Banton + 625.96 x_C._Martin
-   + 625.63 x_R._Holland_II + 579.68 x_K._Matkovic + 575.71 x_J._Edwards
-   + 552.33 x_S._Mamukelashvili + 547.28 x_J._Battle + 544.68 x_O._Ighodaro
-   + 543.87 x_S._Fontecchio + 541.19 x_C._Martin + 516.03 x_T._Watford
-   + 515.84 x_I._Okoro + 512.82 x_T._Salaun + 511.22 x_C._Whitmore
-   + 498.07 x_J._Phillips + 491.6 x_N._Clowney + 480.9 x_J._Walker
-   + 467.9 x_R._Holmes + 464.52 x_M._Wagner + 456.86 x_D._Terry
-   + 447.22 x_G._Santos + 440.6 x_B._Ingram + 423.16 x_K._Murray
-   + 411.83 x_K._Martin + 397.85 x_T._Vukcevic + 394.21 x_M._Gueye
-   + 365.03 x_P._Reed + 359.56 x_J._Vanderbilt + 356.95 x_L._Waters_III
-   + 356.56 x_L._Nance_Jr. + 355.71 x_K._Edwards + 325.88 x_T._Evbuomwan
-   + 320.98 x_H._Jones + 320.14 x_J._Tate + 312.4 x_Z._Nnaji
-   + 294.61 x_O._Prosper + 267.35 x_C._Williams + 259.55 x_D._Jones
-   + 253.6 x_G._Williams + 247.32 x_D._Barlow + 245.5 x_J._Cain
-   + 229.94 x_T._Gibson + 223.75 x_D._Roddy + 222.42 x_O._Dieng
-   + 217.68 x_M._Kleber + 217.64 x_J._Green + 216.35 x_M._Thybulle
-   + 216.09 x_M._Branham + 206.82 x_G._Jackson + 202.78 x_K._Love
-   + 197.27 x_M._Bagley_III + 194.99 x_T._Craig + 183.51 x_K._Brooks_Jr.
-   + 176.82 x_H._Tyson + 174.85 x_J._Minott + 166.29 x_I._Jones
-   + 160.98 x_A._Gill + 151.9 x_D._Timme + 141.77 x_M._Lewis
-   + 135.97 x_D._McDermott + 130.37 x_K._Brown + 127.81 x_C._Okeke
-   + 125.71 x_A._Reese + 112.76 x_D._Whitehead + 104.83 x_J._Thor
-   + 100.06 x_D._Saric + 91.24 x_D._Peterson + 90.74 x_L._Stevens
-   + 88.75 x_M._Beauchamp + 79.2 x_T._Smith + 72.49 x_K._Johnson
-   + 67.2 x_I._Jackson + 65.33 x_P._Baldwin_Jr. + 64.17 x_E._Freeman
-   + 64.09 x_P._Nance + 63 x_M._Morris + 61.31 x_A._Ducas
-   + 59.11 x_K._Knox_II + 57.11 x_X._Tillman + 52.28 x_C._Livingston
-   + 45.9 x_V._Cancar + 43.37 x_N._Tomlin + 39.54 x_P._Dadiet
-   + 38.67 x_J._Toppin + 38.44 x_J._Crowder + 38.12 x_S._Jones
-   + 36.84 x_E._Bates + 34.92 x_J._Ingles + 34.75 x_T._Hendricks
-   + 33.37 x_J._Rowe + 31 x_B._Klintman + 28.51 x_J._Minaya
-   + 26.98 x_E._Liddell + 23.16 x_L._Miller + 21.22 x_L._Travers
-   + 20.33 x_E._Miller + 19 x_H._Ingram + 17.23 x_I._Crawford
-   + 16.89 x_P._Tucker + 12.73 x_M._Norris + 11.78 x_U._Chomche
-   + 9.47 x_J._McVeigh + 7.78 x_A._Watson + 7.65 x_J._Johnson
-   + 6.95 x_T._Flowers + x_R._Minix - 0.72 x_B._Key + 4049.12 x_N._Jokic
-   + 2869.53 x_D._Sabonis + 2798.91 x_K._Towns + 2784.47 x_I._Zubac
-   + 2446.34 x_A._Sengun + 2374.07 x_B._Adebayo + 2368.82 x_N._Vucevic
-   + 2360.44 x_J._Allen + 2200.71 x_J._Duren + 2049.41 x_R._Gobert
-   + 1998.25 x_A._Davis + 1892.25 x_O._Okongwu + 1695.4 x_M._Turner
-   + 1674.64 x_W._Kessler + 1665.95 x_B._Lopez + 1637.75 x_I._Hartenstein
-   + 1626.94 x_N._Reid + 1618.15 x_J._Poeltl + 1539.08 x_J._Valanciunas
-   + 1437.9 x_N._Claxton + 1377.42 x_Y._Missi + 1287.28 x_Z._Edey
-   + 1286.23 x_G._Bitadze + 1275.6 x_M._Williams + 1239.86 x_D._Gafford
-   + 1235.38 x_A._Sarr + 1180.86 x_W._Carter_Jr. + 1175.11 x_K._Ware
-   + 1137.6 x_D._Clingan + 1126.97 x_K._Filipowski + 1098.28 x_L._Kornet
-   + 1091.65 x_A._Horford + 1048.07 x_D._Ayton + 1039.5 x_C._Capela
-   + 1018.69 x_N._Richards + 967.59 x_M._Plumlee + 950.78 x_K._Looney
-   + 880.2 x_J._Nurkic + 857.45 x_J._Smith + 817.25 x_C._Holmgren
-   + 785.69 x_J._Hayes + 785.53 x_D._Lively_II + 780.35 x_D._Sharpe
-   + 722.31 x_J._Robinson-Earl + 697.23 x_T._Bryant + 601.22 x_N._Queta
-   + 592.09 x_J._Huff + 591.1 x_S._Adams + 577.22 x_J._Embiid
-   + 576.45 x_A._Drummond + 543.7 x_D._Jordan + 514.23 x_D._Eubanks
-   + 491.3 x_Q._Post + 381.06 x_K._Jones + 358.38 x_B._Biyombo
-   + 347.16 x_B._Bol + 336.69 x_J._Landale + 335.26 x_J._Sims
-   + 332.47 x_C._Bassey + 331.17 x_D._Powell + 317.46 x_M._Potter
-   + 294.68 x_R._Williams + 267.97 x_D._Reath + 249.01 x_M._Robinson
-   + 242.4 x_O._Tshiebwe + 236.32 x_C._Castleton + 219.76 x_A._Len
-   + 204.44 x_C._Koloko + 190.09 x_B._Carlson + 184.33 x_T._Thompson
-   + 182.22 x_T._Jemison + 151.23 x_L._Garza + 111.31 x_T._Bradley
-   + 96.34 x_A._Hukporti + 54.75 x_P._Hall + 51.5 x_N._Dante
-   + 15 x_T._Smith + 1.58 x_J._Edwards
+  3068.01 x_2 + 2689.94 x_7 + 2673.67 x_8 + 2588.74 x_10 + 2493.19 x_11
+   + 2478.69 x_12 + 2446.48 x_13 + 2338.22 x_18 + 2278.72 x_20
+   + 2235.51 x_21 + 2087.49 x_24 + 2067.4 x_25 + 2056.47 x_26
+   + 2048.94 x_28 + 2048.49 x_29 + 2027.19 x_30 + 2004.8 x_31 + 1958.6 x_35
+   + 1927.91 x_37 + 1917.73 x_38 + 1891.83 x_41 + 1874.85 x_44
+   + 1873.39 x_45 + 1831.49 x_47 + 1804.58 x_48 + 1786.05 x_49
+   + 1776.87 x_50 + 1751.37 x_54 + 1692.81 x_56 + 1583.11 x_67
+   + 1570.96 x_68 + 1534.23 x_71 + 1516.72 x_73 + 1487.6 x_75
+   + 1464.43 x_77 + 1446.84 x_78 + 1432.45 x_82 + 1426.69 x_83
+   + 1399.27 x_84 + 1392.4 x_85 + 1377.14 x_87 + 1354.19 x_92
+   + 1340.35 x_93 + 1325.31 x_95 + 1324.38 x_96 + 1322.98 x_97
+   + 1312.84 x_98 + 1309.84 x_99 + 1294.05 x_100 + 1289.48 x_101
+   + 1281.45 x_104 + 1265.31 x_107 + 1207.42 x_115 + 1203.27 x_116
+   + 1195.67 x_117 + 1189.52 x_118 + 1184.8 x_119 + 1184.42 x_120
+   + 1173.04 x_125 + 1160.25 x_128 + 1152.45 x_129 + 1117.52 x_134
+   + 1116.29 x_135 + 1111.28 x_137 + 1109.09 x_138 + 1095.59 x_141
+   + 1094.98 x_142 + 1062.96 x_146 + 1054 x_148 + 1045.15 x_150
+   + 1044.74 x_151 + 1031.54 x_158 + 1030.62 x_159 + 1029.54 x_161
+   + 1024.96 x_162 + 1022.37 x_163 + 1018.69 x_165 + 1008.27 x_169
+   + 998.03 x_171 + 994.64 x_172 + 980.85 x_176 + 973.78 x_177
+   + 964.02 x_179 + 962.45 x_180 + 950.69 x_183 + 935.06 x_186
+   + 929.55 x_187 + 927.93 x_188 + 902.54 x_191 + 895.09 x_192
+   + 887.05 x_194 + 882.29 x_196 + 845.73 x_205 + 844.11 x_206
+   + 835.32 x_207 + 820.27 x_208 + 817.91 x_210 + 810.43 x_212
+   + 804.52 x_213 + 799.85 x_214 + 797.61 x_215 + 768.35 x_222
+   + 768.31 x_223 + 766.75 x_226 + 760.12 x_227 + 747 x_233 + 743.63 x_234
+   + 736.1 x_235 + 735.89 x_236 + 731.59 x_238 + 729.43 x_241
+   + 727.92 x_242 + 725.36 x_243 + 712.08 x_246 + 689.72 x_251
+   + 671.22 x_255 + 658.79 x_257 + 657.92 x_258 + 630.17 x_262
+   + 616.11 x_267 + 603.62 x_268 + 599.75 x_270 + 594.33 x_271
+   + 580.04 x_274 + 567.29 x_279 + 560.81 x_280 + 560.2 x_281 + 559.9 x_282
+   + 538.99 x_289 + 530.57 x_290 + 527.15 x_291 + 520.03 x_292
+   + 494.86 x_299 + 490.33 x_302 + 485.61 x_303 + 480.77 x_305
+   + 474.94 x_306 + 437.1 x_312 + 429.44 x_313 + 423.92 x_314
+   + 423.01 x_316 + 421 x_317 + 406.8 x_319 + 403.23 x_320 + 394.16 x_323
+   + 378.86 x_325 + 378.19 x_326 + 368.08 x_327 + 363.98 x_329
+   + 363.13 x_330 + 355.76 x_335 + 351.04 x_337 + 350.75 x_338
+   + 348.86 x_339 + 343.09 x_341 + 342.82 x_342 + 337.76 x_343
+   + 332.94 x_346 + 325.13 x_350 + 323.58 x_351 + 320.06 x_354
+   + 317.44 x_356 + 315.24 x_357 + 313.98 x_358 + 309.14 x_360
+   + 307.72 x_361 + 305.77 x_362 + 300.86 x_363 + 300.61 x_364
+   + 293.87 x_367 + 284.53 x_368 + 283.3 x_369 + 274.02 x_370
+   + 267.76 x_372 + 264.01 x_374 + 257.59 x_376 + 254.88 x_377
+   + 250.35 x_379 + 249.41 x_380 + 245.91 x_383 + 242.4 x_385
+   + 242.09 x_387 + 237.7 x_388 + 222.77 x_392 + 219.01 x_395
+   + 218.82 x_396 + 200.54 x_404 + 189.38 x_408 + 181.82 x_412
+   + 180.75 x_413 + 176.81 x_415 + 176.64 x_416 + 175.44 x_417
+   + 173.99 x_419 + 172.82 x_420 + 168.62 x_421 + 166.17 x_423
+   + 164.52 x_424 + 164.18 x_425 + 162.75 x_426 + 158.71 x_428
+   + 154.17 x_429 + 152.16 x_430 + 143.45 x_433 + 135.44 x_436
+   + 125.03 x_440 + 120.79 x_441 + 102.5 x_445 + 100.3 x_446 + 85.25 x_452
+   + 84.8 x_453 + 81.83 x_454 + 65.48 x_458 + 63.21 x_462 + 61.17 x_465
+   + 58.07 x_467 + 56.38 x_469 + 55.34 x_470 + 53.25 x_472 + 52.85 x_473
+   + 50.87 x_476 + 46.13 x_477 + 42.01 x_480 + 40.89 x_481 + 39.45 x_483
+   + 33.2 x_491 + 31.28 x_492 + 28.6 x_494 + 28.17 x_496 + 26.41 x_498
+   + 22.83 x_500 + 20.96 x_502 + 16.75 x_507 + 15.33 x_508 + 8 x_513
+   + 4.13 x_517 + 3.7 x_518 + 3.52 x_519 + 3.17 x_520 + 1.68 x_521
+   + 1.15 x_523 + 0.53 x_525 - x_527 + 3069.96 x_1 + 2696.15 x_6
+   + 2648.13 x_9 + 2279.75 x_19 + 2143.21 x_23 + 1973.59 x_33
+   + 1971.98 x_34 + 1948.62 x_36 + 1913.06 x_39 + 1891.45 x_42
+   + 1876.42 x_43 + 1856.24 x_46 + 1776.12 x_51 + 1773.91 x_52
+   + 1758.78 x_53 + 1689.23 x_57 + 1662.2 x_60 + 1654.62 x_61
+   + 1614.39 x_65 + 1594.96 x_66 + 1538.4 x_70 + 1529.73 x_72
+   + 1488.44 x_74 + 1466.71 x_76 + 1445.44 x_79 + 1440.18 x_80
+   + 1374.11 x_88 + 1370.25 x_89 + 1363.55 x_90 + 1358.25 x_91
+   + 1337.73 x_94 + 1272.69 x_106 + 1253.88 x_108 + 1224.38 x_111
+   + 1216.7 x_112 + 1216.09 x_113 + 1211.06 x_114 + 1179.96 x_122
+   + 1178.49 x_123 + 1171.56 x_126 + 1169.01 x_127 + 1150.64 x_130
+   + 1141.88 x_131 + 1112.38 x_136 + 1098.39 x_139 + 1091.17 x_144
+   + 1074.69 x_145 + 1059.35 x_147 + 1040.66 x_152 + 1040.42 x_153
+   + 1037.05 x_155 + 1035.84 x_156 + 1033.47 x_157 + 1030.43 x_160
+   + 1019.45 x_164 + 1015.63 x_167 + 1013.63 x_168 + 1000.85 x_170
+   + 990.04 x_173 + 989.07 x_174 + 983.15 x_175 + 958.48 x_181
+   + 939.59 x_184 + 936.9 x_185 + 925.47 x_189 + 904.61 x_190 + 892 x_193
+   + 883.04 x_195 + 880.75 x_197 + 876.86 x_199 + 871.94 x_200
+   + 869.04 x_201 + 861.91 x_202 + 846.23 x_204 + 819.02 x_209
+   + 790.11 x_216 + 787.59 x_217 + 772.24 x_221 + 767.75 x_224
+   + 767.27 x_225 + 757.02 x_228 + 751.41 x_229 + 750.11 x_230
+   + 748.68 x_231 + 747.15 x_232 + 731.71 x_237 + 730.63 x_239
+   + 730.28 x_240 + 713.93 x_245 + 703.42 x_247 + 702.91 x_248
+   + 695.2 x_250 + 678 x_252 + 677.96 x_253 + 676.59 x_254 + 664.33 x_256
+   + 653.54 x_259 + 647.52 x_260 + 634.71 x_261 + 628.04 x_263
+   + 626.36 x_264 + 625.96 x_265 + 625.63 x_266 + 579.68 x_275
+   + 575.71 x_278 + 552.33 x_283 + 547.28 x_284 + 544.68 x_285
+   + 543.87 x_286 + 541.19 x_288 + 516.03 x_293 + 515.84 x_294
+   + 512.82 x_296 + 511.22 x_297 + 498.07 x_298 + 491.6 x_300 + 480.9 x_304
+   + 467.9 x_307 + 464.52 x_308 + 456.86 x_309 + 447.22 x_310 + 440.6 x_311
+   + 423.16 x_315 + 411.83 x_318 + 397.85 x_321 + 394.21 x_322
+   + 365.03 x_328 + 359.56 x_331 + 356.95 x_333 + 356.56 x_334
+   + 355.71 x_336 + 325.88 x_349 + 320.98 x_352 + 320.14 x_353
+   + 312.4 x_359 + 294.61 x_366 + 267.35 x_373 + 259.55 x_375 + 253.6 x_378
+   + 247.32 x_382 + 245.5 x_384 + 229.94 x_390 + 223.75 x_391
+   + 222.42 x_393 + 217.68 x_397 + 217.64 x_398 + 216.35 x_399
+   + 216.09 x_400 + 206.82 x_401 + 202.78 x_403 + 197.27 x_405
+   + 194.99 x_406 + 183.51 x_410 + 176.82 x_414 + 174.85 x_418
+   + 166.29 x_422 + 160.98 x_427 + 151.9 x_431 + 141.77 x_434
+   + 135.97 x_435 + 130.37 x_437 + 127.81 x_438 + 125.71 x_439
+   + 112.76 x_442 + 104.83 x_444 + 100.06 x_447 + 91.24 x_449 + 90.74 x_450
+   + 88.75 x_451 + 79.2 x_455 + 72.49 x_456 + 67.2 x_457 + 65.33 x_459
+   + 64.17 x_460 + 64.09 x_461 + 63 x_463 + 61.31 x_464 + 59.11 x_466
+   + 57.11 x_468 + 52.28 x_474 + 45.9 x_478 + 43.37 x_479 + 39.54 x_482
+   + 38.67 x_484 + 38.44 x_485 + 38.12 x_486 + 36.84 x_487 + 34.92 x_488
+   + 34.75 x_489 + 33.37 x_490 + 31 x_493 + 28.51 x_495 + 26.98 x_497
+   + 23.16 x_499 + 21.22 x_501 + 20.33 x_503 + 19 x_504 + 17.23 x_505
+   + 16.89 x_506 + 12.73 x_510 + 11.78 x_511 + 9.47 x_512 + 7.78 x_514
+   + 7.65 x_515 + 6.95 x_516 + x_524 - 0.72 x_526 + 4049.12 x_0
+   + 2869.53 x_3 + 2798.91 x_4 + 2784.47 x_5 + 2446.34 x_14 + 2374.07 x_15
+   + 2368.82 x_16 + 2360.44 x_17 + 2200.71 x_22 + 2049.41 x_27
+   + 1998.25 x_32 + 1892.25 x_40 + 1695.4 x_55 + 1674.64 x_58
+   + 1665.95 x_59 + 1637.75 x_62 + 1626.94 x_63 + 1618.15 x_64
+   + 1539.08 x_69 + 1437.9 x_81 + 1377.42 x_86 + 1287.28 x_102
+   + 1286.23 x_103 + 1275.6 x_105 + 1239.86 x_109 + 1235.38 x_110
+   + 1180.86 x_121 + 1175.11 x_124 + 1137.6 x_132 + 1126.97 x_133
+   + 1098.28 x_140 + 1091.65 x_143 + 1048.07 x_149 + 1039.5 x_154
+   + 1018.69 x_166 + 967.59 x_178 + 950.78 x_182 + 880.2 x_198
+   + 857.45 x_203 + 817.25 x_211 + 785.69 x_218 + 785.53 x_219
+   + 780.35 x_220 + 722.31 x_244 + 697.23 x_249 + 601.22 x_269
+   + 592.09 x_272 + 591.1 x_273 + 577.22 x_276 + 576.45 x_277 + 543.7 x_287
+   + 514.23 x_295 + 491.3 x_301 + 381.06 x_324 + 358.38 x_332
+   + 347.16 x_340 + 336.69 x_344 + 335.26 x_345 + 332.47 x_347
+   + 331.17 x_348 + 317.46 x_355 + 294.68 x_365 + 267.97 x_371
+   + 249.01 x_381 + 242.4 x_386 + 236.32 x_389 + 219.76 x_394
+   + 204.44 x_402 + 190.09 x_407 + 184.33 x_409 + 182.22 x_411
+   + 151.23 x_432 + 111.31 x_443 + 96.34 x_448 + 54.75 x_471 + 51.5 x_475
+   + 15 x_509 + 1.58 x_522
 Subject To
- const_Budget: 20.5 x_S._Gilgeous-Alexander + 17.2 x_J._Harden
-   + 17.8 x_T._Young + 19 x_T._Haliburton + 16.8 x_C._Cunningham
-   + 16.2 x_A._Edwards + 14.9 x_J._Hart + 16.2 x_D._Booker
-   + 14.4 x_T._Herro + 16 x_S._Curry + 17.5 x_J._Giddey + 12 x_D._Garland
-   + 13.7 x_D._Mitchell + 14.1 x_J._Brunson + 14.4 x_A._Reaves
-   + 20.3 x_L._Doncic + 13.4 x_D._White + 15.2 x_D._Lillard
-   + 12.9 x_Z._LaVine + 14.3 x_D._Bane + 14 x_J._Murray + 12.7 x_D._Daniels
-   + 14.8 x_A._Thompson + 11.1 x_C._Paul + 12.5 x_C._Braun
-   + 11.9 x_J._Green + 12.9 x_D._Fox + 13 x_C._White + 10.2 x_P._Pritchard
-   + 13.5 x_T._Maxey + 8.2 x_R._Westbrook + 10.9 x_J._Poole
-   + 10.4 x_A._Simons + 8.5 x_T._Jones + 13 x_K._Irving + 10.1 x_M._Monk
-   + 13 x_L._Ball + 8.2 x_M._Beasley + 13.6 x_J._Morant + 10.9 x_Q._Grimes
-   + 11.6 x_S._Sharpe + 9.8 x_F._VanVleet + 8.7 x_S._Pippen_Jr.
-   + 10.3 x_S._Castle + 10.2 x_N._Powell + 7.9 x_D._Schroder
-   + 10.9 x_K._George + 8.2 x_C._Carrington + 11.4 x_D._Vassell
-   + 7.6 x_B._Mathurin + 10.6 x_C._McCollum + 8.8 x_S._Dinwiddie
-   + 7.8 x_K._Thompson + 8.8 x_C._Sexton + 10.1 x_J._Holiday
-   + 7.2 x_L._Dort + 7.6 x_A._Wiggins + 9.3 x_B._Podziemski
-   + 8.1 x_T._Jerome + 8.4 x_M._Conley + 7.7 x_T._McConnell + 7 x_B._Hield
-   + 9.9 x_B._Beal + 8.3 x_K._Ellis + 8.8 x_A._Nembhard
-   + 7.3 x_N._Alexander-Walker + 8.5 x_D._DiVincenzo + 8.7 x_I._Collier
-   + 7.7 x_C._LeVert + 7.8 x_D._Mitchell + 7.2 x_C._Wallace
-   + 7.7 x_K._Porter_Jr. + 6.6 x_S._Henderson + 7.5 x_D._Russell
-   + 7.4 x_B._Coulibaly + 6.7 x_K._Dunn + 8.9 x_A._Thompson + 7.2 x_I._Joe
-   + 7.4 x_K._Johnson + 6.9 x_K._Caldwell-Pope + 6.6 x_M._Christie
-   + 7.4 x_J._Champagnie + 7.9 x_G._Trent_Jr. + 6.2 x_A._Black
-   + 7.6 x_K._Huerter + 6.7 x_L._Kennard + 5.7 x_O._Agbaji + 6.3 x_G._Allen
-   + 6.7 x_K._George + 6.7 x_M._Moody + 7.2 x_J._Alvarado
-   + 6.2 x_M._McBride + 8 x_M._Strus + 6.1 x_A._Dosunmu + 4.8 x_P._Watson
-   + 10.1 x_D._Murray + 5.8 x_C._Anthony + 5.2 x_T._Rozier
-   + 6.1 x_B._Simmons + 4.1 x_D._Knecht + 4.8 x_G._Dick + 4.9 x_A._Green
-   + 6.2 x_J._Shead + 4.6 x_A._Coffey + 9.1 x_I._Quickley + 6.9 x_V._Krejci
-   + 5.2 x_J._Green + 5.4 x_S._Merrill + 6.9 x_B._Bogdanovic
-   + 5.8 x_T._Mann + 5.2 x_K._Williams + 6.8 x_A._Caruso + 6.5 x_J._Butler
-   + 4.9 x_C._Payne + 5.6 x_J._Juzang + 5.4 x_J._Suggs + 7.8 x_T._Jones
-   + 5.9 x_G._Payton_II + 4.1 x_J._Strawther + 4.9 x_R._Council_IV
-   + 5.9 x_J._Clarkson + 6 x_N._Smith_Jr. + 5.7 x_J._Ivey
-   + 4.8 x_G._Vincent + 4.4 x_B._Sheppard + 4.2 x_J._Hawkins
-   + 7.3 x_C._Thomas + 5.5 x_J._Walter + 4.1 x_S._Curry + 4 x_B._Boston_Jr.
-   + 6.1 x_R._Rollins + 4.1 x_A._Burks + 4.6 x_L._Ball + 4.1 x_M._Sasser
-   + 4 x_A._Jackson_Jr. + 6.2 x_B._Brown + 4 x_G._Mathews + 4 x_S._Milton
-   + 5.3 x_D._Jeffries + 4.2 x_J._Hardy + 4 x_T._Horton-Tucker
-   + 4.3 x_A._Holiday + 4 x_M._Smart + 4.8 x_M._Brogdon + 4 x_J._Okogie
-   + 6 x_J._Dowtin + 4 x_J._McCain + 4.9 x_J._Pickett + 4.3 x_S._Mykhailiuk
-   + 5.3 x_K._Simpson + 5.2 x_P._Larsson + 5.4 x_C._Gillespie
-   + 4 x_E._Gordon + 4 x_J._Konchar + 4 x_P._Connaughton
-   + 5.9 x_B._Williams + 4 x_K._Lowry + 4 x_A._Mitchell + 4.4 x_C._Houstan
-   + 4.1 x_B._Wesley + 4.5 x_R._Sheppard + 5.3 x_C._Joseph + 4 x_V._Micic
-   + 6 x_E._Payton + 4.6 x_A._Reeves + 4.3 x_J._Goodwin + 4 x_M._Morris
-   + 4 x_C._Porter_Jr. + 4 x_K._Wallace + 6.3 x_L._Walker_IV
-   + 5.6 x_A._Lawson + 4.5 x_D._Wright + 5.2 x_C._Jones + 4 x_R._Dillingham
-   + 4 x_V._Williams_Jr. + 4 x_J._Tyson + 4 x_J._Clark + 4 x_W._Moore_Jr.
-   + 4 x_J._Howard + 4 x_Q._Jackson + 5.1 x_A._Johnson + 4 x_G._Harris
-   + 4 x_D._Exum + 4 x_T._Queen + 4 x_D._Carter + 4.2 x_B._Scheierman
-   + 4 x_J._Carter + 4 x_T._Mann + 4.2 x_R._Beekman + 4 x_J._Furphy
-   + 4.5 x_J._Springer + 4 x_J._Miller + 4 x_T._Shannon_Jr.
-   + 4.2 x_R._Rupert + 4 x_B._Hyland + 4 x_J._McLaughlin + 5.4 x_J._Rhoden
-   + 4 x_C._Spencer + 4.2 x_T._Kolek + 4 x_P._Spencer + 4 x_D._Smith
-   + 4 x_J._Walsh + 4 x_D._Baugh + 4 x_P._Mills + 4 x_J._Hood-Schifino
-   + 4.1 x_G._Temple + 4 x_D._Melton + 4.5 x_L._Quinones + 4 x_M._Fultz
-   + 4 x_D._Lee + 4 x_B._James + 4 x_K._Bufkin + 4 x_A._Flagler
-   + 4 x_Y._Kawamura + 4 x_N._Williams + 4 x_S._Cissoko + 4 x_M._Jones
-   + 4 x_T._Washington_Jr. + 4 x_J._Davison + 4 x_T._Alexander
-   + 4 x_J._Christopher + 4 x_J._Bouyea + 4 x_C._Christie + 4 x_S._Umude
-   + 4 x_D._Duke_Jr. + 4 x_K._McCullar_Jr. + 4 x_R._Harper_Jr.
-   + 4 x_B._McGowens + 4 x_T._Newton + 4 x_M._McClung + 4 x_D._Jenkins
-   + 4 x_I._Stevens + 4 x_Z._Pullin + 23.3 x_G._Antetokounmpo
-   + 17.9 x_J._Tatum + 17.9 x_L._James + 16.5 x_E._Mobley
-   + 12.9 x_P._Siakam + 16.1 x_K._Durant + 12.4 x_M._Porter_Jr.
-   + 13.6 x_J._Williams + 13.4 x_D._DeRozan + 13.1 x_S._Barnes
-   + 11.7 x_J._Jackson_Jr. + 19 x_V._Wembanyama + 12.7 x_J._Randle
-   + 11.9 x_M._Bridges + 14.7 x_D._Avdija + 12.8 x_O._Anunoby
-   + 13.1 x_M._Bridges + 12.8 x_F._Wagner + 11.8 x_J._Brown
-   + 10.2 x_J._McDaniels + 14 x_J._Butler + 9.7 x_K._Murray
-   + 10.6 x_T._Camara + 9.5 x_T._Harris + 10.7 x_R._Barrett
-   + 10.6 x_D._Green + 11.2 x_T._Murphy_III + 8.6 x_H._Barnes
-   + 9.1 x_S._Aldama + 11.1 x_C._Johnson + 15.2 x_P._Banchero
-   + 9.6 x_P._Washington + 10.2 x_A._Wiggins + 10 x_N._Marshall
-   + 8.6 x_D._Brooks + 8.6 x_G._Yabusele + 9 x_K._Oubre_Jr.
-   + 9.2 x_D._Hunter + 7.1 x_R._O'Neale + 12.5 x_J._Johnson
-   + 7.5 x_K._Johnson + 8.4 x_O._Toppin + 12.4 x_K._Porzingis
-   + 6.2 x_J._Champagnie + 8.4 x_T._Eason + 7.3 x_T._Prince
-   + 8.2 x_R._Hachimura + 9.4 x_B._Portis + 10.5 x_A._Gordon
-   + 6.8 x_J._Wells + 8.7 x_K._Kuzma + 8.3 x_Z._Risacher + 9 x_J._Smith_Jr.
-   + 9.7 x_J._Collins + 6.5 x_I._Stewart + 13.1 x_K._Leonard
-   + 9.3 x_L._Markkanen + 6.5 x_D._Jones_Jr. + 8 x_J._Sochan
-   + 6.3 x_D._Robinson + 7.8 x_T._Hardaway_Jr. + 5.9 x_G._Niang
-   + 6.6 x_B._Clarke + 14.8 x_Z._Williamson + 10.2 x_P._George
-   + 8 x_M._Buzelis + 5.5 x_M._Diabate + 6 x_J._Wilson
-   + 6.9 x_B._Sensabaugh + 6.4 x_S._Hauser + 6.5 x_Z._Williams
-   + 6.8 x_D._Finney-Smith + 5.6 x_H._Highsmith + 5.3 x_J._Jaquez_Jr.
-   + 4.3 x_T._Jackson-Davis + 4 x_J._LaRavia + 7 x_J._Mogbo
-   + 6 x_Z._Collins + 5.7 x_T._Lyles + 5.3 x_C._Kispert + 5.1 x_R._Dunn
-   + 4.3 x_J._Isaac + 6.7 x_J._Grant + 4 x_T._da_Silva + 4.6 x_P._Williams
-   + 8.4 x_A._Nesmith + 7.4 x_J._Williams + 7 x_J._Kuminga
-   + 6.1 x_P._Achiuwa + 5.9 x_N._Jovic + 5.2 x_J._Walker
-   + 4.6 x_K._Anderson + 5 x_C._Boucher + 6.1 x_T._Martin + 5 x_N._Batum
-   + 4.4 x_D._Wade + 7.3 x_K._Middleton + 7.1 x_K._Olynyk + 7.2 x_A._Bona
-   + 7.7 x_B._Miller + 4.8 x_D._Banton + 4.2 x_C._Martin
-   + 4.9 x_R._Holland_II + 7.4 x_K._Matkovic + 6.5 x_J._Edwards
-   + 5.4 x_S._Mamukelashvili + 5.1 x_J._Battle + 5.1 x_O._Ighodaro
-   + 4 x_S._Fontecchio + 4.5 x_C._Martin + 5.2 x_T._Watford
-   + 4.6 x_I._Okoro + 5 x_T._Salaun + 4.2 x_C._Whitmore + 4 x_J._Phillips
-   + 4.4 x_N._Clowney + 4.2 x_J._Walker + 6.8 x_R._Holmes + 4 x_M._Wagner
-   + 4.6 x_D._Terry + 4 x_G._Santos + 7.9 x_B._Ingram + 4.5 x_K._Murray
-   + 4 x_K._Martin + 5.3 x_T._Vukcevic + 5.3 x_M._Gueye + 4 x_P._Reed
-   + 4.5 x_J._Vanderbilt + 4 x_L._Waters_III + 4.6 x_L._Nance_Jr.
-   + 4.6 x_K._Edwards + 5 x_T._Evbuomwan + 4.2 x_H._Jones + 4.1 x_J._Tate
-   + 4 x_Z._Nnaji + 4 x_O._Prosper + 4 x_C._Williams + 4 x_D._Jones
-   + 4 x_G._Williams + 4.8 x_D._Barlow + 4.4 x_J._Cain + 4 x_T._Gibson
-   + 4 x_D._Roddy + 4 x_O._Dieng + 4 x_M._Kleber + 4.5 x_J._Green
-   + 4.8 x_M._Thybulle + 4.1 x_M._Branham + 4 x_G._Jackson + 4 x_K._Love
-   + 4 x_M._Bagley_III + 4.1 x_T._Craig + 4 x_H._Tyson + 4 x_J._Minott
-   + 4 x_I._Jones + 4 x_A._Gill + 6.8 x_D._Timme + 4.4 x_M._Lewis
-   + 4.1 x_D._McDermott + 4 x_K._Brown + 4.1 x_A._Reese + 4 x_D._Whitehead
-   + 4 x_J._Thor + 4 x_D._Saric + 4 x_D._Peterson + 4 x_L._Stevens
-   + 4 x_M._Beauchamp + 4 x_T._Smith + 4 x_K._Johnson + 4 x_I._Jackson
-   + 4 x_P._Baldwin_Jr. + 4 x_E._Freeman + 4 x_P._Nance + 4 x_M._Morris
-   + 4 x_A._Ducas + 4 x_K._Knox_II + 4 x_X._Tillman + 4 x_C._Livingston
-   + 4 x_V._Cancar + 4 x_P._Dadiet + 4 x_J._Toppin + 4 x_J._Crowder
-   + 4 x_E._Bates + 4 x_J._Ingles + 4 x_T._Hendricks + 4 x_J._Rowe
-   + 4 x_B._Klintman + 4 x_J._Minaya + 4 x_E._Liddell + 4 x_L._Miller
-   + 4 x_L._Travers + 4 x_H._Ingram + 4 x_P._Tucker + 4 x_U._Chomche
-   + 4 x_J._McVeigh + 4 x_A._Watson + 4 x_J._Johnson + 4 x_B._Key
-   + 27.9 x_N._Jokic + 18.5 x_D._Sabonis + 18.6 x_K._Towns
-   + 18.4 x_I._Zubac + 15.1 x_A._Sengun + 14.7 x_B._Adebayo
-   + 14.8 x_N._Vucevic + 14.7 x_J._Allen + 16.4 x_J._Duren
-   + 14.9 x_R._Gobert + 17.5 x_A._Davis + 13.7 x_O._Okongwu
-   + 12 x_M._Turner + 13.2 x_W._Kessler + 11 x_B._Lopez
-   + 12.8 x_I._Hartenstein + 10.1 x_N._Reid + 11.1 x_J._Poeltl
-   + 8.4 x_J._Valanciunas + 10.4 x_N._Claxton + 9.4 x_Y._Missi
-   + 9.7 x_Z._Edey + 6.8 x_G._Bitadze + 14.3 x_M._Williams
-   + 9.3 x_D._Gafford + 8.7 x_A._Sarr + 9.3 x_W._Carter_Jr.
-   + 10.6 x_K._Ware + 8.8 x_D._Clingan + 9.6 x_K._Filipowski
-   + 8.3 x_L._Kornet + 9.3 x_A._Horford + 11.4 x_D._Ayton + 7.4 x_C._Capela
-   + 8.4 x_N._Richards + 6.7 x_M._Plumlee + 5.5 x_K._Looney
-   + 8.4 x_J._Nurkic + 5.9 x_J._Smith + 10.9 x_C._Holmgren + 6.3 x_J._Hayes
-   + 8.2 x_D._Lively_II + 7.4 x_D._Sharpe + 5.2 x_J._Robinson-Earl
-   + 4.9 x_T._Bryant + 4.3 x_N._Queta + 4 x_J._Huff + 5.9 x_S._Adams
-   + 14.5 x_J._Embiid + 5.4 x_A._Drummond + 4.2 x_D._Jordan
-   + 4.1 x_D._Eubanks + 5.8 x_Q._Post + 6 x_K._Jones + 5.9 x_B._Biyombo
-   + 4.4 x_B._Bol + 4.5 x_J._Landale + 4 x_J._Sims + 4 x_C._Bassey
-   + 4 x_D._Powell + 4 x_M._Potter + 4.2 x_R._Williams + 4.9 x_D._Reath
-   + 5.6 x_M._Robinson + 4.5 x_O._Tshiebwe + 4.5 x_C._Castleton
-   + 4 x_A._Len + 4 x_C._Koloko + 4.1 x_T._Thompson + 4 x_T._Jemison
-   + 4 x_L._Garza + 4 x_A._Hukporti + 4 x_P._Hall <= 95
- const_PG: x_S._Gilgeous-Alexander + x_J._Harden + x_T._Young
-   + x_T._Haliburton + x_C._Cunningham + x_A._Edwards + x_J._Hart
-   + x_D._Booker + x_T._Herro + x_S._Curry + x_J._Giddey + x_D._Garland
-   + x_D._Mitchell + x_J._Brunson + x_A._Reaves + x_L._Doncic + x_D._White
-   + x_D._Lillard + x_Z._LaVine + x_D._Bane + x_J._Murray + x_D._Daniels
-   + x_A._Thompson + x_C._Paul + x_C._Braun + x_J._Green + x_D._Fox
-   + x_C._White + x_P._Pritchard + x_T._Maxey + x_R._Westbrook + x_J._Poole
-   + x_A._Simons + x_T._Jones + x_K._Irving + x_M._Monk + x_L._Ball
-   + x_M._Beasley + x_J._Morant + x_Q._Grimes + x_S._Sharpe + x_F._VanVleet
-   + x_S._Pippen_Jr. + x_S._Castle + x_N._Powell + x_D._Schroder
-   + x_K._George + x_C._Carrington + x_D._Vassell + x_B._Mathurin
-   + x_C._McCollum + x_S._Dinwiddie + x_K._Thompson + x_C._Sexton
-   + x_J._Holiday + x_L._Dort + x_A._Wiggins + x_B._Podziemski
-   + x_T._Jerome + x_M._Conley + x_T._McConnell + x_B._Hield + x_B._Beal
-   + x_K._Ellis + x_A._Nembhard + x_N._Alexander-Walker + x_D._DiVincenzo
-   + x_I._Collier + x_C._LeVert + x_D._Mitchell + x_C._Wallace
-   + x_K._Porter_Jr. + x_S._Henderson + x_D._Russell + x_B._Coulibaly
-   + x_K._Dunn + x_A._Thompson + x_I._Joe + x_K._Johnson
-   + x_K._Caldwell-Pope + x_M._Christie + x_J._Champagnie + x_G._Trent_Jr.
-   + x_A._Black + x_K._Huerter + x_L._Kennard + x_O._Agbaji + x_G._Allen
-   + x_K._George + x_M._Moody + x_J._Alvarado + x_M._McBride + x_M._Strus
-   + x_A._Dosunmu + x_P._Watson + x_D._Murray + x_C._Anthony + x_T._Rozier
-   + x_B._Simmons + x_D._Knecht + x_G._Dick + x_A._Green + x_J._Shead
-   + x_A._Coffey + x_I._Quickley + x_V._Krejci + x_J._Green + x_S._Merrill
-   + x_B._Bogdanovic + x_T._Mann + x_K._Williams + x_A._Caruso
-   + x_J._Butler + x_C._Payne + x_J._Juzang + x_J._Suggs + x_T._Jones
-   + x_G._Payton_II + x_J._Strawther + x_R._Council_IV + x_J._Clarkson
-   + x_J._Green + x_N._Smith_Jr. + x_J._Ivey + x_G._Vincent + x_B._Sheppard
-   + x_J._Hawkins + x_C._Thomas + x_J._Walter + x_S._Curry
-   + x_B._Boston_Jr. + x_R._Rollins + x_A._Burks + x_L._Ball + x_M._Sasser
-   + x_A._Jackson_Jr. + x_B._Brown + x_G._Mathews + x_S._Milton
-   + x_D._Jeffries + x_J._Hardy + x_T._Horton-Tucker + x_A._Holiday
-   + x_M._Smart + x_M._Brogdon + x_J._Okogie + x_J._Dowtin + x_J._McCain
-   + x_J._Pickett + x_S._Mykhailiuk + x_K._Simpson + x_P._Larsson
-   + x_C._Gillespie + x_E._Gordon + x_J._Konchar + x_P._Connaughton
-   + x_B._Williams + x_K._Lowry + x_A._Mitchell + x_C._Houstan
-   + x_B._Wesley + x_R._Sheppard + x_C._Joseph + x_V._Micic + x_E._Payton
-   + x_A._Reeves + x_L._Shamet + x_J._Goodwin + x_M._Morris
-   + x_C._Porter_Jr. + x_K._Wallace + x_L._Walker_IV + x_A._Lawson
-   + x_D._Wright + x_C._Jones + x_R._Dillingham + x_V._Williams_Jr.
-   + x_J._Tyson + x_J._Clark + x_W._Moore_Jr. + x_J._Howard + x_Q._Jackson
-   + x_A._Johnson + x_G._Harris + x_D._Exum + x_T._Queen + x_D._Carter
-   + x_B._Scheierman + x_J._Carter + x_T._Mann + x_R._Beekman + x_J._Furphy
-   + x_J._Springer + x_J._Miller + x_T._Shannon_Jr. + x_R._Rupert
-   + x_B._Hyland + x_J._McLaughlin + x_J._Rhoden + x_C._Spencer
-   + x_T._Kolek + x_P._Spencer + x_D._Smith + x_J._Walsh + x_D._Baugh
-   + x_P._Mills + x_J._Hood-Schifino + x_G._Temple + x_J._Martin
-   + x_D._Melton + x_L._Quinones + x_M._Fultz + x_D._Lee + x_B._James
-   + x_K._Bufkin + x_A._Flagler + x_Y._Kawamura + x_E._Harkless
-   + x_D._Plowden + x_N._Williams + x_R._Dennis + x_T._Etienne
-   + x_S._Cissoko + x_M._Jones + x_T._Washington_Jr. + x_J._Davison
-   + x_T._Alexander + x_J._Christopher + x_J._Bouyea + x_C._Christie
-   + x_S._Umude + x_J._Young + x_D._Duke_Jr. + x_K._McCullar_Jr.
-   + x_R._Harper_Jr. + x_B._McGowens + x_T._Newton + x_M._McClung
-   + x_D._Jenkins + x_I._Stevens + x_J._Bridges + x_T._Davis + x_Z._Pullin
-   = 4
- const_SF: x_G._Antetokounmpo + x_J._Tatum + x_L._James + x_E._Mobley
-   + x_P._Siakam + x_K._Durant + x_M._Porter_Jr. + x_J._Williams
-   + x_D._DeRozan + x_S._Barnes + x_J._Jackson_Jr. + x_V._Wembanyama
-   + x_J._Randle + x_M._Bridges + x_D._Avdija + x_O._Anunoby + x_M._Bridges
-   + x_F._Wagner + x_J._Brown + x_J._McDaniels + x_J._Butler + x_K._Murray
-   + x_T._Camara + x_T._Harris + x_R._Barrett + x_D._Green
-   + x_T._Murphy_III + x_H._Barnes + x_S._Aldama + x_C._Johnson
-   + x_P._Banchero + x_P._Washington + x_A._Wiggins + x_N._Marshall
-   + x_D._Brooks + x_G._Yabusele + x_K._Oubre_Jr. + x_D._Hunter
-   + x_R._O'Neale + x_J._Johnson + x_K._Johnson + x_O._Toppin
-   + x_K._Porzingis + x_J._Champagnie + x_T._Eason + x_T._Prince
-   + x_R._Hachimura + x_B._Portis + x_A._Gordon + x_J._Wells + x_K._Kuzma
-   + x_Z._Risacher + x_J._Smith_Jr. + x_J._Collins + x_I._Stewart
-   + x_K._Leonard + x_L._Markkanen + x_D._Jones_Jr. + x_J._Sochan
-   + x_D._Robinson + x_T._Hardaway_Jr. + x_G._Niang + x_B._Clarke
-   + x_Z._Williamson + x_P._George + x_M._Buzelis + x_M._Diabate
-   + x_J._Wilson + x_B._Sensabaugh + x_S._Hauser + x_Z._Williams
-   + x_D._Finney-Smith + x_H._Highsmith + x_J._Jaquez_Jr.
-   + x_T._Jackson-Davis + x_J._LaRavia + x_J._Mogbo + x_Z._Collins
-   + x_T._Lyles + x_C._Kispert + x_R._Dunn + x_J._Isaac + x_J._Grant
-   + x_T._da_Silva + x_P._Williams + x_A._Nesmith + x_J._Williams
-   + x_J._Kuminga + x_P._Achiuwa + x_N._Jovic + x_J._Walker + x_K._Anderson
-   + x_C._Boucher + x_T._Martin + x_N._Batum + x_D._Wade + x_K._Middleton
-   + x_K._Olynyk + x_A._Bona + x_B._Miller + x_D._Banton + x_C._Martin
-   + x_R._Holland_II + x_K._Matkovic + x_J._Edwards + x_S._Mamukelashvili
-   + x_J._Battle + x_O._Ighodaro + x_S._Fontecchio + x_C._Martin
-   + x_T._Watford + x_I._Okoro + x_T._Salaun + x_C._Whitmore
-   + x_J._Phillips + x_N._Clowney + x_J._Walker + x_R._Holmes + x_M._Wagner
-   + x_D._Terry + x_G._Santos + x_B._Ingram + x_K._Murray + x_K._Martin
-   + x_T._Vukcevic + x_M._Gueye + x_P._Reed + x_J._Vanderbilt
-   + x_L._Waters_III + x_L._Nance_Jr. + x_K._Edwards + x_T._Evbuomwan
-   + x_H._Jones + x_J._Tate + x_Z._Nnaji + x_O._Prosper + x_C._Williams
-   + x_D._Jones + x_G._Williams + x_D._Barlow + x_J._Cain + x_T._Gibson
-   + x_D._Roddy + x_O._Dieng + x_M._Kleber + x_J._Green + x_M._Thybulle
-   + x_M._Branham + x_G._Jackson + x_K._Love + x_M._Bagley_III + x_T._Craig
-   + x_K._Brooks_Jr. + x_H._Tyson + x_J._Minott + x_I._Jones + x_A._Gill
-   + x_D._Timme + x_M._Lewis + x_D._McDermott + x_K._Brown + x_C._Okeke
-   + x_A._Reese + x_D._Whitehead + x_J._Thor + x_D._Saric + x_D._Peterson
-   + x_L._Stevens + x_M._Beauchamp + x_T._Smith + x_K._Johnson
-   + x_I._Jackson + x_P._Baldwin_Jr. + x_E._Freeman + x_P._Nance
-   + x_M._Morris + x_A._Ducas + x_K._Knox_II + x_X._Tillman
-   + x_C._Livingston + x_V._Cancar + x_N._Tomlin + x_P._Dadiet
-   + x_J._Toppin + x_J._Crowder + x_S._Jones + x_E._Bates + x_J._Ingles
-   + x_T._Hendricks + x_J._Rowe + x_B._Klintman + x_J._Minaya
-   + x_E._Liddell + x_L._Miller + x_L._Travers + x_E._Miller + x_H._Ingram
-   + x_I._Crawford + x_P._Tucker + x_M._Norris + x_U._Chomche
-   + x_J._McVeigh + x_A._Watson + x_J._Johnson + x_T._Flowers + x_R._Minix
-   + x_B._Key = 4
- const_C: x_N._Jokic + x_D._Sabonis + x_K._Towns + x_I._Zubac + x_A._Sengun
-   + x_B._Adebayo + x_N._Vucevic + x_J._Allen + x_J._Duren + x_R._Gobert
-   + x_A._Davis + x_O._Okongwu + x_M._Turner + x_W._Kessler + x_B._Lopez
-   + x_I._Hartenstein + x_N._Reid + x_J._Poeltl + x_J._Valanciunas
-   + x_N._Claxton + x_Y._Missi + x_Z._Edey + x_G._Bitadze + x_M._Williams
-   + x_D._Gafford + x_A._Sarr + x_W._Carter_Jr. + x_K._Ware + x_D._Clingan
-   + x_K._Filipowski + x_L._Kornet + x_A._Horford + x_D._Ayton
-   + x_C._Capela + x_N._Richards + x_M._Plumlee + x_K._Looney + x_J._Nurkic
-   + x_J._Smith + x_C._Holmgren + x_J._Hayes + x_D._Lively_II + x_D._Sharpe
-   + x_J._Robinson-Earl + x_T._Bryant + x_N._Queta + x_J._Huff + x_S._Adams
-   + x_J._Embiid + x_A._Drummond + x_D._Jordan + x_D._Eubanks + x_Q._Post
-   + x_K._Jones + x_B._Biyombo + x_B._Bol + x_J._Landale + x_J._Sims
-   + x_C._Bassey + x_D._Powell + x_M._Potter + x_R._Williams + x_D._Reath
-   + x_M._Robinson + x_O._Tshiebwe + x_C._Castleton + x_A._Len
-   + x_C._Koloko + x_B._Carlson + x_T._Thompson + x_T._Jemison + x_L._Garza
-   + x_T._Bradley + x_A._Hukporti + x_P._Hall + x_N._Dante + x_T._Smith
-   + x_J._Edwards = 2
- const_NumOfplayers: x_S._Gilgeous-Alexander + x_J._Harden + x_T._Young
-   + x_T._Haliburton + x_C._Cunningham + x_A._Edwards + x_J._Hart
-   + x_D._Booker + x_T._Herro + x_S._Curry + x_J._Giddey + x_D._Garland
-   + x_D._Mitchell + x_J._Brunson + x_A._Reaves + x_L._Doncic + x_D._White
-   + x_D._Lillard + x_Z._LaVine + x_D._Bane + x_J._Murray + x_D._Daniels
-   + x_A._Thompson + x_C._Paul + x_C._Braun + x_J._Green + x_D._Fox
-   + x_C._White + x_P._Pritchard + x_T._Maxey + x_R._Westbrook + x_J._Poole
-   + x_A._Simons + x_T._Jones + x_K._Irving + x_M._Monk + x_L._Ball
-   + x_M._Beasley + x_J._Morant + x_Q._Grimes + x_S._Sharpe + x_F._VanVleet
-   + x_S._Pippen_Jr. + x_S._Castle + x_N._Powell + x_D._Schroder
-   + x_K._George + x_C._Carrington + x_D._Vassell + x_B._Mathurin
-   + x_C._McCollum + x_S._Dinwiddie + x_K._Thompson + x_C._Sexton
-   + x_J._Holiday + x_L._Dort + x_A._Wiggins + x_B._Podziemski
-   + x_T._Jerome + x_M._Conley + x_T._McConnell + x_B._Hield + x_B._Beal
-   + x_K._Ellis + x_A._Nembhard + x_N._Alexander-Walker + x_D._DiVincenzo
-   + x_I._Collier + x_C._LeVert + x_D._Mitchell + x_C._Wallace
-   + x_K._Porter_Jr. + x_S._Henderson + x_D._Russell + x_B._Coulibaly
-   + x_K._Dunn + x_A._Thompson + x_I._Joe + x_K._Johnson
-   + x_K._Caldwell-Pope + x_M._Christie + x_J._Champagnie + x_G._Trent_Jr.
-   + x_A._Black + x_K._Huerter + x_L._Kennard + x_O._Agbaji + x_G._Allen
-   + x_K._George + x_M._Moody + x_J._Alvarado + x_M._McBride + x_M._Strus
-   + x_A._Dosunmu + x_P._Watson + x_D._Murray + x_C._Anthony + x_T._Rozier
-   + x_B._Simmons + x_D._Knecht + x_G._Dick + x_A._Green + x_J._Shead
-   + x_A._Coffey + x_I._Quickley + x_V._Krejci + x_J._Green + x_S._Merrill
-   + x_B._Bogdanovic + x_T._Mann + x_K._Williams + x_A._Caruso
-   + x_J._Butler + x_C._Payne + x_J._Juzang + x_J._Suggs + x_T._Jones
-   + x_G._Payton_II + x_J._Strawther + x_R._Council_IV + x_J._Clarkson
-   + x_J._Green + x_N._Smith_Jr. + x_J._Ivey + x_G._Vincent + x_B._Sheppard
-   + x_J._Hawkins + x_C._Thomas + x_J._Walter + x_S._Curry
-   + x_B._Boston_Jr. + x_R._Rollins + x_A._Burks + x_L._Ball + x_M._Sasser
-   + x_A._Jackson_Jr. + x_B._Brown + x_G._Mathews + x_S._Milton
-   + x_D._Jeffries + x_J._Hardy + x_T._Horton-Tucker + x_A._Holiday
-   + x_M._Smart + x_M._Brogdon + x_J._Okogie + x_J._Dowtin + x_J._McCain
-   + x_J._Pickett + x_S._Mykhailiuk + x_K._Simpson + x_P._Larsson
-   + x_C._Gillespie + x_E._Gordon + x_J._Konchar + x_P._Connaughton
-   + x_B._Williams + x_K._Lowry + x_A._Mitchell + x_C._Houstan
-   + x_B._Wesley + x_R._Sheppard + x_C._Joseph + x_V._Micic + x_E._Payton
-   + x_A._Reeves + x_L._Shamet + x_J._Goodwin + x_M._Morris
-   + x_C._Porter_Jr. + x_K._Wallace + x_L._Walker_IV + x_A._Lawson
-   + x_D._Wright + x_C._Jones + x_R._Dillingham + x_V._Williams_Jr.
-   + x_J._Tyson + x_J._Clark + x_W._Moore_Jr. + x_J._Howard + x_Q._Jackson
-   + x_A._Johnson + x_G._Harris + x_D._Exum + x_T._Queen + x_D._Carter
-   + x_B._Scheierman + x_J._Carter + x_T._Mann + x_R._Beekman + x_J._Furphy
-   + x_J._Springer + x_J._Miller + x_T._Shannon_Jr. + x_R._Rupert
-   + x_B._Hyland + x_J._McLaughlin + x_J._Rhoden + x_C._Spencer
-   + x_T._Kolek + x_P._Spencer + x_D._Smith + x_J._Walsh + x_D._Baugh
-   + x_P._Mills + x_J._Hood-Schifino + x_G._Temple + x_J._Martin
-   + x_D._Melton + x_L._Quinones + x_M._Fultz + x_D._Lee + x_B._James
-   + x_K._Bufkin + x_A._Flagler + x_Y._Kawamura + x_E._Harkless
-   + x_D._Plowden + x_N._Williams + x_R._Dennis + x_T._Etienne
-   + x_S._Cissoko + x_M._Jones + x_T._Washington_Jr. + x_J._Davison
-   + x_T._Alexander + x_J._Christopher + x_J._Bouyea + x_C._Christie
-   + x_S._Umude + x_J._Young + x_D._Duke_Jr. + x_K._McCullar_Jr.
-   + x_R._Harper_Jr. + x_B._McGowens + x_T._Newton + x_M._McClung
-   + x_D._Jenkins + x_I._Stevens + x_J._Bridges + x_T._Davis + x_Z._Pullin
-   + x_G._Antetokounmpo + x_J._Tatum + x_L._James + x_E._Mobley
-   + x_P._Siakam + x_K._Durant + x_M._Porter_Jr. + x_J._Williams
-   + x_D._DeRozan + x_S._Barnes + x_J._Jackson_Jr. + x_V._Wembanyama
-   + x_J._Randle + x_M._Bridges + x_D._Avdija + x_O._Anunoby + x_M._Bridges
-   + x_F._Wagner + x_J._Brown + x_J._McDaniels + x_J._Butler + x_K._Murray
-   + x_T._Camara + x_T._Harris + x_R._Barrett + x_D._Green
-   + x_T._Murphy_III + x_H._Barnes + x_S._Aldama + x_C._Johnson
-   + x_P._Banchero + x_P._Washington + x_A._Wiggins + x_N._Marshall
-   + x_D._Brooks + x_G._Yabusele + x_K._Oubre_Jr. + x_D._Hunter
-   + x_R._O'Neale + x_J._Johnson + x_K._Johnson + x_O._Toppin
-   + x_K._Porzingis + x_J._Champagnie + x_T._Eason + x_T._Prince
-   + x_R._Hachimura + x_B._Portis + x_A._Gordon + x_J._Wells + x_K._Kuzma
-   + x_Z._Risacher + x_J._Smith_Jr. + x_J._Collins + x_I._Stewart
-   + x_K._Leonard + x_L._Markkanen + x_D._Jones_Jr. + x_J._Sochan
-   + x_D._Robinson + x_T._Hardaway_Jr. + x_G._Niang + x_B._Clarke
-   + x_Z._Williamson + x_P._George + x_M._Buzelis + x_M._Diabate
-   + x_J._Wilson + x_B._Sensabaugh + x_S._Hauser + x_Z._Williams
-   + x_D._Finney-Smith + x_H._Highsmith + x_J._Jaquez_Jr.
-   + x_T._Jackson-Davis + x_J._LaRavia + x_J._Mogbo + x_Z._Collins
-   + x_T._Lyles + x_C._Kispert + x_R._Dunn + x_J._Isaac + x_J._Grant
-   + x_T._da_Silva + x_P._Williams + x_A._Nesmith + x_J._Williams
-   + x_J._Kuminga + x_P._Achiuwa + x_N._Jovic + x_J._Walker + x_K._Anderson
-   + x_C._Boucher + x_T._Martin + x_N._Batum + x_D._Wade + x_K._Middleton
-   + x_K._Olynyk + x_A._Bona + x_B._Miller + x_D._Banton + x_C._Martin
-   + x_R._Holland_II + x_K._Matkovic + x_J._Edwards + x_S._Mamukelashvili
-   + x_J._Battle + x_O._Ighodaro + x_S._Fontecchio + x_C._Martin
-   + x_T._Watford + x_I._Okoro + x_T._Salaun + x_C._Whitmore
-   + x_J._Phillips + x_N._Clowney + x_J._Walker + x_R._Holmes + x_M._Wagner
-   + x_D._Terry + x_G._Santos + x_B._Ingram + x_K._Murray + x_K._Martin
-   + x_T._Vukcevic + x_M._Gueye + x_P._Reed + x_J._Vanderbilt
-   + x_L._Waters_III + x_L._Nance_Jr. + x_K._Edwards + x_T._Evbuomwan
-   + x_H._Jones + x_J._Tate + x_Z._Nnaji + x_O._Prosper + x_C._Williams
-   + x_D._Jones + x_G._Williams + x_D._Barlow + x_J._Cain + x_T._Gibson
-   + x_D._Roddy + x_O._Dieng + x_M._Kleber + x_J._Green + x_M._Thybulle
-   + x_M._Branham + x_G._Jackson + x_K._Love + x_M._Bagley_III + x_T._Craig
-   + x_K._Brooks_Jr. + x_H._Tyson + x_J._Minott + x_I._Jones + x_A._Gill
-   + x_D._Timme + x_M._Lewis + x_D._McDermott + x_K._Brown + x_C._Okeke
-   + x_A._Reese + x_D._Whitehead + x_J._Thor + x_D._Saric + x_D._Peterson
-   + x_L._Stevens + x_M._Beauchamp + x_T._Smith + x_K._Johnson
-   + x_I._Jackson + x_P._Baldwin_Jr. + x_E._Freeman + x_P._Nance
-   + x_M._Morris + x_A._Ducas + x_K._Knox_II + x_X._Tillman
-   + x_C._Livingston + x_V._Cancar + x_N._Tomlin + x_P._Dadiet
-   + x_J._Toppin + x_J._Crowder + x_S._Jones + x_E._Bates + x_J._Ingles
-   + x_T._Hendricks + x_J._Rowe + x_B._Klintman + x_J._Minaya
-   + x_E._Liddell + x_L._Miller + x_L._Travers + x_E._Miller + x_H._Ingram
-   + x_I._Crawford + x_P._Tucker + x_M._Norris + x_U._Chomche
-   + x_J._McVeigh + x_A._Watson + x_J._Johnson + x_T._Flowers + x_R._Minix
-   + x_B._Key + x_N._Jokic + x_D._Sabonis + x_K._Towns + x_I._Zubac
-   + x_A._Sengun + x_B._Adebayo + x_N._Vucevic + x_J._Allen + x_J._Duren
-   + x_R._Gobert + x_A._Davis + x_O._Okongwu + x_M._Turner + x_W._Kessler
-   + x_B._Lopez + x_I._Hartenstein + x_N._Reid + x_J._Poeltl
-   + x_J._Valanciunas + x_N._Claxton + x_Y._Missi + x_Z._Edey
-   + x_G._Bitadze + x_M._Williams + x_D._Gafford + x_A._Sarr
-   + x_W._Carter_Jr. + x_K._Ware + x_D._Clingan + x_K._Filipowski
-   + x_L._Kornet + x_A._Horford + x_D._Ayton + x_C._Capela + x_N._Richards
-   + x_M._Plumlee + x_K._Looney + x_J._Nurkic + x_J._Smith + x_C._Holmgren
-   + x_J._Hayes + x_D._Lively_II + x_D._Sharpe + x_J._Robinson-Earl
-   + x_T._Bryant + x_N._Queta + x_J._Huff + x_S._Adams + x_J._Embiid
-   + x_A._Drummond + x_D._Jordan + x_D._Eubanks + x_Q._Post + x_K._Jones
-   + x_B._Biyombo + x_B._Bol + x_J._Landale + x_J._Sims + x_C._Bassey
-   + x_D._Powell + x_M._Potter + x_R._Williams + x_D._Reath + x_M._Robinson
-   + x_O._Tshiebwe + x_C._Castleton + x_A._Len + x_C._Koloko + x_B._Carlson
-   + x_T._Thompson + x_T._Jemison + x_L._Garza + x_T._Bradley
-   + x_A._Hukporti + x_P._Hall + x_N._Dante + x_T._Smith + x_J._Edwards
-   = 10
- const_AvgPointsPerGame: 32.68421052631579 x_S._Gilgeous-Alexander
-   + 22.60759493670886 x_J._Harden + 24.22368421052632 x_T._Young
-   + 18.61643835616438 x_T._Haliburton + 26.14285714285714 x_C._Cunningham
-   + 27.55696202531646 x_A._Edwards + 13.64935064935065 x_J._Hart
-   + 25.64 x_D._Booker + 23.8961038961039 x_T._Herro + 24.5 x_S._Curry
-   + 14.48571428571429 x_J._Giddey + 20.58666666666667 x_D._Garland
-   + 23.95774647887324 x_D._Mitchell + 26 x_J._Brunson
-   + 20.2054794520548 x_A._Reaves + 28.16 x_L._Doncic
-   + 16.42105263157895 x_D._White + 24.94827586206896 x_D._Lillard
-   + 22.94594594594595 x_Z._LaVine + 19.23188405797102 x_D._Bane
-   + 21.43283582089552 x_J._Murray + 14.11842105263158 x_D._Daniels
-   + 14.05797101449275 x_A._Thompson + 8.817073170731707 x_C._Paul
-   + 15.41772151898734 x_C._Braun + 21.01219512195122 x_J._Green
-   + 23.53225806451613 x_D._Fox + 20.39189189189189 x_C._White
-   + 14.3 x_P._Pritchard + 26.32692307692308 x_T._Maxey
-   + 13.25333333333333 x_R._Westbrook + 20.45588235294118 x_J._Poole
-   + 19.25714285714286 x_A._Simons + 10.23456790123457 x_T._Jones
-   + 24.68 x_K._Irving + 17.18461538461538 x_M._Monk
-   + 25.19148936170213 x_L._Ball + 16.29268292682927 x_M._Beasley
-   + 23.18 x_J._Morant + 14.56 x_Q._Grimes + 18.54166666666667 x_S._Sharpe
-   + 14.06666666666667 x_F._VanVleet + 9.860759493670885 x_S._Pippen_Jr.
-   + 14.69135802469136 x_S._Castle + 21.48333333333333 x_N._Powell
-   + 13.06666666666667 x_D._Schroder + 16.7910447761194 x_K._George
-   + 9.841463414634147 x_C._Carrington + 16.265625 x_D._Vassell
-   + 16.05555555555556 x_B._Mathurin + 21.125 x_C._McCollum
-   + 11.0379746835443 x_S._Dinwiddie + 13.95833333333333 x_K._Thompson
-   + 18.3968253968254 x_C._Sexton + 11.06451612903226 x_J._Holiday
-   + 10.12676056338028 x_L._Dort + 12.02631578947368 x_A._Wiggins
-   + 11.671875 x_B._Podziemski + 12.54285714285714 x_T._Jerome
-   + 8.19718309859155 x_M._Conley + 9.113924050632912 x_T._McConnell
-   + 11.13414634146342 x_B._Hield + 17.0188679245283 x_B._Beal
-   + 8.325 x_K._Ellis + 10.04615384615385 x_A._Nembhard
-   + 9.426829268292684 x_N._Alexander-Walker
-   + 11.66129032258065 x_D._DiVincenzo + 8.661971830985916 x_I._Collier
-   + 12.125 x_C._LeVert + 7.945945945945946 x_D._Mitchell
-   + 8.352941176470589 x_C._Wallace + 10.28 x_K._Porter_Jr.
-   + 12.68181818181818 x_S._Henderson + 12.62068965517241 x_D._Russell
-   + 12.32203389830508 x_B._Coulibaly + 6.378378378378378 x_K._Dunn
-   + 10.06779661016949 x_A._Thompson + 10.21621621621622 x_I._Joe
-   + 10.62025316455696 x_K._Johnson + 8.74025974025974 x_K._Caldwell-Pope
-   + 9.602564102564102 x_M._Christie + 8.774193548387096 x_J._Champagnie
-   + 11.13513513513514 x_G._Trent_Jr. + 9.435897435897436 x_A._Black
-   + 9.869565217391305 x_K._Huerter + 8.861538461538462 x_L._Kennard
-   + 10.421875 x_O._Agbaji + 10.625 x_G._Allen
-   + 8.676470588235293 x_K._George + 9.783783783783784 x_M._Moody
-   + 10.33928571428571 x_J._Alvarado + 9.546875 x_M._McBride
-   + 9.42 x_M._Strus + 12.30434782608696 x_A._Dosunmu
-   + 8.102941176470589 x_P._Watson + 17.48387096774194 x_D._Murray
-   + 9.402985074626866 x_C._Anthony + 10.609375 x_T._Rozier
-   + 5.019607843137255 x_B._Simmons + 9.051282051282051 x_D._Knecht
-   + 14.38888888888889 x_G._Dick + 7.410958904109589 x_A._Green
-   + 7.106666666666666 x_J._Shead + 9.638888888888889 x_A._Coffey
-   + 17.09090909090909 x_I._Quickley + 7.228070175438597 x_V._Krejci
-   + 7.441176470588236 x_J._Green + 7.169014084507042 x_S._Merrill
-   + 10.7962962962963 x_B._Bogdanovic + 7.656716417910448 x_T._Mann
-   + 6.318840579710145 x_K._Williams + 7.074074074074074 x_A._Caruso
-   + 9.016666666666667 x_J._Butler + 6.944444444444445 x_C._Payne
-   + 8.921875 x_J._Juzang + 16.2 x_J._Suggs + 7.173913043478261 x_T._Jones
-   + 6.451612903225806 x_G._Payton_II + 9.046153846153846 x_J._Strawther
-   + 7.287671232876712 x_R._Council_IV + 16.21621621621622 x_J._Clarkson
-   + 5.102941176470588 x_J._Green + 9.85 x_N._Smith_Jr. + 17.6 x_J._Ivey
-   + 6.388888888888889 x_G._Vincent + 5.26984126984127 x_B._Sheppard
-   + 10.78571428571429 x_J._Hawkins + 23.96 x_C._Thomas
-   + 8.634615384615385 x_J._Walter + 6.529411764705882 x_S._Curry
-   + 10.66666666666667 x_B._Boston_Jr. + 6.196428571428571 x_R._Rollins
-   + 7.26530612244898 x_A._Burks + 7.571428571428571 x_L._Ball
-   + 6.578947368421052 x_M._Sasser + 3.432835820895523 x_A._Jackson_Jr.
-   + 8.292682926829269 x_B._Brown + 7.51063829787234 x_G._Mathews
-   + 5.526315789473684 x_S._Milton + 6.702127659574468 x_D._Jeffries
-   + 8.701754385964913 x_J._Hardy + 6.310344827586207 x_T._Horton-Tucker
-   + 5.483870967741935 x_A._Holiday + 8.970588235294118 x_M._Smart
-   + 12.70833333333333 x_M._Brogdon + 7.075 x_J._Okogie
-   + 6.951219512195122 x_J._Dowtin + 15.30434782608696 x_J._McCain
-   + 4.081632653061225 x_J._Pickett + 8.789473684210526 x_S._Mykhailiuk
-   + 7.833333333333333 x_K._Simpson + 4.563636363636363 x_P._Larsson
-   + 5.878787878787879 x_C._Gillespie + 6.82051282051282 x_E._Gordon
-   + 2.434782608695652 x_J._Konchar + 5.26829268292683 x_P._Connaughton
-   + 8.333333333333334 x_B._Williams + 3.942857142857143 x_K._Lowry
-   + 6.555555555555555 x_A._Mitchell + 4.120689655172414 x_C._Houstan
-   + 3.741379310344827 x_B._Wesley + 4.403846153846154 x_R._Sheppard
-   + 3.54 x_C._Joseph + 6.560975609756097 x_V._Micic
-   + 3.541666666666667 x_E._Payton + 6.931818181818182 x_A._Reeves
-   + 5.72 x_L._Shamet + 5.551724137931035 x_J._Goodwin
-   + 5.177777777777778 x_M._Morris + 3.686274509803921 x_C._Porter_Jr.
-   + 5.419354838709677 x_K._Wallace + 12.35 x_L._Walker_IV
-   + 9.076923076923077 x_A._Lawson + 3.125 x_D._Wright
-   + 4.025641025641026 x_C._Jones + 4.469387755102041 x_R._Dillingham
-   + 6.62962962962963 x_V._Williams_Jr. + 3.553191489361702 x_J._Tyson
-   + 4.075 x_J._Clark + 4.166666666666667 x_W._Moore_Jr. + 4.45 x_J._Howard
-   + 5.714285714285714 x_Q._Jackson + 7.586206896551724 x_A._Johnson
-   + 3.020833333333333 x_G._Harris + 8.7 x_D._Exum
-   + 4.903225806451613 x_T._Queen + 3.833333333333333 x_D._Carter
-   + 3.645161290322581 x_B._Scheierman + 4.25 x_J._Carter
-   + 14.07692307692308 x_T._Mann + 2.583333333333333 x_R._Beekman
-   + 2.06 x_J._Furphy + 2.534883720930233 x_J._Springer
-   + 4.166666666666667 x_J._Miller + 4.3125 x_T._Shannon_Jr.
-   + 2.980769230769231 x_R._Rupert + 6.208333333333333 x_B._Hyland
-   + 2.130434782608696 x_J._McLaughlin + 8.428571428571429 x_J._Rhoden
-   + 4.24 x_C._Spencer + 1.975609756097561 x_T._Kolek
-   + 2.512820512820513 x_P._Spencer + 6.214285714285714 x_D._Smith
-   + 1.576923076923077 x_J._Walsh + 7.266666666666667 x_D._Baugh
-   + 3.827586206896552 x_P._Mills + 7.066666666666666 x_J._Hood-Schifino
-   + 1.892857142857143 x_G._Temple + 4.875 x_J._Martin
-   + 10.16666666666667 x_D._Melton + 6.615384615384615 x_L._Quinones
-   + 2.904761904761905 x_M._Fultz + 3.32 x_D._Lee
-   + 2.296296296296296 x_B._James + 5.3 x_K._Bufkin
-   + 1.756756756756757 x_A._Flagler + 1.636363636363636 x_Y._Kawamura
-   + 3.2 x_E._Harkless + 7.166666666666667 x_D._Plowden
-   + 3.25 x_N._Williams + 2.727272727272727 x_R._Dennis
-   + 7.857142857142857 x_T._Etienne + 1.454545454545455 x_S._Cissoko
-   + 2.3 x_M._Jones + 2.1875 x_T._Washington_Jr. + 2.0625 x_J._Davison
-   + 1.391304347826087 x_T._Alexander + 2 x_J._Christopher
-   + 3.4 x_J._Bouyea + 1.5 x_C._Christie + 0.6818181818181818 x_S._Umude
-   + 1.833333333333333 x_J._Young + 2.666666666666667 x_D._Duke_Jr.
-   + 1.5 x_K._McCullar_Jr. + 4 x_R._Harper_Jr. + x_B._McGowens
-   + 0.625 x_T._Newton + x_D._Jenkins + 1.125 x_J._Bridges
-   + 30.38805970149254 x_G._Antetokounmpo + 26.83333333333333 x_J._Tatum
-   + 24.42857142857143 x_L._James + 18.53521126760563 x_E._Mobley
-   + 20.23076923076923 x_P._Siakam + 26.56451612903226 x_K._Durant
-   + 18.15584415584416 x_M._Porter_Jr. + 21.59420289855073 x_J._Williams
-   + 22.20779220779221 x_D._DeRozan + 19.26153846153846 x_S._Barnes
-   + 22.17567567567568 x_J._Jackson_Jr. + 24.26086956521739 x_V._Wembanyama
-   + 18.66666666666667 x_J._Randle + 17.60975609756098 x_M._Bridges
-   + 16.93055555555556 x_D._Avdija + 18 x_O._Anunoby + 20.3125 x_M._Bridges
-   + 24.15 x_F._Wagner + 22.19047619047619 x_J._Brown
-   + 12.19512195121951 x_J._McDaniels + 17.49090909090909 x_J._Butler
-   + 12.39473684210526 x_K._Murray + 11.30769230769231 x_T._Camara
-   + 13.72602739726027 x_T._Harris + 21.08620689655172 x_R._Barrett
-   + 8.955882352941176 x_D._Green + 21.20754716981132 x_T._Murphy_III
-   + 12.32926829268293 x_H._Barnes + 12.47692307692308 x_S._Aldama
-   + 18.7719298245614 x_C._Johnson + 25.89130434782609 x_P._Banchero
-   + 14.66666666666667 x_P._Washington + 17.96666666666667 x_A._Wiggins
-   + 13.2463768115942 x_N._Marshall + 14.04 x_D._Brooks
-   + 10.97142857142857 x_G._Yabusele + 15.1 x_K._Oubre_Jr. + 17 x_D._Hunter
-   + 9.066666666666666 x_R._O'Neale + 18.88888888888889 x_J._Johnson
-   + 12.71428571428571 x_K._Johnson + 10.54430379746835 x_O._Toppin
-   + 19.47619047619047 x_K._Porzingis + 9.939024390243903 x_J._Champagnie
-   + 12.03508771929824 x_T._Eason + 8.2 x_T._Prince
-   + 13.13559322033898 x_R._Hachimura + 13.87755102040816 x_B._Portis
-   + 14.66666666666667 x_A._Gordon + 10.41772151898734 x_J._Wells
-   + 14.83076923076923 x_K._Kuzma + 12.56 x_Z._Risacher
-   + 12.24561403508772 x_J._Smith_Jr. + 18.95 x_J._Collins
-   + 6.041666666666667 x_I._Stewart + 21.48648648648649 x_K._Leonard
-   + 18.97872340425532 x_L._Markkanen + 10.06493506493507 x_D._Jones_Jr.
-   + 11.42592592592593 x_J._Sochan + 11.04054054054054 x_D._Robinson
-   + 10.96103896103896 x_T._Hardaway_Jr. + 9.924050632911392 x_G._Niang
-   + 8.34375 x_B._Clarke + 24.56666666666667 x_Z._Williamson
-   + 16.21951219512195 x_P._George + 8.6 x_M._Buzelis
-   + 5.676056338028169 x_M._Diabate + 9.481012658227849 x_J._Wilson
-   + 10.90140845070423 x_B._Sensabaugh + 8.52112676056338 x_S._Hauser
-   + 10.03174603174603 x_Z._Williams + 8.714285714285714 x_D._Finney-Smith
-   + 6.45945945945946 x_H._Highsmith + 8.636363636363637 x_J._Jaquez_Jr.
-   + 6.564516129032258 x_T._Jackson-Davis + 6.939393939393939 x_J._LaRavia
-   + 6.174603174603175 x_J._Mogbo + 6.359375 x_Z._Collins
-   + 6.536231884057971 x_T._Lyles + 11.55737704918033 x_C._Kispert
-   + 6.905405405405405 x_R._Dunn + 5.352112676056338 x_J._Isaac
-   + 14.40425531914894 x_J._Grant + 7.202702702702703 x_T._da_Silva
-   + 8.984126984126984 x_P._Williams + 12.02222222222222 x_A._Nesmith
-   + 5.914893617021277 x_J._Williams + 15.29787234042553 x_J._Kuminga
-   + 6.649122807017544 x_P._Achiuwa + 10.73913043478261 x_N._Jovic
-   + 6.146666666666667 x_J._Walker + 5.852459016393443 x_K._Anderson
-   + 10.04 x_C._Boucher + 8.716666666666667 x_T._Martin
-   + 4.012820512820513 x_N._Batum + 5.423728813559322 x_D._Wade
-   + 11.89189189189189 x_K._Middleton + 8.727272727272727 x_K._Olynyk
-   + 5.810344827586207 x_A._Bona + 21.03703703703704 x_B._Miller
-   + 8.343283582089553 x_D._Banton + 6.754716981132075 x_C._Martin
-   + 6.444444444444445 x_R._Holland_II + 7.738095238095238 x_K._Matkovic
-   + 10.11363636363636 x_J._Edwards + 6.311475409836065 x_S._Mamukelashvili
-   + 7.101694915254237 x_J._Battle + 4.180327868852459 x_O._Ighodaro
-   + 5.946666666666666 x_S._Fontecchio + 7.911111111111111 x_C._Martin
-   + 10.46511627906977 x_T._Watford + 6.127272727272727 x_I._Okoro
-   + 5.883333333333334 x_T._Salaun + 9.352941176470589 x_C._Whitmore
-   + 4.594936708860759 x_J._Phillips + 9.130434782608695 x_N._Clowney
-   + 5.216666666666667 x_J._Walker + 7.419354838709677 x_R._Holmes
-   + 12.86666666666667 x_M._Wagner + 4.452054794520548 x_D._Terry
-   + 4.053571428571429 x_G._Santos + 22.22222222222222 x_B._Ingram
-   + 4.159420289855072 x_K._Murray + 6.325581395348837 x_K._Martin
-   + 9.428571428571429 x_T._Vukcevic + 5.96969696969697 x_M._Gueye
-   + 4.088888888888889 x_P._Reed + 4.083333333333333 x_J._Vanderbilt
-   + 4.923076923076923 x_L._Waters_III + 8.458333333333334 x_L._Nance_Jr.
-   + 4.2 x_K._Edwards + 9.535714285714286 x_T._Evbuomwan + 10.25 x_H._Jones
-   + 3.615384615384615 x_J._Tate + 3.228070175438596 x_Z._Nnaji
-   + 3.865384615384615 x_O._Prosper + 4.6 x_C._Williams + 2.5 x_D._Jones
-   + 10.375 x_G._Williams + 4.228571428571429 x_D._Barlow
-   + 5.297297297297297 x_J._Cain + 2.891891891891892 x_T._Gibson
-   + 4.636363636363637 x_D._Roddy + 3.837837837837838 x_O._Dieng
-   + 3.029411764705882 x_M._Kleber + 5.375 x_J._Green
-   + 7.466666666666667 x_M._Thybulle + 5 x_M._Branham
-   + 7.206896551724138 x_G._Jackson + 5.304347826086956 x_K._Love
-   + 4.387096774193548 x_M._Bagley_III + 4.153846153846154 x_T._Craig
-   + 10.14285714285714 x_K._Brooks_Jr. + 2.627450980392157 x_H._Tyson
-   + 2.58695652173913 x_J._Minott + 3.35 x_I._Jones + 2.58 x_A._Gill
-   + 12.11111111111111 x_D._Timme + 4.142857142857143 x_M._Lewis
-   + 3.5 x_D._McDermott + 1.846153846153846 x_K._Brown
-   + 5.888888888888889 x_C._Okeke + 5.066666666666666 x_A._Reese
-   + 5.7 x_D._Whitehead + 3.55 x_J._Thor + 3.5 x_D._Saric
-   + 2.16 x_D._Peterson + 4.352941176470588 x_L._Stevens
-   + 2.314285714285715 x_M._Beauchamp + 2.91304347826087 x_T._Smith
-   + 2.6875 x_K._Johnson + 7 x_I._Jackson
-   + 2.208333333333333 x_P._Baldwin_Jr. + 2.095238095238095 x_E._Freeman
-   + 2.923076923076923 x_P._Nance + 3.733333333333333 x_M._Morris
-   + 1.714285714285714 x_A._Ducas + 3.285714285714286 x_K._Knox_II
-   + 1.03030303030303 x_X._Tillman + 1.428571428571429 x_C._Livingston
-   + 1.846153846153846 x_V._Cancar + 7.2 x_N._Tomlin
-   + 1.666666666666667 x_P._Dadiet + 1.352941176470588 x_J._Toppin
-   + 2.555555555555555 x_J._Crowder + 1.3 x_S._Jones + 3.7 x_E._Bates
-   + 0.8333333333333334 x_J._Ingles + 4.666666666666667 x_T._Hendricks
-   + 3.666666666666667 x_J._Rowe + 1.875 x_B._Klintman
-   + 0.9473684210526315 x_J._Minaya + 1.75 x_E._Liddell
-   + 1.538461538461539 x_L._Miller + x_L._Travers
-   + 1.666666666666667 x_E._Miller + 0.8 x_H._Ingram
-   + 0.8666666666666667 x_I._Crawford + 3 x_P._Tucker
-   + 2.333333333333333 x_M._Norris + 0.7142857142857143 x_U._Chomche
-   + 1.555555555555556 x_J._McVeigh + 0.8888888888888888 x_A._Watson
-   + 0.6666666666666666 x_J._Johnson + 2.2 x_T._Flowers + x_B._Key
-   + 29.58571428571429 x_N._Jokic + 19.1 x_D._Sabonis
-   + 24.43055555555556 x_K._Towns + 16.75 x_I._Zubac
-   + 19.09210526315789 x_A._Sengun + 18.07692307692308 x_B._Adebayo
-   + 18.35616438356164 x_N._Vucevic + 13.45121951219512 x_J._Allen
-   + 11.76923076923077 x_J._Duren + 12.02777777777778 x_R._Gobert
-   + 24.72549019607843 x_A._Davis + 13.35135135135135 x_O._Okongwu
-   + 15.55555555555556 x_M._Turner + 11.05172413793103 x_W._Kessler
-   + 13.0125 x_B._Lopez + 11.14035087719298 x_I._Hartenstein
-   + 14.225 x_N._Reid + 14.45614035087719 x_J._Poeltl
-   + 10.40740740740741 x_J._Valanciunas + 10.34285714285714 x_N._Claxton
-   + 9.109589041095891 x_Y._Missi + 9.242424242424242 x_Z._Edey
-   + 7.171428571428572 x_G._Bitadze + 15.25 x_M._Williams
-   + 12.29824561403509 x_D._Gafford + 12.97014925373134 x_A._Sarr
-   + 9.088235294117647 x_W._Carter_Jr. + 9.296875 x_K._Ware
-   + 6.507462686567164 x_D._Clingan + 9.583333333333334 x_K._Filipowski
-   + 6.041095890410959 x_L._Kornet + 8.966666666666667 x_A._Horford
-   + 14.4 x_D._Ayton + 8.872727272727273 x_C._Capela
-   + 9.280701754385966 x_N._Richards + 4.5 x_M._Plumlee
-   + 4.526315789473684 x_K._Looney + 8.882352941176471 x_J._Nurkic
-   + 8.15625 x_J._Smith + 14.96875 x_C._Holmgren
-   + 6.839285714285714 x_J._Hayes + 8.722222222222221 x_D._Lively_II
-   + 7.94 x_D._Sharpe + 6.333333333333333 x_J._Robinson-Earl
-   + 6.5 x_T._Bryant + 5 x_N._Queta + 6.859375 x_J._Huff
-   + 3.947368421052631 x_S._Adams + 23.78947368421053 x_J._Embiid
-   + 7.325 x_A._Drummond + 3.732142857142857 x_D._Jordan
-   + 4.666666666666667 x_D._Eubanks + 8.095238095238095 x_Q._Post
-   + 5.025641025641026 x_K._Jones + 5.142857142857143 x_B._Biyombo
-   + 6.777777777777778 x_B._Bol + 4.761904761904762 x_J._Landale
-   + 1.849056603773585 x_J._Sims + 4.361111111111111 x_C._Bassey
-   + 2.072727272727273 x_D._Powell + 4.263157894736842 x_M._Potter
-   + 5.8 x_R._Williams + 4.217391304347826 x_D._Reath
-   + 5.117647058823529 x_M._Robinson + 7.642857142857143 x_O._Tshiebwe
-   + 4.730769230769231 x_C._Castleton + 1.644444444444444 x_A._Len
-   + 2.432432432432432 x_C._Koloko + 3.8125 x_B._Carlson
-   + 1.725 x_T._Thompson + 2.5 x_T._Jemison + 3.631578947368421 x_L._Garza
-   + 4.692307692307693 x_T._Bradley + 1.92 x_A._Hukporti
-   + 1.736842105263158 x_P._Hall + 6 x_N._Dante + 14 x_T._Smith
-   >= 93.07517954731597
- const_AvgAssists: 6.381578947368421 x_S._Gilgeous-Alexander
-   + 8.594936708860759 x_J._Harden + 11.56578947368421 x_T._Young
-   + 9.219178082191782 x_T._Haliburton + 9.114285714285714 x_C._Cunningham
-   + 4.544303797468355 x_A._Edwards + 5.883116883116883 x_J._Hart
-   + 7.066666666666666 x_D._Booker + 5.506493506493507 x_T._Herro
-   + 6.014285714285714 x_S._Curry + 7.142857142857143 x_J._Giddey
-   + 6.746666666666667 x_D._Garland + 4.985915492957746 x_D._Mitchell
-   + 7.292307692307692 x_J._Brunson + 5.753424657534246 x_A._Reaves
-   + 7.68 x_L._Doncic + 4.75 x_D._White + 7.051724137931035 x_D._Lillard
-   + 4.189189189189189 x_Z._LaVine + 5.347826086956522 x_D._Bane
-   + 6 x_J._Murray + 4.381578947368421 x_D._Daniels
-   + 3.855072463768116 x_A._Thompson + 7.378048780487805 x_C._Paul
-   + 2.59493670886076 x_C._Braun + 3.439024390243902 x_J._Green
-   + 6.32258064516129 x_D._Fox + 4.45945945945946 x_C._White
-   + 3.4875 x_P._Pritchard + 6.076923076923077 x_T._Maxey
-   + 6.093333333333334 x_R._Westbrook + 4.441176470588236 x_J._Poole
-   + 4.8 x_A._Simons + 5.296296296296297 x_T._Jones + 4.62 x_K._Irving
-   + 5.569230769230769 x_M._Monk + 7.382978723404255 x_L._Ball
-   + 1.682926829268293 x_M._Beasley + 7.28 x_J._Morant + 3.04 x_Q._Grimes
-   + 2.75 x_S._Sharpe + 5.55 x_F._VanVleet
-   + 4.39240506329114 x_S._Pippen_Jr. + 4.098765432098766 x_S._Castle
-   + 2.083333333333333 x_N._Powell + 5.386666666666667 x_D._Schroder
-   + 5.626865671641791 x_K._George + 4.439024390243903 x_C._Carrington
-   + 2.859375 x_D._Vassell + 1.875 x_B._Mathurin
-   + 4.053571428571429 x_C._McCollum + 4.417721518987341 x_S._Dinwiddie
-   + 2.013888888888889 x_K._Thompson + 4.190476190476191 x_C._Sexton
-   + 3.854838709677419 x_J._Holiday + 1.647887323943662 x_L._Dort
-   + 1.763157894736842 x_A._Wiggins + 3.4375 x_B._Podziemski
-   + 3.385714285714286 x_T._Jerome + 4.492957746478873 x_M._Conley
-   + 4.443037974683544 x_T._McConnell + 1.634146341463415 x_B._Hield
-   + 3.679245283018868 x_B._Beal + 1.5 x_K._Ellis
-   + 5.015384615384615 x_A._Nembhard
-   + 2.719512195121951 x_N._Alexander-Walker
-   + 3.629032258064516 x_D._DiVincenzo + 6.28169014084507 x_I._Collier
-   + 3.359375 x_C._LeVert + 4.905405405405405 x_D._Mitchell
-   + 2.529411764705882 x_C._Wallace + 3.413333333333334 x_K._Porter_Jr.
-   + 5.075757575757576 x_S._Henderson + 5.103448275862069 x_D._Russell
-   + 3.423728813559322 x_B._Coulibaly + 2.824324324324324 x_K._Dunn
-   + 2.271186440677966 x_A._Thompson + 1.608108108108108 x_I._Joe
-   + 2.215189873417721 x_K._Johnson + 1.766233766233766 x_K._Caldwell-Pope
-   + 1.871794871794872 x_M._Christie + 0.9516129032258065 x_J._Champagnie
-   + 1.175675675675676 x_G._Trent_Jr. + 3.064102564102564 x_A._Black
-   + 2.260869565217391 x_K._Huerter + 3.307692307692307 x_L._Kennard
-   + 1.53125 x_O._Agbaji + 2.140625 x_G._Allen
-   + 2.485294117647059 x_K._George + 1.297297297297297 x_M._Moody
-   + 4.625 x_J._Alvarado + 2.921875 x_M._McBride + 3.16 x_M._Strus
-   + 4.521739130434782 x_A._Dosunmu + 1.382352941176471 x_P._Watson
-   + 7.354838709677419 x_D._Murray + 2.850746268656716 x_C._Anthony
-   + 2.609375 x_T._Rozier + 5.588235294117647 x_B._Simmons
-   + 0.8461538461538461 x_D._Knecht + 1.814814814814815 x_G._Dick
-   + 1.47945205479452 x_A._Green + 4.213333333333333 x_J._Shead
-   + 1.055555555555556 x_A._Coffey + 5.787878787878788 x_I._Quickley
-   + 2.578947368421053 x_V._Krejci + 1.602941176470588 x_J._Green
-   + 1.52112676056338 x_S._Merrill + 2.703703703703704 x_B._Bogdanovic
-   + 1.805970149253731 x_T._Mann + 1.391304347826087 x_K._Williams
-   + 2.537037037037037 x_A._Caruso + 3.666666666666667 x_J._Butler
-   + 2.819444444444445 x_C._Payne + 1.0625 x_J._Juzang
-   + 3.685714285714285 x_J._Suggs + 4.195652173913044 x_T._Jones
-   + 1.338709677419355 x_G._Payton_II + 1.292307692307692 x_J._Strawther
-   + 1.328767123287671 x_R._Council_IV + 3.72972972972973 x_J._Clarkson
-   + 0.8235294117647058 x_J._Green + 2.433333333333333 x_N._Smith_Jr.
-   + 3.933333333333333 x_J._Ivey + 1.361111111111111 x_G._Vincent
-   + 1.333333333333333 x_B._Sheppard + 1.178571428571429 x_J._Hawkins
-   + 3.8 x_C._Thomas + 1.557692307692308 x_J._Walter
-   + 0.8823529411764706 x_S._Curry + 2.214285714285714 x_B._Boston_Jr.
-   + 1.857142857142857 x_R._Rollins + 1.122448979591837 x_A._Burks
-   + 3.228571428571429 x_L._Ball + 2.298245614035088 x_M._Sasser
-   + 1.238805970149254 x_A._Jackson_Jr. + 2.048780487804878 x_B._Brown
-   + 1.276595744680851 x_G._Mathews + 1.771929824561403 x_S._Milton
-   + 1.127659574468085 x_D._Jeffries + 1.421052631578947 x_J._Hardy
-   + 1.396551724137931 x_T._Horton-Tucker + 1.32258064516129 x_A._Holiday
-   + 3.205882352941177 x_M._Smart + 4.083333333333333 x_M._Brogdon
-   + 0.825 x_J._Okogie + 1.878048780487805 x_J._Dowtin
-   + 2.608695652173913 x_J._McCain + 2.163265306122449 x_J._Pickett
-   + 2 x_S._Mykhailiuk + 3.111111111111111 x_K._Simpson
-   + 1.181818181818182 x_P._Larsson + 2.363636363636364 x_C._Gillespie
-   + 1.666666666666667 x_E._Gordon + 0.9130434782608695 x_J._Konchar
-   + 1.707317073170732 x_P._Connaughton + 2.272727272727273 x_B._Williams
-   + 2.742857142857143 x_K._Lowry + 1.777777777777778 x_A._Mitchell
-   + 0.603448275862069 x_C._Houstan + 1.96551724137931 x_B._Wesley
-   + 1.442307692307692 x_R._Sheppard + 1.44 x_C._Joseph
-   + 3.097560975609756 x_V._Micic + 6.875 x_E._Payton
-   + 0.8863636363636364 x_A._Reeves + 0.54 x_L._Shamet
-   + 1.448275862068966 x_J._Goodwin + 1.622222222222222 x_M._Morris
-   + 1.372549019607843 x_C._Porter_Jr. + 2.612903225806452 x_K._Wallace
-   + 2.5 x_L._Walker_IV + 1.192307692307692 x_A._Lawson + 1.925 x_D._Wright
-   + 1.128205128205128 x_C._Jones + 2 x_R._Dillingham
-   + 2.037037037037037 x_V._Williams_Jr. + 0.9361702127659575 x_J._Tyson
-   + 0.65 x_J._Clark + 1.166666666666667 x_W._Moore_Jr.
-   + 0.7333333333333333 x_J._Howard + 1.857142857142857 x_Q._Jackson
-   + 2.620689655172414 x_A._Johnson + 0.625 x_G._Harris + 2.8 x_D._Exum
-   + 1.225806451612903 x_T._Queen + 1.138888888888889 x_D._Carter
-   + 1.064516129032258 x_B._Scheierman + 1.111111111111111 x_J._Carter
-   + 3 x_T._Mann + 1.75 x_R._Beekman + 0.4 x_J._Furphy
-   + 0.7674418604651163 x_J._Springer + 0.9444444444444444 x_J._Miller
-   + x_T._Shannon_Jr. + 0.4807692307692308 x_R._Rupert
-   + 1.333333333333333 x_B._Hyland + 1.108695652173913 x_J._McLaughlin
-   + 1.142857142857143 x_J._Rhoden + 1.36 x_C._Spencer
-   + 1.707317073170732 x_T._Kolek + 1.256410256410256 x_P._Spencer
-   + 1.642857142857143 x_D._Smith + 0.3653846153846154 x_J._Walsh
-   + 3.733333333333333 x_D._Baugh + 0.896551724137931 x_P._Mills
-   + 2.466666666666667 x_J._Hood-Schifino + 1.107142857142857 x_G._Temple
-   + 1.0625 x_J._Martin + 2.833333333333333 x_D._Melton
-   + 1.846153846153846 x_L._Quinones + 1.285714285714286 x_M._Fultz
-   + 0.44 x_D._Lee + 0.8148148148148148 x_B._James + 1.7 x_K._Bufkin
-   + 0.3243243243243243 x_A._Flagler + 0.8636363636363636 x_Y._Kawamura
-   + 0.8 x_E._Harkless + 0.3333333333333333 x_D._Plowden
-   + 0.45 x_N._Williams + 1.272727272727273 x_R._Dennis
-   + 1.714285714285714 x_T._Etienne + 0.6818181818181818 x_S._Cissoko
-   + 1.1 x_M._Jones + x_T._Washington_Jr. + 0.8125 x_J._Davison
-   + 0.5217391304347826 x_T._Alexander
-   + 0.5714285714285714 x_J._Christopher + 2 x_J._Bouyea
-   + 0.5 x_C._Christie + 0.1818181818181818 x_S._Umude + x_J._Young
-   + 0.6666666666666666 x_D._Duke_Jr. + 0.5 x_K._McCullar_Jr.
-   + 2 x_R._Harper_Jr. + 0.1538461538461539 x_B._McGowens
-   + 0.25 x_T._Newton + 1.5 x_M._McClung + 0.4285714285714285 x_D._Jenkins
-   + x_T._Davis >= 8.650025818652074
- const_AvgTurnovers: 2.434210526315789 x_S._Gilgeous-Alexander
-   + 4.278481012658228 x_J._Harden + 4.671052631578948 x_T._Young
-   + 1.643835616438356 x_T._Haliburton + 4.442857142857143 x_C._Cunningham
-   + 3.139240506329114 x_A._Edwards + 2.038961038961039 x_J._Hart
-   + 2.92 x_D._Booker + 2.571428571428572 x_T._Herro
-   + 2.828571428571429 x_S._Curry + 2.885714285714286 x_J._Giddey
-   + 2.52 x_D._Garland + 2.098591549295775 x_D._Mitchell
-   + 2.523076923076923 x_J._Brunson + 2.424657534246575 x_A._Reaves
-   + 3.58 x_L._Doncic + 1.723684210526316 x_D._White
-   + 2.793103448275862 x_D._Lillard + 2.824324324324324 x_Z._LaVine
-   + 2.449275362318841 x_D._Bane + 2.059701492537314 x_J._Murray
-   + 2.039473684210526 x_D._Daniels + 2.014492753623188 x_A._Thompson
-   + 1.597560975609756 x_C._Paul + 1.025316455696202 x_C._Braun
-   + 2.475609756097561 x_J._Green + 2.806451612903226 x_D._Fox
-   + 2.378378378378379 x_C._White + 1.05 x_P._Pritchard
-   + 2.384615384615385 x_T._Maxey + 3.226666666666667 x_R._Westbrook
-   + 2.985294117647059 x_J._Poole + 2.042857142857143 x_A._Simons
-   + 1.135802469135802 x_T._Jones + 2.22 x_K._Irving
-   + 2.430769230769231 x_M._Monk + 3.553191489361702 x_L._Ball
-   + 1.01219512195122 x_M._Beasley + 3.68 x_J._Morant + 1.88 x_Q._Grimes
-   + 2.083333333333333 x_S._Sharpe + 1.433333333333333 x_F._VanVleet
-   + 1.746835443037975 x_S._Pippen_Jr. + 2.160493827160494 x_S._Castle
-   + 1.783333333333333 x_N._Powell + 1.893333333333333 x_D._Schroder
-   + 2.73134328358209 x_K._George + 1.719512195121951 x_C._Carrington
-   + 1.390625 x_D._Vassell + 1.861111111111111 x_B._Mathurin
-   + 1.892857142857143 x_C._McCollum + 1.291139240506329 x_S._Dinwiddie
-   + 1.222222222222222 x_K._Thompson + 2.53968253968254 x_C._Sexton
-   + 1.225806451612903 x_J._Holiday + 0.7323943661971831 x_L._Dort
-   + 0.9078947368421053 x_A._Wiggins + 1.171875 x_B._Podziemski
-   + 1.314285714285714 x_T._Jerome + 1.070422535211268 x_M._Conley
-   + 1.379746835443038 x_T._McConnell + 1.109756097560976 x_B._Hield
-   + 1.867924528301887 x_B._Beal + 0.8875 x_K._Ellis
-   + 1.738461538461539 x_A._Nembhard
-   + 1.207317073170732 x_N._Alexander-Walker
-   + 1.580645161290323 x_D._DiVincenzo + 2.929577464788732 x_I._Collier
-   + 1.171875 x_C._LeVert + 1.72972972972973 x_D._Mitchell
-   + 0.8676470588235294 x_C._Wallace + 1.813333333333333 x_K._Porter_Jr.
-   + 2.681818181818182 x_S._Henderson + 1.862068965517241 x_D._Russell
-   + 2.11864406779661 x_B._Coulibaly + x_K._Dunn
-   + 1.35593220338983 x_A._Thompson + 0.5 x_I._Joe
-   + 1.468354430379747 x_K._Johnson + 0.8051948051948052 x_K._Caldwell-Pope
-   + 1.115384615384615 x_M._Christie + 0.8709677419354839 x_J._Champagnie
-   + 0.5675675675675675 x_G._Trent_Jr. + 1.782051282051282 x_A._Black
-   + 0.9710144927536232 x_K._Huerter + 1.107692307692308 x_L._Kennard
-   + 0.84375 x_O._Agbaji + 1.171875 x_G._Allen
-   + 1.411764705882353 x_K._George + 0.7297297297297297 x_M._Moody
-   + 1.535714285714286 x_J._Alvarado + 0.640625 x_M._McBride
-   + 1.08 x_M._Strus + 1.521739130434783 x_A._Dosunmu
-   + 0.8235294117647058 x_P._Watson + 3.387096774193548 x_D._Murray
-   + 1.537313432835821 x_C._Anthony + 1.21875 x_T._Rozier + 2 x_B._Simmons
-   + 0.4743589743589743 x_D._Knecht + 1.537037037037037 x_G._Dick
-   + 0.547945205479452 x_A._Green + 1.56 x_J._Shead
-   + 0.6388888888888888 x_A._Coffey + 1.757575757575758 x_I._Quickley
-   + 0.8771929824561403 x_V._Krejci + 1.029411764705882 x_J._Green
-   + 0.4929577464788732 x_S._Merrill + 1.37037037037037 x_B._Bogdanovic
-   + 0.7164179104477612 x_T._Mann + 0.5507246376811594 x_K._Williams
-   + 0.6666666666666666 x_A._Caruso + 1.333333333333333 x_J._Butler
-   + 0.7222222222222222 x_C._Payne + 0.5625 x_J._Juzang
-   + 2.914285714285714 x_J._Suggs + 0.7608695652173914 x_T._Jones
-   + 0.6290322580645161 x_G._Payton_II + 0.8769230769230769 x_J._Strawther
-   + 0.7123287671232876 x_R._Council_IV + 2.324324324324324 x_J._Clarkson
-   + 0.4705882352941176 x_J._Green + 1.366666666666667 x_N._Smith_Jr.
-   + 2.966666666666667 x_J._Ivey + 0.5555555555555556 x_G._Vincent
-   + 0.3650793650793651 x_B._Sheppard + 1.035714285714286 x_J._Hawkins
-   + 2.48 x_C._Thomas + 0.9615384615384616 x_J._Walter
-   + 0.4705882352941176 x_S._Curry + 1.238095238095238 x_B._Boston_Jr.
-   + 0.9464285714285714 x_R._Rollins + 0.5918367346938775 x_A._Burks
-   + 1.142857142857143 x_L._Ball + 0.9473684210526315 x_M._Sasser
-   + 0.8656716417910447 x_A._Jackson_Jr. + 0.9512195121951219 x_B._Brown
-   + 0.6595744680851063 x_G._Mathews + 0.6842105263157895 x_S._Milton
-   + 0.7446808510638298 x_D._Jeffries + 1.43859649122807 x_J._Hardy
-   + 0.6724137931034483 x_T._Horton-Tucker
-   + 0.5967741935483871 x_A._Holiday + 1.588235294117647 x_M._Smart
-   + 1.625 x_M._Brogdon + 0.775 x_J._Okogie
-   + 0.3658536585365854 x_J._Dowtin + 1.608695652173913 x_J._McCain
-   + 0.5102040816326531 x_J._Pickett + 1.368421052631579 x_S._Mykhailiuk
-   + 1.555555555555556 x_K._Simpson + 0.4363636363636363 x_P._Larsson
-   + 0.5151515151515151 x_C._Gillespie + 0.717948717948718 x_E._Gordon
-   + 0.3478260869565217 x_J._Konchar + 0.5853658536585366 x_P._Connaughton
-   + 1.181818181818182 x_B._Williams + 0.6 x_K._Lowry
-   + 0.8333333333333334 x_A._Mitchell + 0.2241379310344828 x_C._Houstan
-   + 0.9310344827586207 x_B._Wesley + 0.7115384615384616 x_R._Sheppard
-   + 0.36 x_C._Joseph + 1.878048780487805 x_V._Micic
-   + 2.458333333333333 x_E._Payton + 0.6818181818181818 x_A._Reeves
-   + 0.44 x_L._Shamet + 0.9310344827586207 x_J._Goodwin
-   + 0.4666666666666667 x_M._Morris + 0.7450980392156863 x_C._Porter_Jr.
-   + 1.064516129032258 x_K._Wallace + 1.25 x_L._Walker_IV
-   + 0.5769230769230769 x_A._Lawson + 0.525 x_D._Wright
-   + 0.5897435897435898 x_C._Jones + 1.081632653061225 x_R._Dillingham
-   + 1.259259259259259 x_V._Williams_Jr. + 0.5531914893617021 x_J._Tyson
-   + 0.2 x_J._Clark + 0.75 x_W._Moore_Jr. + 0.6 x_J._Howard
-   + 0.5714285714285714 x_Q._Jackson + 1.206896551724138 x_A._Johnson
-   + 0.3541666666666667 x_G._Harris + 1.1 x_D._Exum
-   + 0.7096774193548387 x_T._Queen + 0.5 x_D._Carter
-   + 0.3870967741935484 x_B._Scheierman + 0.3055555555555556 x_J._Carter
-   + 1.923076923076923 x_T._Mann + 0.5833333333333334 x_R._Beekman
-   + 0.24 x_J._Furphy + 0.3720930232558139 x_J._Springer
-   + 0.7222222222222222 x_J._Miller + 0.46875 x_T._Shannon_Jr.
-   + 0.5769230769230769 x_R._Rupert + 1.041666666666667 x_B._Hyland
-   + 0.3695652173913043 x_J._McLaughlin + 0.6428571428571429 x_J._Rhoden
-   + 0.24 x_C._Spencer + 0.4390243902439024 x_T._Kolek
-   + 0.4358974358974359 x_P._Spencer + 1.214285714285714 x_D._Smith
-   + 0.3269230769230769 x_J._Walsh + 2.066666666666667 x_D._Baugh
-   + 0.5517241379310345 x_P._Mills + 1.2 x_J._Hood-Schifino
-   + 0.3571428571428572 x_G._Temple + 0.75 x_J._Martin
-   + 1.666666666666667 x_D._Melton + 1.076923076923077 x_L._Quinones
-   + 0.7142857142857143 x_M._Fultz + 0.4 x_D._Lee
-   + 0.4814814814814815 x_B._James + 0.8 x_K._Bufkin
-   + 0.1081081081081081 x_A._Flagler + 0.2272727272727273 x_Y._Kawamura
-   + 0.3 x_E._Harkless + 0.6666666666666666 x_D._Plowden
-   + 0.7 x_N._Williams + 0.4545454545454545 x_R._Dennis
-   + 1.142857142857143 x_T._Etienne + 0.5 x_S._Cissoko + 0.1 x_M._Jones
-   + 0.1875 x_T._Washington_Jr. + 0.8125 x_J._Davison
-   + 0.2173913043478261 x_T._Alexander + 0.5 x_J._Christopher
-   + 1.6 x_J._Bouyea + 0.1666666666666667 x_C._Christie
-   + 0.1818181818181818 x_S._Umude + 0.1666666666666667 x_J._Young
-   + 0.3333333333333333 x_D._Duke_Jr. + 0.3076923076923077 x_B._McGowens
-   + 0.25 x_T._Newton + 0.1428571428571428 x_D._Jenkins + 0.5 x_J._Bridges
-   <= 4.522988650646354
- const_AstToTovRatio: 2.60752688172043 x_S._Gilgeous-Alexander
-   + 2.002949852507375 x_J._Harden + 2.469101123595506 x_T._Young
-   + 5.56198347107438 x_T._Haliburton + 2.044871794871795 x_C._Cunningham
-   + 1.441767068273092 x_A._Edwards + 2.867088607594937 x_J._Hart
-   + 2.409090909090909 x_D._Booker + 2.130653266331658 x_T._Herro
-   + 2.115577889447236 x_S._Curry + 2.463054187192118 x_J._Giddey
-   + 2.663157894736842 x_D._Garland + 2.36 x_D._Mitchell
-   + 2.872727272727273 x_J._Brunson + 2.359550561797753 x_A._Reaves
-   + 2.133333333333333 x_L._Doncic + 2.734848484848485 x_D._White
-   + 2.50920245398773 x_D._Lillard + 1.476190476190476 x_Z._LaVine
-   + 2.170588235294117 x_D._Bane + 2.892086330935252 x_J._Murray
-   + 2.134615384615385 x_D._Daniels + 1.9 x_A._Thompson
-   + 4.583333333333333 x_C._Paul + 2.5 x_C._Braun
-   + 1.382352941176471 x_J._Green + 2.24 x_D._Fox
-   + 1.864406779661017 x_C._White + 3.28235294117647 x_P._Pritchard
-   + 2.528 x_T._Maxey + 1.880658436213992 x_R._Westbrook
-   + 1.480392156862745 x_J._Poole + 2.333333333333333 x_A._Simons
-   + 4.612903225806452 x_T._Jones + 2.0625 x_K._Irving
-   + 2.276729559748428 x_M._Monk + 2.065476190476191 x_L._Ball
-   + 1.642857142857143 x_M._Beasley + 1.967567567567568 x_J._Morant
-   + 1.605633802816901 x_Q._Grimes + 1.311258278145695 x_S._Sharpe
-   + 3.827586206896552 x_F._VanVleet + 2.496402877697842 x_S._Pippen_Jr.
-   + 1.886363636363636 x_S._Castle + 1.157407407407407 x_N._Powell
-   + 2.825174825174825 x_D._Schroder + 2.048913043478261 x_K._George
-   + 2.563380281690141 x_C._Carrington + 2.033333333333333 x_D._Vassell
-   + x_B._Mathurin + 2.121495327102804 x_C._McCollum
-   + 3.388349514563107 x_S._Dinwiddie + 1.629213483146067 x_K._Thompson
-   + 1.639751552795031 x_C._Sexton + 3.103896103896104 x_J._Holiday
-   + 2.207547169811321 x_L._Dort + 1.914285714285714 x_A._Wiggins
-   + 2.894736842105263 x_B._Podziemski + 2.548387096774194 x_T._Jerome
-   + 4.142857142857143 x_M._Conley + 3.190909090909091 x_T._McConnell
-   + 1.456521739130435 x_B._Hield + 1.95 x_B._Beal
-   + 1.666666666666667 x_K._Ellis + 2.859649122807018 x_A._Nembhard
-   + 2.23 x_N._Alexander-Walker + 2.272727272727273 x_D._DiVincenzo
-   + 2.133971291866029 x_I._Collier + 2.828947368421053 x_C._LeVert
-   + 2.813953488372093 x_D._Mitchell + 2.866666666666667 x_C._Wallace
-   + 1.868613138686131 x_K._Porter_Jr. + 1.882022471910112 x_S._Henderson
-   + 2.71559633027523 x_D._Russell + 1.603174603174603 x_B._Coulibaly
-   + 2.786666666666667 x_K._Dunn + 1.654320987654321 x_A._Thompson
-   + 3.131578947368421 x_I._Joe + 1.495726495726496 x_K._Johnson
-   + 2.158730158730159 x_K._Caldwell-Pope + 1.659090909090909 x_M._Christie
-   + 1.072727272727273 x_J._Champagnie + 2.023255813953488 x_G._Trent_Jr.
-   + 1.707142857142857 x_A._Black + 2.294117647058823 x_K._Huerter
-   + 2.945205479452055 x_L._Kennard + 1.781818181818182 x_O._Agbaji
-   + 1.802631578947368 x_G._Allen + 1.742268041237113 x_K._George
-   + 1.745454545454545 x_M._Moody + 2.977011494252873 x_J._Alvarado
-   + 4.452380952380953 x_M._McBride + 2.872727272727273 x_M._Strus
-   + 2.929577464788732 x_A._Dosunmu + 1.649122807017544 x_P._Watson
-   + 2.150943396226415 x_D._Murray + 1.836538461538461 x_C._Anthony
-   + 2.113924050632912 x_T._Rozier + 2.766990291262136 x_B._Simmons
-   + 1.736842105263158 x_D._Knecht + 1.166666666666667 x_G._Dick
-   + 2.634146341463415 x_A._Green + 2.677966101694915 x_J._Shead
-   + 1.617021276595745 x_A._Coffey + 3.23728813559322 x_I._Quickley
-   + 2.882352941176471 x_V._Krejci + 1.535211267605634 x_J._Green
-   + 3 x_S._Merrill + 1.946666666666667 x_B._Bogdanovic
-   + 2.469387755102041 x_T._Mann + 2.461538461538462 x_K._Williams
-   + 3.702702702702703 x_A._Caruso + 2.716049382716049 x_J._Butler
-   + 3.830188679245283 x_C._Payne + 1.837837837837838 x_J._Juzang
-   + 1.25242718446602 x_J._Suggs + 5.361111111111111 x_T._Jones
-   + 2.075 x_G._Payton_II + 1.448275862068966 x_J._Strawther
-   + 1.830188679245283 x_R._Council_IV + 1.586206896551724 x_J._Clarkson
-   + 1.696969696969697 x_J._Green + 1.759036144578313 x_N._Smith_Jr.
-   + 1.311111111111111 x_J._Ivey + 2.390243902439024 x_G._Vincent
-   + 3.5 x_B._Sheppard + 1.11864406779661 x_J._Hawkins
-   + 1.507936507936508 x_C._Thomas + 1.588235294117647 x_J._Walter
-   + 1.818181818181818 x_S._Curry + 1.754716981132076 x_B._Boston_Jr.
-   + 1.925925925925926 x_R._Rollins + 1.833333333333333 x_A._Burks
-   + 2.75609756097561 x_L._Ball + 2.381818181818182 x_M._Sasser
-   + 1.406779661016949 x_A._Jackson_Jr. + 2.1 x_B._Brown
-   + 1.875 x_G._Mathews + 2.525 x_S._Milton
-   + 1.472222222222222 x_D._Jeffries + 0.9759036144578314 x_J._Hardy
-   + 2.025 x_T._Horton-Tucker + 2.157894736842105 x_A._Holiday
-   + 1.981818181818182 x_M._Smart + 2.45 x_M._Brogdon + 1.03125 x_J._Okogie
-   + 4.8125 x_J._Dowtin + 1.578947368421053 x_J._McCain
-   + 4.076923076923077 x_J._Pickett + 1.433962264150943 x_S._Mykhailiuk
-   + 1.964912280701754 x_K._Simpson + 2.6 x_P._Larsson
-   + 4.333333333333333 x_C._Gillespie + 2.241379310344827 x_E._Gordon
-   + 2.470588235294118 x_J._Konchar + 2.8 x_P._Connaughton
-   + 1.875 x_B._Williams + 4.363636363636363 x_K._Lowry
-   + 2.064516129032258 x_A._Mitchell + 2.5 x_C._Houstan
-   + 2.072727272727273 x_B._Wesley + 1.973684210526316 x_R._Sheppard
-   + 3.789473684210526 x_C._Joseph + 1.628205128205128 x_V._Micic
-   + 2.75 x_E._Payton + 1.258064516129032 x_A._Reeves
-   + 1.173913043478261 x_L._Shamet + 1.5 x_J._Goodwin
-   + 3.318181818181818 x_M._Morris + 1.794871794871795 x_C._Porter_Jr.
-   + 2.382352941176471 x_K._Wallace + 1.923076923076923 x_L._Walker_IV
-   + 1.9375 x_A._Lawson + 3.5 x_D._Wright + 1.833333333333333 x_C._Jones
-   + 1.814814814814815 x_R._Dillingham
-   + 1.571428571428571 x_V._Williams_Jr. + 1.62962962962963 x_J._Tyson
-   + 2.888888888888889 x_J._Clark + 1.5 x_W._Moore_Jr.
-   + 1.189189189189189 x_J._Howard + 3.058823529411764 x_Q._Jackson
-   + 2.111111111111111 x_A._Johnson + 1.666666666666667 x_G._Harris
-   + 2.434782608695652 x_D._Exum + 1.652173913043478 x_T._Queen
-   + 2.157894736842105 x_D._Carter + 2.538461538461538 x_B._Scheierman
-   + 3.333333333333333 x_J._Carter + 1.5 x_T._Mann
-   + 2.863636363636364 x_R._Beekman + 1.538461538461539 x_J._Furphy
-   + 1.941176470588235 x_J._Springer + 1.259259259259259 x_J._Miller
-   + 2 x_T._Shannon_Jr. + 0.8064516129032258 x_R._Rupert
-   + 1.230769230769231 x_B._Hyland + 2.833333333333333 x_J._McLaughlin
-   + 1.6 x_J._Rhoden + 4.857142857142857 x_C._Spencer
-   + 3.684210526315789 x_T._Kolek + 2.722222222222222 x_P._Spencer
-   + 1.277777777777778 x_D._Smith + 1.055555555555556 x_J._Walsh
-   + 1.75 x_D._Baugh + 1.529411764705882 x_P._Mills
-   + 1.947368421052632 x_J._Hood-Schifino + 2.818181818181818 x_G._Temple
-   + 1.307692307692308 x_J._Martin + 1.545454545454545 x_D._Melton
-   + 1.6 x_L._Quinones + 1.6875 x_M._Fultz + x_D._Lee
-   + 1.571428571428571 x_B._James + 1.888888888888889 x_K._Bufkin
-   + 2.4 x_A._Flagler + 3.166666666666667 x_Y._Kawamura + 2 x_E._Harkless
-   + 0.4 x_D._Plowden + 0.6 x_N._Williams + 2.333333333333333 x_R._Dennis
-   + 1.333333333333333 x_T._Etienne + 1.25 x_S._Cissoko + 5.5 x_M._Jones
-   + 4 x_T._Washington_Jr. + 0.9285714285714286 x_J._Davison
-   + 2 x_T._Alexander + x_J._Christopher + 1.111111111111111 x_J._Bouyea
-   + 2 x_C._Christie + 0.8 x_S._Umude + 3 x_J._Young
-   + 1.333333333333333 x_D._Duke_Jr. + 2 x_K._McCullar_Jr.
-   + 2 x_R._Harper_Jr. + 0.4 x_B._McGowens + 0.6666666666666666 x_T._Newton
-   + 3 x_M._McClung + 1.5 x_D._Jenkins + x_T._Davis >= 7.649831990992016
- const_3P_Perc: 37 x_S._Gilgeous-Alexander + 35 x_J._Harden + 34 x_T._Young
-   + 38 x_T._Haliburton + 35 x_C._Cunningham + 39 x_A._Edwards
-   + 33 x_J._Hart + 33 x_D._Booker + 37 x_T._Herro + 39 x_S._Curry
-   + 37 x_J._Giddey + 40 x_D._Garland + 36 x_D._Mitchell + 38 x_J._Brunson
-   + 37 x_A._Reaves + 36 x_L._Doncic + 38 x_D._White + 37 x_D._Lillard
-   + 44 x_Z._LaVine + 39 x_D._Bane + 39 x_J._Murray + 34 x_D._Daniels
-   + 27 x_A._Thompson + 37 x_C._Paul + 39 x_C._Braun + 35 x_J._Green
-   + 31 x_D._Fox + 37 x_C._White + 40 x_P._Pritchard + 33 x_T._Maxey
-   + 32 x_R._Westbrook + 37 x_J._Poole + 36 x_A._Simons + 41 x_T._Jones
-   + 40 x_K._Irving + 32 x_M._Monk + 33 x_L._Ball + 41 x_M._Beasley
-   + 30 x_J._Morant + 38 x_Q._Grimes + 31 x_S._Sharpe + 34 x_F._VanVleet
-   + 39 x_S._Pippen_Jr. + 28 x_S._Castle + 42 x_N._Powell
-   + 34 x_D._Schroder + 34 x_K._George + 33 x_C._Carrington
-   + 36 x_D._Vassell + 34 x_B._Mathurin + 37 x_C._McCollum
-   + 33 x_S._Dinwiddie + 39 x_K._Thompson + 40 x_C._Sexton
-   + 35 x_J._Holiday + 41 x_L._Dort + 38 x_A._Wiggins + 37 x_B._Podziemski
-   + 44 x_T._Jerome + 41 x_M._Conley + 30 x_T._McConnell + 37 x_B._Hield
-   + 38 x_B._Beal + 43 x_K._Ellis + 29 x_A._Nembhard
-   + 38 x_N._Alexander-Walker + 39 x_D._DiVincenzo + 24 x_I._Collier
-   + 37 x_C._LeVert + 39 x_D._Mitchell + 35 x_C._Wallace
-   + 31 x_K._Porter_Jr. + 35 x_S._Henderson + 31 x_D._Russell
-   + 28 x_B._Coulibaly + 33 x_K._Dunn + 22 x_A._Thompson + 41 x_I._Joe
-   + 31 x_K._Johnson + 34 x_K._Caldwell-Pope + 36 x_M._Christie
-   + 38 x_J._Champagnie + 41 x_G._Trent_Jr. + 31 x_A._Black
-   + 33 x_K._Huerter + 43 x_L._Kennard + 39 x_O._Agbaji + 42 x_G._Allen
-   + 32 x_K._George + 37 x_M._Moody + 35 x_J._Alvarado + 36 x_M._McBride
-   + 38 x_M._Strus + 32 x_A._Dosunmu + 35 x_P._Watson + 29 x_D._Murray
-   + 35 x_C._Anthony + 29 x_T._Rozier + 37 x_D._Knecht + 35 x_G._Dick
-   + 42 x_A._Green + 32 x_J._Shead + 41 x_A._Coffey + 37 x_I._Quickley
-   + 43 x_V._Krejci + 39 x_J._Green + 37 x_S._Merrill + 36 x_B._Bogdanovic
-   + 37 x_T._Mann + 38 x_K._Williams + 35 x_A._Caruso + 35 x_J._Butler
-   + 36 x_C._Payne + 37 x_J._Juzang + 31 x_J._Suggs + 39 x_T._Jones
-   + 32 x_G._Payton_II + 34 x_J._Strawther + 25 x_R._Council_IV
-   + 36 x_J._Clarkson + 32 x_J._Green + 34 x_N._Smith_Jr. + 40 x_J._Ivey
-   + 35 x_G._Vincent + 34 x_B._Sheppard + 33 x_J._Hawkins + 34 x_C._Thomas
-   + 34 x_J._Walter + 45 x_S._Curry + 35 x_B._Boston_Jr. + 40 x_R._Rollins
-   + 42 x_A._Burks + 34 x_L._Ball + 38 x_M._Sasser + 39 x_A._Jackson_Jr.
-   + 32 x_B._Brown + 38 x_G._Mathews + 35 x_S._Milton + 33 x_D._Jeffries
-   + 38 x_J._Hardy + 33 x_T._Horton-Tucker + 39 x_A._Holiday
-   + 34 x_M._Smart + 28 x_M._Brogdon + 34 x_J._Okogie + 40 x_J._Dowtin
-   + 38 x_J._McCain + 39 x_J._Pickett + 34 x_S._Mykhailiuk
-   + 25 x_K._Simpson + 33 x_P._Larsson + 43 x_C._Gillespie + 40 x_E._Gordon
-   + 37 x_J._Konchar + 32 x_P._Connaughton + 40 x_B._Williams
-   + 33 x_K._Lowry + 38 x_A._Mitchell + 40 x_C._Houstan + 29 x_B._Wesley
-   + 33 x_R._Sheppard + 36 x_C._Joseph + 35 x_V._Micic + 16 x_E._Payton
-   + 39 x_A._Reeves + 39 x_L._Shamet + 38 x_J._Goodwin + 36 x_M._Morris
-   + 43 x_C._Porter_Jr. + 32 x_K._Wallace + 35 x_L._Walker_IV
-   + 32 x_A._Lawson + 27 x_D._Wright + 32 x_C._Jones + 33 x_R._Dillingham
-   + 27 x_V._Williams_Jr. + 34 x_J._Tyson + 43 x_J._Clark
-   + 34 x_W._Moore_Jr. + 29 x_J._Howard + 37 x_Q._Jackson + 26 x_A._Johnson
-   + 35 x_G._Harris + 43 x_D._Exum + 28 x_T._Queen + 29 x_D._Carter
-   + 31 x_B._Scheierman + 33 x_J._Carter + 40 x_T._Mann + 17 x_R._Beekman
-   + 30 x_J._Furphy + 25 x_J._Springer + 21 x_J._Miller
-   + 35 x_T._Shannon_Jr. + 27 x_R._Rupert + 39 x_B._Hyland
-   + 41 x_J._McLaughlin + 30 x_J._Rhoden + 35 x_C._Spencer + 29 x_T._Kolek
-   + 22 x_P._Spencer + 53 x_D._Smith + 27 x_J._Walsh + 21 x_D._Baugh
-   + 34 x_P._Mills + 30 x_J._Hood-Schifino + 21 x_G._Temple
-   + 30 x_J._Martin + 37 x_D._Melton + 29 x_L._Quinones + 50 x_M._Fultz
-   + 24 x_D._Lee + 28 x_B._James + 21 x_K._Bufkin + 19 x_A._Flagler
-   + 30 x_Y._Kawamura + 28 x_E._Harkless + 52 x_D._Plowden
-   + 23 x_N._Williams + 30 x_R._Dennis + 29 x_T._Etienne + 23 x_S._Cissoko
-   + 12 x_M._Jones + 19 x_T._Washington_Jr. + 22 x_J._Davison
-   + 17 x_T._Alexander + 18 x_J._Christopher + 20 x_J._Bouyea
-   + 15 x_C._Christie + 20 x_S._Umude + 50 x_J._Young + 50 x_D._Duke_Jr.
-   + 14 x_D._Jenkins + 28 x_J._Bridges >= 120.2424242424242
- const_AvgSteals: 0.8507462686567164 x_G._Antetokounmpo
-   + 1.055555555555556 x_J._Tatum + x_L._James
-   + 0.8591549295774648 x_E._Mobley + 0.8846153846153846 x_P._Siakam
-   + 0.8064516129032258 x_K._Durant + 0.6753246753246753 x_M._Porter_Jr.
-   + 1.608695652173913 x_J._Williams + 0.8051948051948052 x_D._DeRozan
-   + 1.415384615384615 x_S._Barnes + 1.243243243243243 x_J._Jackson_Jr.
-   + 1.108695652173913 x_V._Wembanyama + 0.6811594202898551 x_J._Randle
-   + 0.9146341463414634 x_M._Bridges + 0.9861111111111112 x_D._Avdija
-   + 1.459459459459459 x_O._Anunoby + 0.6875 x_M._Bridges
-   + 1.233333333333333 x_F._Wagner + 1.142857142857143 x_J._Brown
-   + 1.341463414634146 x_J._McDaniels + 1.4 x_J._Butler
-   + 0.8026315789473685 x_K._Murray + 1.5 x_T._Camara
-   + 1.013698630136986 x_T._Harris + 0.7931034482758621 x_R._Barrett
-   + 1.455882352941176 x_D._Green + 1.075471698113208 x_T._Murphy_III
-   + 0.4634146341463415 x_H._Barnes + 0.7846153846153846 x_S._Aldama
-   + 0.9298245614035088 x_C._Johnson + 0.8043478260869565 x_P._Banchero
-   + 1.105263157894737 x_P._Washington + x_A._Wiggins + x_N._Marshall
-   + 0.8 x_D._Brooks + 0.8428571428571429 x_G._Yabusele
-   + 1.516666666666667 x_K._Oubre_Jr. + 0.78125 x_D._Hunter
-   + 0.8933333333333333 x_R._O'Neale + 1.555555555555556 x_J._Johnson
-   + 0.6493506493506493 x_K._Johnson + 0.5822784810126582 x_O._Toppin
-   + 0.7619047619047619 x_K._Porzingis + 0.7682926829268293 x_J._Champagnie
-   + 1.701754385964912 x_T._Eason + 0.95 x_T._Prince
-   + 0.7627118644067796 x_R._Hachimura + 0.7346938775510204 x_B._Portis
-   + 0.4313725490196079 x_A._Gordon + 0.5569620253164557 x_J._Wells
-   + 0.5538461538461539 x_K._Kuzma + 0.6933333333333334 x_Z._Risacher
-   + 0.4385964912280702 x_J._Smith_Jr. + 0.975 x_J._Collins
-   + 0.3888888888888889 x_I._Stewart + 1.594594594594595 x_K._Leonard
-   + 0.7021276595744681 x_L._Markkanen + 1.025974025974026 x_D._Jones_Jr.
-   + 0.8333333333333334 x_J._Sochan + 0.5405405405405406 x_D._Robinson
-   + 0.5064935064935064 x_T._Hardaway_Jr. + 0.3544303797468354 x_G._Niang
-   + 0.8125 x_B._Clarke + 1.233333333333333 x_Z._Williamson
-   + 1.878048780487805 x_P._George + 0.3625 x_M._Buzelis
-   + 0.676056338028169 x_M._Diabate + 0.5063291139240507 x_J._Wilson
-   + 0.647887323943662 x_B._Sensabaugh + 0.5915492957746479 x_S._Hauser
-   + 0.9841269841269841 x_Z._Williams
-   + 0.9206349206349206 x_D._Finney-Smith
-   + 0.918918918918919 x_H._Highsmith + 0.9242424242424242 x_J._Jaquez_Jr.
-   + 0.3709677419354839 x_T._Jackson-Davis
-   + 0.9393939393939394 x_J._LaRavia + 0.8571428571428571 x_J._Mogbo
-   + 0.453125 x_Z._Collins + 0.5942028985507246 x_T._Lyles
-   + 0.4262295081967213 x_C._Kispert + 0.5945945945945946 x_R._Dunn
-   + 0.8591549295774648 x_J._Isaac + 0.8723404255319149 x_J._Grant
-   + 0.4459459459459459 x_T._da_Silva + 0.7619047619047619 x_P._Williams
-   + 0.7777777777777778 x_A._Nesmith + 0.4680851063829787 x_J._Williams
-   + 0.8085106382978723 x_J._Kuminga + 0.8245614035087719 x_P._Achiuwa
-   + 0.8260869565217391 x_N._Jovic + 0.7333333333333333 x_J._Walker
-   + 0.6557377049180327 x_K._Anderson + 0.48 x_C._Boucher
-   + 0.5666666666666667 x_T._Martin + 0.6666666666666666 x_N._Batum
-   + 0.711864406779661 x_D._Wade + 0.9459459459459459 x_K._Middleton
-   + 0.75 x_K._Olynyk + 0.4482758620689655 x_A._Bona
-   + 1.074074074074074 x_B._Miller + 0.6417910447761194 x_D._Banton
-   + 1.056603773584906 x_C._Martin + 0.5925925925925926 x_R._Holland_II
-   + 0.5238095238095238 x_K._Matkovic + 1.022727272727273 x_J._Edwards
-   + 0.3278688524590164 x_S._Mamukelashvili + 0.288135593220339 x_J._Battle
-   + 0.459016393442623 x_O._Ighodaro + 0.4 x_S._Fontecchio
-   + 1.022222222222222 x_C._Martin + 0.6279069767441861 x_T._Watford
-   + 0.5818181818181818 x_I._Okoro + 0.4833333333333333 x_T._Salaun
-   + 0.6078431372549019 x_C._Whitmore + 0.4810126582278481 x_J._Phillips
-   + 0.5217391304347826 x_N._Clowney + 0.55 x_J._Walker
-   + 0.2903225806451613 x_R._Holmes + 0.8 x_M._Wagner
-   + 0.589041095890411 x_D._Terry + 0.4642857142857143 x_G._Santos
-   + 0.8888888888888888 x_B._Ingram + 0.4927536231884058 x_K._Murray
-   + 0.3720930232558139 x_K._Martin + 0.3142857142857143 x_T._Vukcevic
-   + 0.8484848484848485 x_M._Gueye + 0.8666666666666667 x_P._Reed
-   + 0.9722222222222222 x_J._Vanderbilt
-   + 0.5384615384615384 x_L._Waters_III + 0.8333333333333334 x_L._Nance_Jr.
-   + 0.475 x_K._Edwards + 0.8571428571428571 x_T._Evbuomwan
-   + 1.85 x_H._Jones + 0.5 x_J._Tate + 0.4385964912280702 x_Z._Nnaji
-   + 0.4807692307692308 x_O._Prosper + 0.46 x_C._Williams
-   + 0.2962962962962963 x_D._Jones + 1.125 x_G._Williams
-   + 0.2571428571428571 x_D._Barlow + 0.6216216216216216 x_J._Cain
-   + 0.2162162162162162 x_T._Gibson + 0.4242424242424243 x_D._Roddy
-   + 0.4594594594594595 x_O._Dieng + 0.2647058823529412 x_M._Kleber
-   + 0.1875 x_J._Green + 2.2 x_M._Thybulle
-   + 0.2340425531914894 x_M._Branham + 0.4137931034482759 x_G._Jackson
-   + 0.6521739130434783 x_K._Love + 0.2580645161290323 x_M._Bagley_III
-   + 0.3076923076923077 x_T._Craig + 0.6428571428571429 x_K._Brooks_Jr.
-   + 0.196078431372549 x_H._Tyson + 0.3260869565217391 x_J._Minott
-   + 0.125 x_I._Jones + 0.18 x_A._Gill + 0.4444444444444444 x_D._Timme
-   + 0.3214285714285715 x_M._Lewis + 0.0952380952380952 x_D._McDermott
-   + 0.1794871794871795 x_K._Brown + 0.5555555555555556 x_C._Okeke
-   + 0.6666666666666666 x_A._Reese + 0.3 x_D._Whitehead + 0.4 x_J._Thor
-   + 0.4375 x_D._Saric + 0.2 x_D._Peterson
-   + 0.2941176470588235 x_L._Stevens + 0.1428571428571428 x_M._Beauchamp
-   + 0.1304347826086956 x_T._Smith + 0.3125 x_K._Johnson + 0.6 x_I._Jackson
-   + 0.125 x_P._Baldwin_Jr. + 0.1428571428571428 x_E._Freeman
-   + 0.1538461538461539 x_P._Nance + 0.1333333333333333 x_M._Morris
-   + 0.2380952380952381 x_A._Ducas + 0.1428571428571428 x_K._Knox_II
-   + 0.3333333333333333 x_X._Tillman + 0.2380952380952381 x_C._Livingston
-   + 0.2307692307692308 x_V._Cancar + 0.1666666666666667 x_P._Dadiet
-   + 0.1176470588235294 x_J._Toppin + 0.3333333333333333 x_J._Crowder
-   + 0.25 x_S._Jones + 0.1 x_E._Bates + 0.1111111111111111 x_J._Ingles
-   + 1.666666666666667 x_T._Hendricks + 0.6666666666666666 x_J._Rowe
-   + 0.25 x_B._Klintman + 0.3157894736842105 x_J._Minaya
-   + 0.0833333333333333 x_E._Liddell + 0.0769230769230769 x_L._Miller
-   + 0.0833333333333333 x_L._Travers + 0.1666666666666667 x_E._Miller
-   + 0.6 x_H._Ingram + 0.0666666666666667 x_I._Crawford
-   + 0.3333333333333333 x_P._Tucker + 0.6666666666666666 x_M._Norris
-   + 0.1111111111111111 x_A._Watson + 0.6666666666666666 x_B._Key
-   >= 2.759761416855675
- const_AvgRboundsF: 11.91044776119403 x_G._Antetokounmpo
-   + 8.666666666666666 x_J._Tatum + 7.8 x_L._James
-   + 9.267605633802816 x_E._Mobley + 6.923076923076923 x_P._Siakam
-   + 6.064516129032258 x_K._Durant + 7.012987012987013 x_M._Porter_Jr.
-   + 5.36231884057971 x_J._Williams + 3.883116883116883 x_D._DeRozan
-   + 7.738461538461539 x_S._Barnes + 5.594594594594595 x_J._Jackson_Jr.
-   + 11 x_V._Wembanyama + 7.057971014492754 x_J._Randle
-   + 3.158536585365854 x_M._Bridges + 7.25 x_D._Avdija
-   + 4.837837837837838 x_O._Anunoby + 7.515625 x_M._Bridges
-   + 5.7 x_F._Wagner + 5.825396825396825 x_J._Brown
-   + 5.719512195121951 x_J._McDaniels + 5.363636363636363 x_J._Butler
-   + 6.684210526315789 x_K._Murray + 5.756410256410256 x_T._Camara
-   + 5.917808219178082 x_T._Harris + 6.310344827586207 x_R._Barrett
-   + 6.073529411764706 x_D._Green + 5.113207547169812 x_T._Murphy_III
-   + 3.780487804878049 x_H._Barnes + 6.4 x_S._Aldama
-   + 4.333333333333333 x_C._Johnson + 7.521739130434782 x_P._Banchero
-   + 7.754385964912281 x_P._Washington + 4.483333333333333 x_A._Wiggins
-   + 4.739130434782608 x_N._Marshall + 3.653333333333333 x_D._Brooks
-   + 5.642857142857143 x_G._Yabusele + 6.133333333333334 x_K._Oubre_Jr.
-   + 4.03125 x_D._Hunter + 4.64 x_R._O'Neale
-   + 10.02777777777778 x_J._Johnson + 4.831168831168831 x_K._Johnson
-   + 4.012658227848101 x_O._Toppin + 6.761904761904762 x_K._Porzingis
-   + 3.878048780487805 x_J._Champagnie + 6.350877192982456 x_T._Eason
-   + 3.5875 x_T._Prince + 4.983050847457627 x_R._Hachimura
-   + 8.387755102040817 x_B._Portis + 4.823529411764706 x_A._Gordon
-   + 3.379746835443038 x_J._Wells + 5.723076923076923 x_K._Kuzma
-   + 3.586666666666666 x_Z._Risacher + 7.017543859649122 x_J._Smith_Jr.
-   + 8.175 x_J._Collins + 5.541666666666667 x_I._Stewart
-   + 5.891891891891892 x_K._Leonard + 5.914893617021277 x_L._Markkanen
-   + 3.38961038961039 x_D._Jones_Jr. + 6.518518518518518 x_J._Sochan
-   + 2.256756756756757 x_D._Robinson + 2.376623376623376 x_T._Hardaway_Jr.
-   + 3.443037974683544 x_G._Niang + 5.09375 x_B._Clarke
-   + 7.2 x_Z._Williamson + 5.341463414634147 x_P._George
-   + 3.4875 x_M._Buzelis + 6.169014084507042 x_M._Diabate
-   + 3.430379746835443 x_J._Wilson + 2.957746478873239 x_B._Sensabaugh
-   + 3.154929577464789 x_S._Hauser + 4.555555555555555 x_Z._Williams
-   + 3.92063492063492 x_D._Finney-Smith + 3.405405405405405 x_H._Highsmith
-   + 4.378787878787879 x_J._Jaquez_Jr.
-   + 5.016129032258065 x_T._Jackson-Davis + 3.924242424242424 x_J._LaRavia
-   + 4.952380952380953 x_J._Mogbo + 4.5 x_Z._Collins
-   + 4.579710144927536 x_T._Lyles + 2.967213114754098 x_C._Kispert
-   + 3.621621621621621 x_R._Dunn + 4.422535211267606 x_J._Isaac
-   + 3.468085106382979 x_J._Grant + 3.310810810810811 x_T._da_Silva
-   + 3.777777777777778 x_P._Williams + 3.977777777777778 x_A._Nesmith
-   + 5.595744680851064 x_J._Williams + 4.574468085106383 x_J._Kuminga
-   + 5.56140350877193 x_P._Achiuwa + 3.91304347826087 x_N._Jovic
-   + 3.04 x_J._Walker + 3.377049180327869 x_K._Anderson + 4.46 x_C._Boucher
-   + 3.666666666666667 x_T._Martin + 2.769230769230769 x_N._Batum
-   + 4.220338983050848 x_D._Wade + 3.702702702702703 x_K._Middleton
-   + 4.681818181818182 x_K._Olynyk + 4.206896551724138 x_A._Bona
-   + 4.851851851851852 x_B._Miller + 2.014925373134328 x_D._Banton
-   + 4.20754716981132 x_C._Martin + 2.691358024691358 x_R._Holland_II
-   + 4.952380952380953 x_K._Matkovic + 3.363636363636364 x_J._Edwards
-   + 3.081967213114754 x_S._Mamukelashvili + 2.677966101694915 x_J._Battle
-   + 3.655737704918033 x_O._Ighodaro + 2.84 x_S._Fontecchio
-   + 3.933333333333333 x_C._Martin + 3.720930232558139 x_T._Watford
-   + 2.363636363636364 x_I._Okoro + 4.666666666666667 x_T._Salaun
-   + 2.941176470588236 x_C._Whitmore + 2.113924050632912 x_J._Phillips
-   + 3.91304347826087 x_N._Clowney + 3.5 x_J._Walker
-   + 5.709677419354839 x_R._Holmes + 4.933333333333334 x_M._Wagner
-   + 1.657534246575342 x_D._Terry + 3.053571428571428 x_G._Santos
-   + 5.555555555555555 x_B._Ingram + 2.63768115942029 x_K._Murray
-   + 2.930232558139535 x_K._Martin + 3.714285714285714 x_T._Vukcevic
-   + 4.212121212121212 x_M._Gueye + 2.733333333333333 x_P._Reed
-   + 5.055555555555555 x_J._Vanderbilt + 2.134615384615385 x_L._Waters_III
-   + 4.291666666666667 x_L._Nance_Jr. + 2.9 x_K._Edwards
-   + 4.285714285714286 x_T._Evbuomwan + 3.9 x_H._Jones + 2.25 x_J._Tate
-   + 1.578947368421053 x_Z._Nnaji + 2.403846153846154 x_O._Prosper
-   + 2.26 x_C._Williams + 2.222222222222222 x_D._Jones
-   + 5.125 x_G._Williams + 2.428571428571428 x_D._Barlow
-   + 2.351351351351351 x_J._Cain + 3.243243243243243 x_T._Gibson
-   + 2.545454545454545 x_D._Roddy + 2.216216216216216 x_O._Dieng
-   + 2.794117647058823 x_M._Kleber + 1.8125 x_J._Green
-   + 3.466666666666667 x_M._Thybulle + 1.106382978723404 x_M._Branham
-   + 3.172413793103448 x_G._Jackson + 4.086956521739131 x_K._Love
-   + 2.709677419354839 x_M._Bagley_III + 2.807692307692307 x_T._Craig
-   + 4.142857142857143 x_K._Brooks_Jr. + 1.529411764705882 x_H._Tyson
-   + 1.021739130434783 x_J._Minott + 1.425 x_I._Jones + 1.32 x_A._Gill
-   + 7.222222222222222 x_D._Timme + 1.964285714285714 x_M._Lewis
-   + 0.5238095238095238 x_D._McDermott + 1.615384615384615 x_K._Brown
-   + 5.222222222222222 x_C._Okeke + 3.133333333333333 x_A._Reese
-   + 1.45 x_D._Whitehead + 2.45 x_J._Thor + 3.125 x_D._Saric
-   + 1.56 x_D._Peterson + 2.235294117647059 x_L._Stevens
-   + 1.228571428571429 x_M._Beauchamp + 1.08695652173913 x_T._Smith
-   + 1.75 x_K._Johnson + 5.6 x_I._Jackson
-   + 1.041666666666667 x_P._Baldwin_Jr. + 1.428571428571429 x_E._Freeman
-   + 1.615384615384615 x_P._Nance + 1.533333333333333 x_M._Morris
-   + 1.238095238095238 x_A._Ducas + 1.285714285714286 x_K._Knox_II
-   + 1.303030303030303 x_X._Tillman + 1.666666666666667 x_C._Livingston
-   + 2.461538461538462 x_V._Cancar + 4.2 x_N._Tomlin + x_P._Dadiet
-   + 0.8823529411764706 x_J._Toppin + 2.222222222222222 x_J._Crowder
-   + 0.85 x_S._Jones + 0.7 x_E._Bates + 0.6111111111111112 x_J._Ingles
-   + 5 x_T._Hendricks + 1.833333333333333 x_J._Rowe + 0.875 x_B._Klintman
-   + 0.5263157894736842 x_J._Minaya + 0.75 x_E._Liddell
-   + 0.8461538461538461 x_L._Miller + 1.666666666666667 x_L._Travers
-   + 1.333333333333333 x_E._Miller + 1.8 x_H._Ingram
-   + 0.4666666666666667 x_I._Crawford + 2.666666666666667 x_P._Tucker
-   + 3 x_M._Norris + 1.142857142857143 x_U._Chomche
-   + 0.5555555555555556 x_J._McVeigh + 0.3333333333333333 x_A._Watson
-   + 0.5 x_J._Johnson + 0.8 x_T._Flowers + 2 x_R._Minix
-   + 0.6666666666666666 x_B._Key >= 14.90323659832284
- const_AvgRboundsC: 12.74285714285714 x_N._Jokic + 13.9 x_D._Sabonis
-   + 12.77777777777778 x_K._Towns + 12.625 x_I._Zubac
-   + 10.35526315789474 x_A._Sengun + 9.615384615384615 x_B._Adebayo
-   + 9.931506849315069 x_N._Vucevic + 9.74390243902439 x_J._Allen
-   + 10.34615384615385 x_J._Duren + 10.90277777777778 x_R._Gobert
-   + 11.6078431372549 x_A._Davis + 8.918918918918919 x_O._Okongwu
-   + 6.569444444444445 x_M._Turner + 12.17241379310345 x_W._Kessler
-   + 5.025 x_B._Lopez + 10.68421052631579 x_I._Hartenstein
-   + 5.975 x_N._Reid + 9.614035087719298 x_J._Poeltl
-   + 7.728395061728395 x_J._Valanciunas + 7.357142857142857 x_N._Claxton
-   + 8.219178082191782 x_Y._Missi + 8.318181818181818 x_Z._Edey
-   + 6.585714285714285 x_G._Bitadze + 10.15909090909091 x_M._Williams
-   + 6.807017543859649 x_D._Gafford + 6.477611940298507 x_A._Sarr
-   + 7.25 x_W._Carter_Jr. + 7.40625 x_K._Ware
-   + 7.850746268656716 x_D._Clingan + 6.111111111111111 x_K._Filipowski
-   + 5.260273972602739 x_L._Kornet + 6.15 x_A._Horford + 10.15 x_D._Ayton
-   + 8.527272727272727 x_C._Capela + 8.157894736842104 x_N._Richards
-   + 6.175675675675675 x_M._Plumlee + 6.092105263157895 x_K._Looney
-   + 7.803921568627451 x_J._Nurkic + 5.515625 x_J._Smith
-   + 8.03125 x_C._Holmgren + 4.803571428571429 x_J._Hayes
-   + 7.444444444444445 x_D._Lively_II + 6.62 x_D._Sharpe
-   + 4.772727272727272 x_J._Robinson-Earl + 3.803030303030303 x_T._Bryant
-   + 3.806451612903226 x_N._Queta + 2.046875 x_J._Huff
-   + 5.736842105263158 x_S._Adams + 8.157894736842104 x_J._Embiid
-   + 7.775 x_A._Drummond + 5.071428571428571 x_D._Jordan
-   + 3.766666666666667 x_D._Eubanks + 3.523809523809524 x_Q._Post
-   + 3.205128205128205 x_K._Jones + 5.642857142857143 x_B._Biyombo
-   + 2.888888888888889 x_B._Bol + 3.261904761904762 x_J._Landale
-   + 3.69811320754717 x_J._Sims + 4.222222222222222 x_C._Bassey
-   + 2.145454545454546 x_D._Powell + 4.315789473684211 x_M._Potter
-   + 5.9 x_R._Williams + 2 x_D._Reath + 5.823529411764706 x_M._Robinson
-   + 8.714285714285714 x_O._Tshiebwe + 4.769230769230769 x_C._Castleton
-   + 2.111111111111111 x_A._Len + 2.45945945945946 x_C._Koloko
-   + 1.6875 x_B._Carlson + 3.325 x_T._Thompson
-   + 2.763157894736842 x_T._Jemison + 1.421052631578947 x_L._Garza
-   + 3.153846153846154 x_T._Bradley + 2.04 x_A._Hukporti
-   + 1.157894736842105 x_P._Hall + 5.25 x_N._Dante + 8 x_T._Smith
-   >= 7.451618299161418
- const_AvgBlocks: 0.6428571428571429 x_N._Jokic + 0.4 x_D._Sabonis
-   + 0.6944444444444444 x_K._Towns + 1.1375 x_I._Zubac
-   + 0.8157894736842105 x_A._Sengun + 0.6794871794871795 x_B._Adebayo
-   + 0.726027397260274 x_N._Vucevic + 0.8902439024390244 x_J._Allen
-   + 1.153846153846154 x_J._Duren + 1.444444444444444 x_R._Gobert
-   + 2.176470588235294 x_A._Davis + 0.918918918918919 x_O._Okongwu
-   + 2.013888888888889 x_M._Turner + 2.396551724137931 x_W._Kessler
-   + 1.85 x_B._Lopez + 1.087719298245614 x_I._Hartenstein + 0.9 x_N._Reid
-   + 1.245614035087719 x_J._Poeltl + 0.5679012345679012 x_J._Valanciunas
-   + 1.428571428571429 x_N._Claxton + 1.342465753424658 x_Y._Missi
-   + 1.303030303030303 x_Z._Edey + 1.4 x_G._Bitadze
-   + 1.227272727272727 x_M._Williams + 1.771929824561403 x_D._Gafford
-   + 1.492537313432836 x_A._Sarr + 0.6029411764705882 x_W._Carter_Jr.
-   + 1.109375 x_K._Ware + 1.641791044776119 x_D._Clingan
-   + 0.3055555555555556 x_K._Filipowski + 0.9726027397260274 x_L._Kornet
-   + 0.85 x_A._Horford + 0.975 x_D._Ayton + 0.9454545454545454 x_C._Capela
-   + 0.9649122807017544 x_N._Richards + 0.6351351351351351 x_M._Plumlee
-   + 0.4868421052631579 x_K._Looney + 0.6666666666666666 x_J._Nurkic
-   + 0.671875 x_J._Smith + 2.21875 x_C._Holmgren
-   + 0.9107142857142857 x_J._Hayes + 1.583333333333333 x_D._Lively_II
-   + 0.84 x_D._Sharpe + 0.1060606060606061 x_J._Robinson-Earl
-   + 0.6212121212121212 x_T._Bryant + 0.6774193548387096 x_N._Queta
-   + 0.875 x_J._Huff + 0.4912280701754386 x_S._Adams
-   + 0.9473684210526315 x_J._Embiid + 0.45 x_A._Drummond
-   + 0.4821428571428572 x_D._Jordan + 0.65 x_D._Eubanks
-   + 0.4285714285714285 x_Q._Post + 0.5897435897435898 x_K._Jones
-   + 0.8214285714285714 x_B._Biyombo + 0.6944444444444444 x_B._Bol
-   + 0.2380952380952381 x_J._Landale + 0.3584905660377358 x_J._Sims
-   + 0.8333333333333334 x_C._Bassey + 0.3818181818181818 x_D._Powell
-   + 0.3684210526315789 x_M._Potter + 1.65 x_R._Williams
-   + 0.3043478260869565 x_D._Reath + 1.058823529411765 x_M._Robinson
-   + 0.0714285714285714 x_O._Tshiebwe + 0.3846153846153846 x_C._Castleton
-   + 0.4666666666666667 x_A._Len + 0.4594594594594595 x_C._Koloko
-   + 0.65625 x_B._Carlson + 0.275 x_T._Thompson
-   + 0.3947368421052632 x_T._Jemison + 0.0789473684210526 x_L._Garza
-   + 0.6923076923076923 x_T._Bradley + 0.56 x_A._Hukporti
-   + 0.2105263157894737 x_P._Hall + 1.25 x_N._Dante >= 0.8288423552441345
- const_AvgBlocksSubiti: 0.9 x_N._Jokic + 0.8428571428571429 x_D._Sabonis
-   + 1.166666666666667 x_K._Towns + 0.675 x_I._Zubac
-   + 1.078947368421053 x_A._Sengun + 0.5897435897435898 x_B._Adebayo
-   + 0.4931506849315068 x_N._Vucevic + 0.573170731707317 x_J._Allen
-   + 0.7051282051282052 x_J._Duren + 0.7222222222222222 x_R._Gobert
-   + 0.7647058823529411 x_A._Davis + 0.6756756756756757 x_O._Okongwu
-   + 0.5 x_M._Turner + 0.6896551724137931 x_W._Kessler + 0.25 x_B._Lopez
-   + 0.543859649122807 x_I._Hartenstein + 0.5 x_N._Reid
-   + 0.6140350877192983 x_J._Poeltl + 0.4814814814814815 x_J._Valanciunas
-   + 0.4285714285714285 x_N._Claxton + 0.8904109589041096 x_Y._Missi
-   + 0.4696969696969697 x_Z._Edey + 0.3142857142857143 x_G._Bitadze
-   + 0.5681818181818182 x_M._Williams + 0.5087719298245614 x_D._Gafford
-   + 0.582089552238806 x_A._Sarr + 0.4558823529411765 x_W._Carter_Jr.
-   + 0.265625 x_K._Ware + 0.3134328358208955 x_D._Clingan
-   + 0.5555555555555556 x_K._Filipowski + 0.2876712328767123 x_L._Kornet
-   + 0.1333333333333333 x_A._Horford + 0.375 x_D._Ayton
-   + 0.6545454545454545 x_C._Capela + 0.8771929824561403 x_N._Richards
-   + 0.3513513513513514 x_M._Plumlee + 0.2105263157894737 x_K._Looney
-   + 0.3137254901960784 x_J._Nurkic + 0.203125 x_J._Smith
-   + 1.09375 x_C._Holmgren + 0.1964285714285714 x_J._Hayes
-   + 0.6388888888888888 x_D._Lively_II + 0.54 x_D._Sharpe
-   + 0.2727272727272727 x_J._Robinson-Earl + 0.2575757575757576 x_T._Bryant
-   + 0.2096774193548387 x_N._Queta + 0.125 x_J._Huff
-   + 0.1754385964912281 x_S._Adams + 0.7368421052631579 x_J._Embiid
-   + 0.725 x_A._Drummond + 0.25 x_D._Jordan
-   + 0.4333333333333333 x_D._Eubanks + 0.3809523809523809 x_Q._Post
-   + 0.0512820512820513 x_K._Jones + 0.3928571428571428 x_B._Biyombo
-   + 0.0277777777777778 x_B._Bol + 0.3809523809523809 x_J._Landale
-   + 0.169811320754717 x_J._Sims + 0.1944444444444444 x_C._Bassey
-   + 0.1090909090909091 x_D._Powell + 0.131578947368421 x_M._Potter
-   + 0.3 x_R._Williams + 0.1956521739130435 x_D._Reath
-   + 0.0588235294117647 x_M._Robinson + 0.7142857142857143 x_O._Tshiebwe
-   + 0.4615384615384616 x_C._Castleton + 0.1555555555555556 x_A._Len
-   + 0.2162162162162162 x_C._Koloko + 0.09375 x_B._Carlson
-   + 0.175 x_T._Thompson + 0.2368421052631579 x_T._Jemison
-   + 0.1578947368421053 x_L._Garza + 0.3076923076923077 x_T._Bradley
-   + 0.08 x_A._Hukporti + 0.1578947368421053 x_P._Hall + 2 x_T._Smith
-   <= 0.8102062487303853
- const_AvgFG_Perc: 57 x_N._Jokic + 58 x_D._Sabonis + 52 x_K._Towns
-   + 62 x_I._Zubac + 49 x_A._Sengun + 48 x_B._Adebayo + 53 x_N._Vucevic
-   + 70 x_J._Allen + 69 x_J._Duren + 67 x_R._Gobert + 51 x_A._Davis
-   + 56 x_O._Okongwu + 48 x_M._Turner + 66 x_W._Kessler + 50 x_B._Lopez
-   + 58 x_I._Hartenstein + 46 x_N._Reid + 62 x_J._Poeltl
-   + 54 x_J._Valanciunas + 56 x_N._Claxton + 54 x_Y._Missi + 58 x_Z._Edey
-   + 61 x_G._Bitadze + 60 x_M._Williams + 70 x_D._Gafford + 39 x_A._Sarr
-   + 46 x_W._Carter_Jr. + 55 x_K._Ware + 53 x_D._Clingan
-   + 50 x_K._Filipowski + 67 x_L._Kornet + 42 x_A._Horford + 56 x_D._Ayton
-   + 55 x_C._Capela + 59 x_N._Richards + 61 x_M._Plumlee + 51 x_K._Looney
-   + 47 x_J._Nurkic + 46 x_J._Smith + 49 x_C._Holmgren + 72 x_J._Hayes
-   + 70 x_D._Lively_II + 52 x_D._Sharpe + 45 x_J._Robinson-Earl
-   + 50 x_T._Bryant + 65 x_N._Queta + 51 x_J._Huff + 54 x_S._Adams
-   + 44 x_J._Embiid + 50 x_A._Drummond + 64 x_D._Jordan + 59 x_D._Eubanks
-   + 44 x_Q._Post + 79 x_K._Jones + 58 x_B._Biyombo + 52 x_B._Bol
-   + 53 x_J._Landale + 64 x_J._Sims + 58 x_C._Bassey + 68 x_D._Powell
-   + 42 x_M._Potter + 64 x_R._Williams + 42 x_D._Reath + 66 x_M._Robinson
-   + 60 x_O._Tshiebwe + 46 x_C._Castleton + 50 x_A._Len + 60 x_C._Koloko
-   + 44 x_B._Carlson + 43 x_T._Thompson + 55 x_T._Jemison + 50 x_L._Garza
-   + 64 x_T._Bradley + 67 x_A._Hukporti + 58 x_P._Hall + 76 x_N._Dante
-   + 66 x_T._Smith >= 89.68560606060606
+ const_Budget: 20.5 x_2 + 17.2 x_7 + 17.8 x_8 + 19 x_10 + 16.8 x_11
+   + 16.2 x_12 + 14.9 x_13 + 16.2 x_18 + 14.4 x_20 + 16 x_21 + 17.5 x_24
+   + 12 x_25 + 13.7 x_26 + 14.1 x_28 + 14.4 x_29 + 20.3 x_30 + 13.4 x_31
+   + 15.2 x_35 + 12.9 x_37 + 14.3 x_38 + 14 x_41 + 12.7 x_44 + 14.8 x_45
+   + 11.1 x_47 + 12.5 x_48 + 11.9 x_49 + 12.9 x_50 + 13 x_54 + 10.2 x_56
+   + 13.5 x_67 + 8.2 x_68 + 10.9 x_71 + 10.4 x_73 + 8.5 x_75 + 13 x_77
+   + 10.1 x_78 + 13 x_82 + 8.2 x_83 + 13.6 x_84 + 10.9 x_85 + 11.6 x_87
+   + 9.8 x_92 + 8.7 x_93 + 10.3 x_95 + 10.2 x_96 + 7.9 x_97 + 10.9 x_98
+   + 8.2 x_99 + 11.4 x_100 + 7.6 x_101 + 10.6 x_104 + 8.8 x_107 + 7.8 x_115
+   + 8.8 x_116 + 10.1 x_117 + 7.2 x_118 + 7.6 x_119 + 9.3 x_120 + 8.1 x_125
+   + 8.4 x_128 + 7.7 x_129 + 7 x_134 + 9.9 x_135 + 8.3 x_137 + 8.8 x_138
+   + 7.3 x_141 + 8.5 x_142 + 8.7 x_146 + 7.7 x_148 + 7.8 x_150 + 7.2 x_151
+   + 7.7 x_158 + 6.6 x_159 + 7.5 x_161 + 7.4 x_162 + 6.7 x_163 + 8.9 x_165
+   + 7.2 x_169 + 7.4 x_171 + 6.9 x_172 + 6.6 x_176 + 7.4 x_177 + 7.9 x_179
+   + 6.2 x_180 + 7.6 x_183 + 6.7 x_186 + 5.7 x_187 + 6.3 x_188 + 6.7 x_191
+   + 6.7 x_192 + 7.2 x_194 + 6.2 x_196 + 8 x_205 + 6.1 x_206 + 4.8 x_207
+   + 10.1 x_208 + 5.8 x_210 + 5.2 x_212 + 6.1 x_213 + 4.1 x_214 + 4.8 x_215
+   + 4.9 x_222 + 6.2 x_223 + 4.6 x_226 + 9.1 x_227 + 6.9 x_233 + 5.2 x_234
+   + 5.4 x_235 + 6.9 x_236 + 5.8 x_238 + 5.2 x_241 + 6.8 x_242 + 6.5 x_243
+   + 4.9 x_246 + 5.6 x_251 + 5.4 x_255 + 7.8 x_257 + 5.9 x_258 + 4.1 x_262
+   + 4.9 x_267 + 5.9 x_268 + 6 x_271 + 5.7 x_274 + 4.8 x_279 + 4.4 x_280
+   + 4.2 x_281 + 7.3 x_282 + 5.5 x_289 + 4.1 x_290 + 4 x_291 + 6.1 x_292
+   + 4.1 x_299 + 4.6 x_302 + 4.1 x_303 + 4 x_305 + 6.2 x_306 + 4 x_312
+   + 4 x_313 + 5.3 x_314 + 4.2 x_316 + 4 x_317 + 4.3 x_319 + 4 x_320
+   + 4.8 x_323 + 4 x_325 + 6 x_326 + 4 x_327 + 4.9 x_329 + 4.3 x_330
+   + 5.3 x_335 + 5.2 x_337 + 5.4 x_338 + 4 x_339 + 4 x_341 + 4 x_342
+   + 5.9 x_343 + 4 x_346 + 4 x_350 + 4.4 x_351 + 4.1 x_354 + 4.5 x_356
+   + 5.3 x_357 + 4 x_358 + 6 x_360 + 4.6 x_361 + 4.3 x_363 + 4 x_364
+   + 4 x_367 + 4 x_368 + 6.3 x_369 + 5.6 x_370 + 4.5 x_372 + 5.2 x_374
+   + 4 x_376 + 4 x_377 + 4 x_379 + 4 x_380 + 4 x_383 + 4 x_385 + 4 x_387
+   + 5.1 x_388 + 4 x_392 + 4 x_395 + 4 x_396 + 4 x_404 + 4.2 x_408
+   + 4 x_412 + 4 x_413 + 4.2 x_415 + 4 x_416 + 4.5 x_417 + 4 x_419
+   + 4 x_420 + 4.2 x_421 + 4 x_423 + 4 x_424 + 5.4 x_425 + 4 x_426
+   + 4.2 x_428 + 4 x_429 + 4 x_430 + 4 x_433 + 4 x_436 + 4 x_440 + 4 x_441
+   + 4.1 x_445 + 4 x_452 + 4.5 x_453 + 4 x_454 + 4 x_458 + 4 x_462
+   + 4 x_465 + 4 x_467 + 4 x_469 + 4 x_473 + 4 x_480 + 4 x_481 + 4 x_483
+   + 4 x_491 + 4 x_492 + 4 x_494 + 4 x_496 + 4 x_498 + 4 x_500 + 4 x_507
+   + 4 x_508 + 4 x_513 + 4 x_517 + 4 x_518 + 4 x_519 + 4 x_520 + 4 x_521
+   + 4 x_527 + 23.3 x_1 + 17.9 x_6 + 17.9 x_9 + 16.5 x_19 + 12.9 x_23
+   + 16.1 x_33 + 12.4 x_34 + 13.6 x_36 + 13.4 x_39 + 13.1 x_42 + 11.7 x_43
+   + 19 x_46 + 12.7 x_51 + 11.9 x_52 + 14.7 x_53 + 12.8 x_57 + 13.1 x_60
+   + 12.8 x_61 + 11.8 x_65 + 10.2 x_66 + 14 x_70 + 9.7 x_72 + 10.6 x_74
+   + 9.5 x_76 + 10.7 x_79 + 10.6 x_80 + 11.2 x_88 + 8.6 x_89 + 9.1 x_90
+   + 11.1 x_91 + 15.2 x_94 + 9.6 x_106 + 10.2 x_108 + 10 x_111 + 8.6 x_112
+   + 8.6 x_113 + 9 x_114 + 9.2 x_122 + 7.1 x_123 + 12.5 x_126 + 7.5 x_127
+   + 8.4 x_130 + 12.4 x_131 + 6.2 x_136 + 8.4 x_139 + 7.3 x_144 + 8.2 x_145
+   + 9.4 x_147 + 10.5 x_152 + 6.8 x_153 + 8.7 x_155 + 8.3 x_156 + 9 x_157
+   + 9.7 x_160 + 6.5 x_164 + 13.1 x_167 + 9.3 x_168 + 6.5 x_170 + 8 x_173
+   + 6.3 x_174 + 7.8 x_175 + 5.9 x_181 + 6.6 x_184 + 14.8 x_185
+   + 10.2 x_189 + 8 x_190 + 5.5 x_193 + 6 x_195 + 6.9 x_197 + 6.4 x_199
+   + 6.5 x_200 + 6.8 x_201 + 5.6 x_202 + 5.3 x_204 + 4.3 x_209 + 4 x_216
+   + 7 x_217 + 6 x_221 + 5.7 x_224 + 5.3 x_225 + 5.1 x_228 + 4.3 x_229
+   + 6.7 x_230 + 4 x_231 + 4.6 x_232 + 8.4 x_237 + 7.4 x_239 + 7 x_240
+   + 6.1 x_245 + 5.9 x_247 + 5.2 x_248 + 4.6 x_250 + 5 x_252 + 6.1 x_253
+   + 5 x_254 + 4.4 x_256 + 7.3 x_259 + 7.1 x_260 + 7.2 x_261 + 7.7 x_263
+   + 4.8 x_264 + 4.2 x_265 + 4.9 x_266 + 7.4 x_275 + 6.5 x_278 + 5.4 x_283
+   + 5.1 x_284 + 5.1 x_285 + 4 x_286 + 4.5 x_288 + 5.2 x_293 + 4.6 x_294
+   + 5 x_296 + 4.2 x_297 + 4 x_298 + 4.4 x_300 + 4.2 x_304 + 6.8 x_307
+   + 4 x_308 + 4.6 x_309 + 4 x_310 + 7.9 x_311 + 4.5 x_315 + 4 x_318
+   + 5.3 x_321 + 5.3 x_322 + 4 x_328 + 4.5 x_331 + 4 x_333 + 4.6 x_334
+   + 4.6 x_336 + 5 x_349 + 4.2 x_352 + 4.1 x_353 + 4 x_359 + 4 x_366
+   + 4 x_373 + 4 x_375 + 4 x_378 + 4.8 x_382 + 4.4 x_384 + 4 x_390
+   + 4 x_391 + 4 x_393 + 4 x_397 + 4.5 x_398 + 4.8 x_399 + 4.1 x_400
+   + 4 x_401 + 4 x_403 + 4 x_405 + 4.1 x_406 + 4 x_414 + 4 x_418 + 4 x_422
+   + 4 x_427 + 6.8 x_431 + 4.4 x_434 + 4.1 x_435 + 4 x_437 + 4.1 x_439
+   + 4 x_442 + 4 x_444 + 4 x_447 + 4 x_449 + 4 x_450 + 4 x_451 + 4 x_455
+   + 4 x_456 + 4 x_457 + 4 x_459 + 4 x_460 + 4 x_461 + 4 x_463 + 4 x_464
+   + 4 x_466 + 4 x_468 + 4 x_474 + 4 x_478 + 4 x_482 + 4 x_484 + 4 x_485
+   + 4 x_487 + 4 x_488 + 4 x_489 + 4 x_490 + 4 x_493 + 4 x_495 + 4 x_497
+   + 4 x_499 + 4 x_501 + 4 x_504 + 4 x_506 + 4 x_511 + 4 x_512 + 4 x_514
+   + 4 x_515 + 4 x_526 + 27.9 x_0 + 18.5 x_3 + 18.6 x_4 + 18.4 x_5
+   + 15.1 x_14 + 14.7 x_15 + 14.8 x_16 + 14.7 x_17 + 16.4 x_22 + 14.9 x_27
+   + 17.5 x_32 + 13.7 x_40 + 12 x_55 + 13.2 x_58 + 11 x_59 + 12.8 x_62
+   + 10.1 x_63 + 11.1 x_64 + 8.4 x_69 + 10.4 x_81 + 9.4 x_86 + 9.7 x_102
+   + 6.8 x_103 + 14.3 x_105 + 9.3 x_109 + 8.7 x_110 + 9.3 x_121
+   + 10.6 x_124 + 8.8 x_132 + 9.6 x_133 + 8.3 x_140 + 9.3 x_143
+   + 11.4 x_149 + 7.4 x_154 + 8.4 x_166 + 6.7 x_178 + 5.5 x_182 + 8.4 x_198
+   + 5.9 x_203 + 10.9 x_211 + 6.3 x_218 + 8.2 x_219 + 7.4 x_220 + 5.2 x_244
+   + 4.9 x_249 + 4.3 x_269 + 4 x_272 + 5.9 x_273 + 14.5 x_276 + 5.4 x_277
+   + 4.2 x_287 + 4.1 x_295 + 5.8 x_301 + 6 x_324 + 5.9 x_332 + 4.4 x_340
+   + 4.5 x_344 + 4 x_345 + 4 x_347 + 4 x_348 + 4 x_355 + 4.2 x_365
+   + 4.9 x_371 + 5.6 x_381 + 4.5 x_386 + 4.5 x_389 + 4 x_394 + 4 x_402
+   + 4.1 x_409 + 4 x_411 + 4 x_432 + 4 x_448 + 4 x_471 <= 95
+ const_PG: x_2 + x_7 + x_8 + x_10 + x_11 + x_12 + x_13 + x_18 + x_20 + x_21
+   + x_24 + x_25 + x_26 + x_28 + x_29 + x_30 + x_31 + x_35 + x_37 + x_38
+   + x_41 + x_44 + x_45 + x_47 + x_48 + x_49 + x_50 + x_54 + x_56 + x_67
+   + x_68 + x_71 + x_73 + x_75 + x_77 + x_78 + x_82 + x_83 + x_84 + x_85
+   + x_87 + x_92 + x_93 + x_95 + x_96 + x_97 + x_98 + x_99 + x_100 + x_101
+   + x_104 + x_107 + x_115 + x_116 + x_117 + x_118 + x_119 + x_120 + x_125
+   + x_128 + x_129 + x_134 + x_135 + x_137 + x_138 + x_141 + x_142 + x_146
+   + x_148 + x_150 + x_151 + x_158 + x_159 + x_161 + x_162 + x_163 + x_165
+   + x_169 + x_171 + x_172 + x_176 + x_177 + x_179 + x_180 + x_183 + x_186
+   + x_187 + x_188 + x_191 + x_192 + x_194 + x_196 + x_205 + x_206 + x_207
+   + x_208 + x_210 + x_212 + x_213 + x_214 + x_215 + x_222 + x_223 + x_226
+   + x_227 + x_233 + x_234 + x_235 + x_236 + x_238 + x_241 + x_242 + x_243
+   + x_246 + x_251 + x_255 + x_257 + x_258 + x_262 + x_267 + x_268 + x_270
+   + x_271 + x_274 + x_279 + x_280 + x_281 + x_282 + x_289 + x_290 + x_291
+   + x_292 + x_299 + x_302 + x_303 + x_305 + x_306 + x_312 + x_313 + x_314
+   + x_316 + x_317 + x_319 + x_320 + x_323 + x_325 + x_326 + x_327 + x_329
+   + x_330 + x_335 + x_337 + x_338 + x_339 + x_341 + x_342 + x_343 + x_346
+   + x_350 + x_351 + x_354 + x_356 + x_357 + x_358 + x_360 + x_361 + x_362
+   + x_363 + x_364 + x_367 + x_368 + x_369 + x_370 + x_372 + x_374 + x_376
+   + x_377 + x_379 + x_380 + x_383 + x_385 + x_387 + x_388 + x_392 + x_395
+   + x_396 + x_404 + x_408 + x_412 + x_413 + x_415 + x_416 + x_417 + x_419
+   + x_420 + x_421 + x_423 + x_424 + x_425 + x_426 + x_428 + x_429 + x_430
+   + x_433 + x_436 + x_440 + x_441 + x_445 + x_446 + x_452 + x_453 + x_454
+   + x_458 + x_462 + x_465 + x_467 + x_469 + x_470 + x_472 + x_473 + x_476
+   + x_477 + x_480 + x_481 + x_483 + x_491 + x_492 + x_494 + x_496 + x_498
+   + x_500 + x_502 + x_507 + x_508 + x_513 + x_517 + x_518 + x_519 + x_520
+   + x_521 + x_523 + x_525 + x_527 = 4
+ const_SF: x_1 + x_6 + x_9 + x_19 + x_23 + x_33 + x_34 + x_36 + x_39 + x_42
+   + x_43 + x_46 + x_51 + x_52 + x_53 + x_57 + x_60 + x_61 + x_65 + x_66
+   + x_70 + x_72 + x_74 + x_76 + x_79 + x_80 + x_88 + x_89 + x_90 + x_91
+   + x_94 + x_106 + x_108 + x_111 + x_112 + x_113 + x_114 + x_122 + x_123
+   + x_126 + x_127 + x_130 + x_131 + x_136 + x_139 + x_144 + x_145 + x_147
+   + x_152 + x_153 + x_155 + x_156 + x_157 + x_160 + x_164 + x_167 + x_168
+   + x_170 + x_173 + x_174 + x_175 + x_181 + x_184 + x_185 + x_189 + x_190
+   + x_193 + x_195 + x_197 + x_199 + x_200 + x_201 + x_202 + x_204 + x_209
+   + x_216 + x_217 + x_221 + x_224 + x_225 + x_228 + x_229 + x_230 + x_231
+   + x_232 + x_237 + x_239 + x_240 + x_245 + x_247 + x_248 + x_250 + x_252
+   + x_253 + x_254 + x_256 + x_259 + x_260 + x_261 + x_263 + x_264 + x_265
+   + x_266 + x_275 + x_278 + x_283 + x_284 + x_285 + x_286 + x_288 + x_293
+   + x_294 + x_296 + x_297 + x_298 + x_300 + x_304 + x_307 + x_308 + x_309
+   + x_310 + x_311 + x_315 + x_318 + x_321 + x_322 + x_328 + x_331 + x_333
+   + x_334 + x_336 + x_349 + x_352 + x_353 + x_359 + x_366 + x_373 + x_375
+   + x_378 + x_382 + x_384 + x_390 + x_391 + x_393 + x_397 + x_398 + x_399
+   + x_400 + x_401 + x_403 + x_405 + x_406 + x_410 + x_414 + x_418 + x_422
+   + x_427 + x_431 + x_434 + x_435 + x_437 + x_438 + x_439 + x_442 + x_444
+   + x_447 + x_449 + x_450 + x_451 + x_455 + x_456 + x_457 + x_459 + x_460
+   + x_461 + x_463 + x_464 + x_466 + x_468 + x_474 + x_478 + x_479 + x_482
+   + x_484 + x_485 + x_486 + x_487 + x_488 + x_489 + x_490 + x_493 + x_495
+   + x_497 + x_499 + x_501 + x_503 + x_504 + x_505 + x_506 + x_510 + x_511
+   + x_512 + x_514 + x_515 + x_516 + x_524 + x_526 = 4
+ const_C: x_0 + x_3 + x_4 + x_5 + x_14 + x_15 + x_16 + x_17 + x_22 + x_27
+   + x_32 + x_40 + x_55 + x_58 + x_59 + x_62 + x_63 + x_64 + x_69 + x_81
+   + x_86 + x_102 + x_103 + x_105 + x_109 + x_110 + x_121 + x_124 + x_132
+   + x_133 + x_140 + x_143 + x_149 + x_154 + x_166 + x_178 + x_182 + x_198
+   + x_203 + x_211 + x_218 + x_219 + x_220 + x_244 + x_249 + x_269 + x_272
+   + x_273 + x_276 + x_277 + x_287 + x_295 + x_301 + x_324 + x_332 + x_340
+   + x_344 + x_345 + x_347 + x_348 + x_355 + x_365 + x_371 + x_381 + x_386
+   + x_389 + x_394 + x_402 + x_407 + x_409 + x_411 + x_432 + x_443 + x_448
+   + x_471 + x_475 + x_509 + x_522 = 2
+ const_NumOfplayers: x_2 + x_7 + x_8 + x_10 + x_11 + x_12 + x_13 + x_18
+   + x_20 + x_21 + x_24 + x_25 + x_26 + x_28 + x_29 + x_30 + x_31 + x_35
+   + x_37 + x_38 + x_41 + x_44 + x_45 + x_47 + x_48 + x_49 + x_50 + x_54
+   + x_56 + x_67 + x_68 + x_71 + x_73 + x_75 + x_77 + x_78 + x_82 + x_83
+   + x_84 + x_85 + x_87 + x_92 + x_93 + x_95 + x_96 + x_97 + x_98 + x_99
+   + x_100 + x_101 + x_104 + x_107 + x_115 + x_116 + x_117 + x_118 + x_119
+   + x_120 + x_125 + x_128 + x_129 + x_134 + x_135 + x_137 + x_138 + x_141
+   + x_142 + x_146 + x_148 + x_150 + x_151 + x_158 + x_159 + x_161 + x_162
+   + x_163 + x_165 + x_169 + x_171 + x_172 + x_176 + x_177 + x_179 + x_180
+   + x_183 + x_186 + x_187 + x_188 + x_191 + x_192 + x_194 + x_196 + x_205
+   + x_206 + x_207 + x_208 + x_210 + x_212 + x_213 + x_214 + x_215 + x_222
+   + x_223 + x_226 + x_227 + x_233 + x_234 + x_235 + x_236 + x_238 + x_241
+   + x_242 + x_243 + x_246 + x_251 + x_255 + x_257 + x_258 + x_262 + x_267
+   + x_268 + x_270 + x_271 + x_274 + x_279 + x_280 + x_281 + x_282 + x_289
+   + x_290 + x_291 + x_292 + x_299 + x_302 + x_303 + x_305 + x_306 + x_312
+   + x_313 + x_314 + x_316 + x_317 + x_319 + x_320 + x_323 + x_325 + x_326
+   + x_327 + x_329 + x_330 + x_335 + x_337 + x_338 + x_339 + x_341 + x_342
+   + x_343 + x_346 + x_350 + x_351 + x_354 + x_356 + x_357 + x_358 + x_360
+   + x_361 + x_362 + x_363 + x_364 + x_367 + x_368 + x_369 + x_370 + x_372
+   + x_374 + x_376 + x_377 + x_379 + x_380 + x_383 + x_385 + x_387 + x_388
+   + x_392 + x_395 + x_396 + x_404 + x_408 + x_412 + x_413 + x_415 + x_416
+   + x_417 + x_419 + x_420 + x_421 + x_423 + x_424 + x_425 + x_426 + x_428
+   + x_429 + x_430 + x_433 + x_436 + x_440 + x_441 + x_445 + x_446 + x_452
+   + x_453 + x_454 + x_458 + x_462 + x_465 + x_467 + x_469 + x_470 + x_472
+   + x_473 + x_476 + x_477 + x_480 + x_481 + x_483 + x_491 + x_492 + x_494
+   + x_496 + x_498 + x_500 + x_502 + x_507 + x_508 + x_513 + x_517 + x_518
+   + x_519 + x_520 + x_521 + x_523 + x_525 + x_527 + x_1 + x_6 + x_9 + x_19
+   + x_23 + x_33 + x_34 + x_36 + x_39 + x_42 + x_43 + x_46 + x_51 + x_52
+   + x_53 + x_57 + x_60 + x_61 + x_65 + x_66 + x_70 + x_72 + x_74 + x_76
+   + x_79 + x_80 + x_88 + x_89 + x_90 + x_91 + x_94 + x_106 + x_108 + x_111
+   + x_112 + x_113 + x_114 + x_122 + x_123 + x_126 + x_127 + x_130 + x_131
+   + x_136 + x_139 + x_144 + x_145 + x_147 + x_152 + x_153 + x_155 + x_156
+   + x_157 + x_160 + x_164 + x_167 + x_168 + x_170 + x_173 + x_174 + x_175
+   + x_181 + x_184 + x_185 + x_189 + x_190 + x_193 + x_195 + x_197 + x_199
+   + x_200 + x_201 + x_202 + x_204 + x_209 + x_216 + x_217 + x_221 + x_224
+   + x_225 + x_228 + x_229 + x_230 + x_231 + x_232 + x_237 + x_239 + x_240
+   + x_245 + x_247 + x_248 + x_250 + x_252 + x_253 + x_254 + x_256 + x_259
+   + x_260 + x_261 + x_263 + x_264 + x_265 + x_266 + x_275 + x_278 + x_283
+   + x_284 + x_285 + x_286 + x_288 + x_293 + x_294 + x_296 + x_297 + x_298
+   + x_300 + x_304 + x_307 + x_308 + x_309 + x_310 + x_311 + x_315 + x_318
+   + x_321 + x_322 + x_328 + x_331 + x_333 + x_334 + x_336 + x_349 + x_352
+   + x_353 + x_359 + x_366 + x_373 + x_375 + x_378 + x_382 + x_384 + x_390
+   + x_391 + x_393 + x_397 + x_398 + x_399 + x_400 + x_401 + x_403 + x_405
+   + x_406 + x_410 + x_414 + x_418 + x_422 + x_427 + x_431 + x_434 + x_435
+   + x_437 + x_438 + x_439 + x_442 + x_444 + x_447 + x_449 + x_450 + x_451
+   + x_455 + x_456 + x_457 + x_459 + x_460 + x_461 + x_463 + x_464 + x_466
+   + x_468 + x_474 + x_478 + x_479 + x_482 + x_484 + x_485 + x_486 + x_487
+   + x_488 + x_489 + x_490 + x_493 + x_495 + x_497 + x_499 + x_501 + x_503
+   + x_504 + x_505 + x_506 + x_510 + x_511 + x_512 + x_514 + x_515 + x_516
+   + x_524 + x_526 + x_0 + x_3 + x_4 + x_5 + x_14 + x_15 + x_16 + x_17
+   + x_22 + x_27 + x_32 + x_40 + x_55 + x_58 + x_59 + x_62 + x_63 + x_64
+   + x_69 + x_81 + x_86 + x_102 + x_103 + x_105 + x_109 + x_110 + x_121
+   + x_124 + x_132 + x_133 + x_140 + x_143 + x_149 + x_154 + x_166 + x_178
+   + x_182 + x_198 + x_203 + x_211 + x_218 + x_219 + x_220 + x_244 + x_249
+   + x_269 + x_272 + x_273 + x_276 + x_277 + x_287 + x_295 + x_301 + x_324
+   + x_332 + x_340 + x_344 + x_345 + x_347 + x_348 + x_355 + x_365 + x_371
+   + x_381 + x_386 + x_389 + x_394 + x_402 + x_407 + x_409 + x_411 + x_432
+   + x_443 + x_448 + x_471 + x_475 + x_509 + x_522 = 10
+ const_AvgPointsPerGame: 32.68421052631579 x_2 + 22.60759493670886 x_7
+   + 24.22368421052632 x_8 + 18.61643835616438 x_10
+   + 26.14285714285714 x_11 + 27.55696202531646 x_12
+   + 13.64935064935065 x_13 + 25.64 x_18 + 23.8961038961039 x_20
+   + 24.5 x_21 + 14.48571428571429 x_24 + 20.58666666666667 x_25
+   + 23.95774647887324 x_26 + 26 x_28 + 20.2054794520548 x_29 + 28.16 x_30
+   + 16.42105263157895 x_31 + 24.94827586206896 x_35
+   + 22.94594594594595 x_37 + 19.23188405797102 x_38
+   + 21.43283582089552 x_41 + 14.11842105263158 x_44
+   + 14.05797101449275 x_45 + 8.817073170731707 x_47
+   + 15.41772151898734 x_48 + 21.01219512195122 x_49
+   + 23.53225806451613 x_50 + 20.39189189189189 x_54 + 14.3 x_56
+   + 26.32692307692308 x_67 + 13.25333333333333 x_68
+   + 20.45588235294118 x_71 + 19.25714285714286 x_73
+   + 10.23456790123457 x_75 + 24.68 x_77 + 17.18461538461538 x_78
+   + 25.19148936170213 x_82 + 16.29268292682927 x_83 + 23.18 x_84
+   + 14.56 x_85 + 18.54166666666667 x_87 + 14.06666666666667 x_92
+   + 9.860759493670885 x_93 + 14.69135802469136 x_95
+   + 21.48333333333333 x_96 + 13.06666666666667 x_97
+   + 16.7910447761194 x_98 + 9.841463414634147 x_99 + 16.265625 x_100
+   + 16.05555555555556 x_101 + 21.125 x_104 + 11.0379746835443 x_107
+   + 13.95833333333333 x_115 + 18.3968253968254 x_116
+   + 11.06451612903226 x_117 + 10.12676056338028 x_118
+   + 12.02631578947368 x_119 + 11.671875 x_120 + 12.54285714285714 x_125
+   + 8.19718309859155 x_128 + 9.113924050632912 x_129
+   + 11.13414634146342 x_134 + 17.0188679245283 x_135 + 8.325 x_137
+   + 10.04615384615385 x_138 + 9.426829268292684 x_141
+   + 11.66129032258065 x_142 + 8.661971830985916 x_146 + 12.125 x_148
+   + 7.945945945945946 x_150 + 8.352941176470589 x_151 + 10.28 x_158
+   + 12.68181818181818 x_159 + 12.62068965517241 x_161
+   + 12.32203389830508 x_162 + 6.378378378378378 x_163
+   + 10.06779661016949 x_165 + 10.21621621621622 x_169
+   + 10.62025316455696 x_171 + 8.74025974025974 x_172
+   + 9.602564102564102 x_176 + 8.774193548387096 x_177
+   + 11.13513513513514 x_179 + 9.435897435897436 x_180
+   + 9.869565217391305 x_183 + 8.861538461538462 x_186 + 10.421875 x_187
+   + 10.625 x_188 + 8.676470588235293 x_191 + 9.783783783783784 x_192
+   + 10.33928571428571 x_194 + 9.546875 x_196 + 9.42 x_205
+   + 12.30434782608696 x_206 + 8.102941176470589 x_207
+   + 17.48387096774194 x_208 + 9.402985074626866 x_210 + 10.609375 x_212
+   + 5.019607843137255 x_213 + 9.051282051282051 x_214
+   + 14.38888888888889 x_215 + 7.410958904109589 x_222
+   + 7.106666666666666 x_223 + 9.638888888888889 x_226
+   + 17.09090909090909 x_227 + 7.228070175438597 x_233
+   + 7.441176470588236 x_234 + 7.169014084507042 x_235
+   + 10.7962962962963 x_236 + 7.656716417910448 x_238
+   + 6.318840579710145 x_241 + 7.074074074074074 x_242
+   + 9.016666666666667 x_243 + 6.944444444444445 x_246 + 8.921875 x_251
+   + 16.2 x_255 + 7.173913043478261 x_257 + 6.451612903225806 x_258
+   + 9.046153846153846 x_262 + 7.287671232876712 x_267
+   + 16.21621621621622 x_268 + 5.102941176470588 x_270 + 9.85 x_271
+   + 17.6 x_274 + 6.388888888888889 x_279 + 5.26984126984127 x_280
+   + 10.78571428571429 x_281 + 23.96 x_282 + 8.634615384615385 x_289
+   + 6.529411764705882 x_290 + 10.66666666666667 x_291
+   + 6.196428571428571 x_292 + 7.26530612244898 x_299
+   + 7.571428571428571 x_302 + 6.578947368421052 x_303
+   + 3.432835820895523 x_305 + 8.292682926829269 x_306
+   + 7.51063829787234 x_312 + 5.526315789473684 x_313
+   + 6.702127659574468 x_314 + 8.701754385964913 x_316
+   + 6.310344827586207 x_317 + 5.483870967741935 x_319
+   + 8.970588235294118 x_320 + 12.70833333333333 x_323 + 7.075 x_325
+   + 6.951219512195122 x_326 + 15.30434782608696 x_327
+   + 4.081632653061225 x_329 + 8.789473684210526 x_330
+   + 7.833333333333333 x_335 + 4.563636363636363 x_337
+   + 5.878787878787879 x_338 + 6.82051282051282 x_339
+   + 2.434782608695652 x_341 + 5.26829268292683 x_342
+   + 8.333333333333334 x_343 + 3.942857142857143 x_346
+   + 6.555555555555555 x_350 + 4.120689655172414 x_351
+   + 3.741379310344827 x_354 + 4.403846153846154 x_356 + 3.54 x_357
+   + 6.560975609756097 x_358 + 3.541666666666667 x_360
+   + 6.931818181818182 x_361 + 5.72 x_362 + 5.551724137931035 x_363
+   + 5.177777777777778 x_364 + 3.686274509803921 x_367
+   + 5.419354838709677 x_368 + 12.35 x_369 + 9.076923076923077 x_370
+   + 3.125 x_372 + 4.025641025641026 x_374 + 4.469387755102041 x_376
+   + 6.62962962962963 x_377 + 3.553191489361702 x_379 + 4.075 x_380
+   + 4.166666666666667 x_383 + 4.45 x_385 + 5.714285714285714 x_387
+   + 7.586206896551724 x_388 + 3.020833333333333 x_392 + 8.7 x_395
+   + 4.903225806451613 x_396 + 3.833333333333333 x_404
+   + 3.645161290322581 x_408 + 4.25 x_412 + 14.07692307692308 x_413
+   + 2.583333333333333 x_415 + 2.06 x_416 + 2.534883720930233 x_417
+   + 4.166666666666667 x_419 + 4.3125 x_420 + 2.980769230769231 x_421
+   + 6.208333333333333 x_423 + 2.130434782608696 x_424
+   + 8.428571428571429 x_425 + 4.24 x_426 + 1.975609756097561 x_428
+   + 2.512820512820513 x_429 + 6.214285714285714 x_430
+   + 1.576923076923077 x_433 + 7.266666666666667 x_436
+   + 3.827586206896552 x_440 + 7.066666666666666 x_441
+   + 1.892857142857143 x_445 + 4.875 x_446 + 10.16666666666667 x_452
+   + 6.615384615384615 x_453 + 2.904761904761905 x_454 + 3.32 x_458
+   + 2.296296296296296 x_462 + 5.3 x_465 + 1.756756756756757 x_467
+   + 1.636363636363636 x_469 + 3.2 x_470 + 7.166666666666667 x_472
+   + 3.25 x_473 + 2.727272727272727 x_476 + 7.857142857142857 x_477
+   + 1.454545454545455 x_480 + 2.3 x_481 + 2.1875 x_483 + 2.0625 x_491
+   + 1.391304347826087 x_492 + 2 x_494 + 3.4 x_496 + 1.5 x_498
+   + 0.6818181818181818 x_500 + 1.833333333333333 x_502
+   + 2.666666666666667 x_507 + 1.5 x_508 + 4 x_513 + x_517 + 0.625 x_518
+   + x_520 + 1.125 x_523 + 30.38805970149254 x_1 + 26.83333333333333 x_6
+   + 24.42857142857143 x_9 + 18.53521126760563 x_19
+   + 20.23076923076923 x_23 + 26.56451612903226 x_33
+   + 18.15584415584416 x_34 + 21.59420289855073 x_36
+   + 22.20779220779221 x_39 + 19.26153846153846 x_42
+   + 22.17567567567568 x_43 + 24.26086956521739 x_46
+   + 18.66666666666667 x_51 + 17.60975609756098 x_52
+   + 16.93055555555556 x_53 + 18 x_57 + 20.3125 x_60 + 24.15 x_61
+   + 22.19047619047619 x_65 + 12.19512195121951 x_66
+   + 17.49090909090909 x_70 + 12.39473684210526 x_72
+   + 11.30769230769231 x_74 + 13.72602739726027 x_76
+   + 21.08620689655172 x_79 + 8.955882352941176 x_80
+   + 21.20754716981132 x_88 + 12.32926829268293 x_89
+   + 12.47692307692308 x_90 + 18.7719298245614 x_91
+   + 25.89130434782609 x_94 + 14.66666666666667 x_106
+   + 17.96666666666667 x_108 + 13.2463768115942 x_111 + 14.04 x_112
+   + 10.97142857142857 x_113 + 15.1 x_114 + 17 x_122
+   + 9.066666666666666 x_123 + 18.88888888888889 x_126
+   + 12.71428571428571 x_127 + 10.54430379746835 x_130
+   + 19.47619047619047 x_131 + 9.939024390243903 x_136
+   + 12.03508771929824 x_139 + 8.2 x_144 + 13.13559322033898 x_145
+   + 13.87755102040816 x_147 + 14.66666666666667 x_152
+   + 10.41772151898734 x_153 + 14.83076923076923 x_155 + 12.56 x_156
+   + 12.24561403508772 x_157 + 18.95 x_160 + 6.041666666666667 x_164
+   + 21.48648648648649 x_167 + 18.97872340425532 x_168
+   + 10.06493506493507 x_170 + 11.42592592592593 x_173
+   + 11.04054054054054 x_174 + 10.96103896103896 x_175
+   + 9.924050632911392 x_181 + 8.34375 x_184 + 24.56666666666667 x_185
+   + 16.21951219512195 x_189 + 8.6 x_190 + 5.676056338028169 x_193
+   + 9.481012658227849 x_195 + 10.90140845070423 x_197
+   + 8.52112676056338 x_199 + 10.03174603174603 x_200
+   + 8.714285714285714 x_201 + 6.45945945945946 x_202
+   + 8.636363636363637 x_204 + 6.564516129032258 x_209
+   + 6.939393939393939 x_216 + 6.174603174603175 x_217 + 6.359375 x_221
+   + 6.536231884057971 x_224 + 11.55737704918033 x_225
+   + 6.905405405405405 x_228 + 5.352112676056338 x_229
+   + 14.40425531914894 x_230 + 7.202702702702703 x_231
+   + 8.984126984126984 x_232 + 12.02222222222222 x_237
+   + 5.914893617021277 x_239 + 15.29787234042553 x_240
+   + 6.649122807017544 x_245 + 10.73913043478261 x_247
+   + 6.146666666666667 x_248 + 5.852459016393443 x_250 + 10.04 x_252
+   + 8.716666666666667 x_253 + 4.012820512820513 x_254
+   + 5.423728813559322 x_256 + 11.89189189189189 x_259
+   + 8.727272727272727 x_260 + 5.810344827586207 x_261
+   + 21.03703703703704 x_263 + 8.343283582089553 x_264
+   + 6.754716981132075 x_265 + 6.444444444444445 x_266
+   + 7.738095238095238 x_275 + 10.11363636363636 x_278
+   + 6.311475409836065 x_283 + 7.101694915254237 x_284
+   + 4.180327868852459 x_285 + 5.946666666666666 x_286
+   + 7.911111111111111 x_288 + 10.46511627906977 x_293
+   + 6.127272727272727 x_294 + 5.883333333333334 x_296
+   + 9.352941176470589 x_297 + 4.594936708860759 x_298
+   + 9.130434782608695 x_300 + 5.216666666666667 x_304
+   + 7.419354838709677 x_307 + 12.86666666666667 x_308
+   + 4.452054794520548 x_309 + 4.053571428571429 x_310
+   + 22.22222222222222 x_311 + 4.159420289855072 x_315
+   + 6.325581395348837 x_318 + 9.428571428571429 x_321
+   + 5.96969696969697 x_322 + 4.088888888888889 x_328
+   + 4.083333333333333 x_331 + 4.923076923076923 x_333
+   + 8.458333333333334 x_334 + 4.2 x_336 + 9.535714285714286 x_349
+   + 10.25 x_352 + 3.615384615384615 x_353 + 3.228070175438596 x_359
+   + 3.865384615384615 x_366 + 4.6 x_373 + 2.5 x_375 + 10.375 x_378
+   + 4.228571428571429 x_382 + 5.297297297297297 x_384
+   + 2.891891891891892 x_390 + 4.636363636363637 x_391
+   + 3.837837837837838 x_393 + 3.029411764705882 x_397 + 5.375 x_398
+   + 7.466666666666667 x_399 + 5 x_400 + 7.206896551724138 x_401
+   + 5.304347826086956 x_403 + 4.387096774193548 x_405
+   + 4.153846153846154 x_406 + 10.14285714285714 x_410
+   + 2.627450980392157 x_414 + 2.58695652173913 x_418 + 3.35 x_422
+   + 2.58 x_427 + 12.11111111111111 x_431 + 4.142857142857143 x_434
+   + 3.5 x_435 + 1.846153846153846 x_437 + 5.888888888888889 x_438
+   + 5.066666666666666 x_439 + 5.7 x_442 + 3.55 x_444 + 3.5 x_447
+   + 2.16 x_449 + 4.352941176470588 x_450 + 2.314285714285715 x_451
+   + 2.91304347826087 x_455 + 2.6875 x_456 + 7 x_457
+   + 2.208333333333333 x_459 + 2.095238095238095 x_460
+   + 2.923076923076923 x_461 + 3.733333333333333 x_463
+   + 1.714285714285714 x_464 + 3.285714285714286 x_466
+   + 1.03030303030303 x_468 + 1.428571428571429 x_474
+   + 1.846153846153846 x_478 + 7.2 x_479 + 1.666666666666667 x_482
+   + 1.352941176470588 x_484 + 2.555555555555555 x_485 + 1.3 x_486
+   + 3.7 x_487 + 0.8333333333333334 x_488 + 4.666666666666667 x_489
+   + 3.666666666666667 x_490 + 1.875 x_493 + 0.9473684210526315 x_495
+   + 1.75 x_497 + 1.538461538461539 x_499 + x_501 + 1.666666666666667 x_503
+   + 0.8 x_504 + 0.8666666666666667 x_505 + 3 x_506
+   + 2.333333333333333 x_510 + 0.7142857142857143 x_511
+   + 1.555555555555556 x_512 + 0.8888888888888888 x_514
+   + 0.6666666666666666 x_515 + 2.2 x_516 + x_526 + 29.58571428571429 x_0
+   + 19.1 x_3 + 24.43055555555556 x_4 + 16.75 x_5 + 19.09210526315789 x_14
+   + 18.07692307692308 x_15 + 18.35616438356164 x_16
+   + 13.45121951219512 x_17 + 11.76923076923077 x_22
+   + 12.02777777777778 x_27 + 24.72549019607843 x_32
+   + 13.35135135135135 x_40 + 15.55555555555556 x_55
+   + 11.05172413793103 x_58 + 13.0125 x_59 + 11.14035087719298 x_62
+   + 14.225 x_63 + 14.45614035087719 x_64 + 10.40740740740741 x_69
+   + 10.34285714285714 x_81 + 9.109589041095891 x_86
+   + 9.242424242424242 x_102 + 7.171428571428572 x_103 + 15.25 x_105
+   + 12.29824561403509 x_109 + 12.97014925373134 x_110
+   + 9.088235294117647 x_121 + 9.296875 x_124 + 6.507462686567164 x_132
+   + 9.583333333333334 x_133 + 6.041095890410959 x_140
+   + 8.966666666666667 x_143 + 14.4 x_149 + 8.872727272727273 x_154
+   + 9.280701754385966 x_166 + 4.5 x_178 + 4.526315789473684 x_182
+   + 8.882352941176471 x_198 + 8.15625 x_203 + 14.96875 x_211
+   + 6.839285714285714 x_218 + 8.722222222222221 x_219 + 7.94 x_220
+   + 6.333333333333333 x_244 + 6.5 x_249 + 5 x_269 + 6.859375 x_272
+   + 3.947368421052631 x_273 + 23.78947368421053 x_276 + 7.325 x_277
+   + 3.732142857142857 x_287 + 4.666666666666667 x_295
+   + 8.095238095238095 x_301 + 5.025641025641026 x_324
+   + 5.142857142857143 x_332 + 6.777777777777778 x_340
+   + 4.761904761904762 x_344 + 1.849056603773585 x_345
+   + 4.361111111111111 x_347 + 2.072727272727273 x_348
+   + 4.263157894736842 x_355 + 5.8 x_365 + 4.217391304347826 x_371
+   + 5.117647058823529 x_381 + 7.642857142857143 x_386
+   + 4.730769230769231 x_389 + 1.644444444444444 x_394
+   + 2.432432432432432 x_402 + 3.8125 x_407 + 1.725 x_409 + 2.5 x_411
+   + 3.631578947368421 x_432 + 4.692307692307693 x_443 + 1.92 x_448
+   + 1.736842105263158 x_471 + 6 x_475 + 14 x_509 >= 93.07517954731597
+ const_AvgAssists: 6.381578947368421 x_2 + 8.594936708860759 x_7
+   + 11.56578947368421 x_8 + 9.219178082191782 x_10
+   + 9.114285714285714 x_11 + 4.544303797468355 x_12
+   + 5.883116883116883 x_13 + 7.066666666666666 x_18
+   + 5.506493506493507 x_20 + 6.014285714285714 x_21
+   + 7.142857142857143 x_24 + 6.746666666666667 x_25
+   + 4.985915492957746 x_26 + 7.292307692307692 x_28
+   + 5.753424657534246 x_29 + 7.68 x_30 + 4.75 x_31
+   + 7.051724137931035 x_35 + 4.189189189189189 x_37
+   + 5.347826086956522 x_38 + 6 x_41 + 4.381578947368421 x_44
+   + 3.855072463768116 x_45 + 7.378048780487805 x_47
+   + 2.59493670886076 x_48 + 3.439024390243902 x_49 + 6.32258064516129 x_50
+   + 4.45945945945946 x_54 + 3.4875 x_56 + 6.076923076923077 x_67
+   + 6.093333333333334 x_68 + 4.441176470588236 x_71 + 4.8 x_73
+   + 5.296296296296297 x_75 + 4.62 x_77 + 5.569230769230769 x_78
+   + 7.382978723404255 x_82 + 1.682926829268293 x_83 + 7.28 x_84
+   + 3.04 x_85 + 2.75 x_87 + 5.55 x_92 + 4.39240506329114 x_93
+   + 4.098765432098766 x_95 + 2.083333333333333 x_96
+   + 5.386666666666667 x_97 + 5.626865671641791 x_98
+   + 4.439024390243903 x_99 + 2.859375 x_100 + 1.875 x_101
+   + 4.053571428571429 x_104 + 4.417721518987341 x_107
+   + 2.013888888888889 x_115 + 4.190476190476191 x_116
+   + 3.854838709677419 x_117 + 1.647887323943662 x_118
+   + 1.763157894736842 x_119 + 3.4375 x_120 + 3.385714285714286 x_125
+   + 4.492957746478873 x_128 + 4.443037974683544 x_129
+   + 1.634146341463415 x_134 + 3.679245283018868 x_135 + 1.5 x_137
+   + 5.015384615384615 x_138 + 2.719512195121951 x_141
+   + 3.629032258064516 x_142 + 6.28169014084507 x_146 + 3.359375 x_148
+   + 4.905405405405405 x_150 + 2.529411764705882 x_151
+   + 3.413333333333334 x_158 + 5.075757575757576 x_159
+   + 5.103448275862069 x_161 + 3.423728813559322 x_162
+   + 2.824324324324324 x_163 + 2.271186440677966 x_165
+   + 1.608108108108108 x_169 + 2.215189873417721 x_171
+   + 1.766233766233766 x_172 + 1.871794871794872 x_176
+   + 0.9516129032258065 x_177 + 1.175675675675676 x_179
+   + 3.064102564102564 x_180 + 2.260869565217391 x_183
+   + 3.307692307692307 x_186 + 1.53125 x_187 + 2.140625 x_188
+   + 2.485294117647059 x_191 + 1.297297297297297 x_192 + 4.625 x_194
+   + 2.921875 x_196 + 3.16 x_205 + 4.521739130434782 x_206
+   + 1.382352941176471 x_207 + 7.354838709677419 x_208
+   + 2.850746268656716 x_210 + 2.609375 x_212 + 5.588235294117647 x_213
+   + 0.8461538461538461 x_214 + 1.814814814814815 x_215
+   + 1.47945205479452 x_222 + 4.213333333333333 x_223
+   + 1.055555555555556 x_226 + 5.787878787878788 x_227
+   + 2.578947368421053 x_233 + 1.602941176470588 x_234
+   + 1.52112676056338 x_235 + 2.703703703703704 x_236
+   + 1.805970149253731 x_238 + 1.391304347826087 x_241
+   + 2.537037037037037 x_242 + 3.666666666666667 x_243
+   + 2.819444444444445 x_246 + 1.0625 x_251 + 3.685714285714285 x_255
+   + 4.195652173913044 x_257 + 1.338709677419355 x_258
+   + 1.292307692307692 x_262 + 1.328767123287671 x_267
+   + 3.72972972972973 x_268 + 0.8235294117647058 x_270
+   + 2.433333333333333 x_271 + 3.933333333333333 x_274
+   + 1.361111111111111 x_279 + 1.333333333333333 x_280
+   + 1.178571428571429 x_281 + 3.8 x_282 + 1.557692307692308 x_289
+   + 0.8823529411764706 x_290 + 2.214285714285714 x_291
+   + 1.857142857142857 x_292 + 1.122448979591837 x_299
+   + 3.228571428571429 x_302 + 2.298245614035088 x_303
+   + 1.238805970149254 x_305 + 2.048780487804878 x_306
+   + 1.276595744680851 x_312 + 1.771929824561403 x_313
+   + 1.127659574468085 x_314 + 1.421052631578947 x_316
+   + 1.396551724137931 x_317 + 1.32258064516129 x_319
+   + 3.205882352941177 x_320 + 4.083333333333333 x_323 + 0.825 x_325
+   + 1.878048780487805 x_326 + 2.608695652173913 x_327
+   + 2.163265306122449 x_329 + 2 x_330 + 3.111111111111111 x_335
+   + 1.181818181818182 x_337 + 2.363636363636364 x_338
+   + 1.666666666666667 x_339 + 0.9130434782608695 x_341
+   + 1.707317073170732 x_342 + 2.272727272727273 x_343
+   + 2.742857142857143 x_346 + 1.777777777777778 x_350
+   + 0.603448275862069 x_351 + 1.96551724137931 x_354
+   + 1.442307692307692 x_356 + 1.44 x_357 + 3.097560975609756 x_358
+   + 6.875 x_360 + 0.8863636363636364 x_361 + 0.54 x_362
+   + 1.448275862068966 x_363 + 1.622222222222222 x_364
+   + 1.372549019607843 x_367 + 2.612903225806452 x_368 + 2.5 x_369
+   + 1.192307692307692 x_370 + 1.925 x_372 + 1.128205128205128 x_374
+   + 2 x_376 + 2.037037037037037 x_377 + 0.9361702127659575 x_379
+   + 0.65 x_380 + 1.166666666666667 x_383 + 0.7333333333333333 x_385
+   + 1.857142857142857 x_387 + 2.620689655172414 x_388 + 0.625 x_392
+   + 2.8 x_395 + 1.225806451612903 x_396 + 1.138888888888889 x_404
+   + 1.064516129032258 x_408 + 1.111111111111111 x_412 + 3 x_413
+   + 1.75 x_415 + 0.4 x_416 + 0.7674418604651163 x_417
+   + 0.9444444444444444 x_419 + x_420 + 0.4807692307692308 x_421
+   + 1.333333333333333 x_423 + 1.108695652173913 x_424
+   + 1.142857142857143 x_425 + 1.36 x_426 + 1.707317073170732 x_428
+   + 1.256410256410256 x_429 + 1.642857142857143 x_430
+   + 0.3653846153846154 x_433 + 3.733333333333333 x_436
+   + 0.896551724137931 x_440 + 2.466666666666667 x_441
+   + 1.107142857142857 x_445 + 1.0625 x_446 + 2.833333333333333 x_452
+   + 1.846153846153846 x_453 + 1.285714285714286 x_454 + 0.44 x_458
+   + 0.8148148148148148 x_462 + 1.7 x_465 + 0.3243243243243243 x_467
+   + 0.8636363636363636 x_469 + 0.8 x_470 + 0.3333333333333333 x_472
+   + 0.45 x_473 + 1.272727272727273 x_476 + 1.714285714285714 x_477
+   + 0.6818181818181818 x_480 + 1.1 x_481 + x_483 + 0.8125 x_491
+   + 0.5217391304347826 x_492 + 0.5714285714285714 x_494 + 2 x_496
+   + 0.5 x_498 + 0.1818181818181818 x_500 + x_502
+   + 0.6666666666666666 x_507 + 0.5 x_508 + 2 x_513
+   + 0.1538461538461539 x_517 + 0.25 x_518 + 1.5 x_519
+   + 0.4285714285714285 x_520 + x_525 >= 8.650025818652074
+ const_AvgTurnovers: 2.434210526315789 x_2 + 4.278481012658228 x_7
+   + 4.671052631578948 x_8 + 1.643835616438356 x_10
+   + 4.442857142857143 x_11 + 3.139240506329114 x_12
+   + 2.038961038961039 x_13 + 2.92 x_18 + 2.571428571428572 x_20
+   + 2.828571428571429 x_21 + 2.885714285714286 x_24 + 2.52 x_25
+   + 2.098591549295775 x_26 + 2.523076923076923 x_28
+   + 2.424657534246575 x_29 + 3.58 x_30 + 1.723684210526316 x_31
+   + 2.793103448275862 x_35 + 2.824324324324324 x_37
+   + 2.449275362318841 x_38 + 2.059701492537314 x_41
+   + 2.039473684210526 x_44 + 2.014492753623188 x_45
+   + 1.597560975609756 x_47 + 1.025316455696202 x_48
+   + 2.475609756097561 x_49 + 2.806451612903226 x_50
+   + 2.378378378378379 x_54 + 1.05 x_56 + 2.384615384615385 x_67
+   + 3.226666666666667 x_68 + 2.985294117647059 x_71
+   + 2.042857142857143 x_73 + 1.135802469135802 x_75 + 2.22 x_77
+   + 2.430769230769231 x_78 + 3.553191489361702 x_82
+   + 1.01219512195122 x_83 + 3.68 x_84 + 1.88 x_85 + 2.083333333333333 x_87
+   + 1.433333333333333 x_92 + 1.746835443037975 x_93
+   + 2.160493827160494 x_95 + 1.783333333333333 x_96
+   + 1.893333333333333 x_97 + 2.73134328358209 x_98
+   + 1.719512195121951 x_99 + 1.390625 x_100 + 1.861111111111111 x_101
+   + 1.892857142857143 x_104 + 1.291139240506329 x_107
+   + 1.222222222222222 x_115 + 2.53968253968254 x_116
+   + 1.225806451612903 x_117 + 0.7323943661971831 x_118
+   + 0.9078947368421053 x_119 + 1.171875 x_120 + 1.314285714285714 x_125
+   + 1.070422535211268 x_128 + 1.379746835443038 x_129
+   + 1.109756097560976 x_134 + 1.867924528301887 x_135 + 0.8875 x_137
+   + 1.738461538461539 x_138 + 1.207317073170732 x_141
+   + 1.580645161290323 x_142 + 2.929577464788732 x_146 + 1.171875 x_148
+   + 1.72972972972973 x_150 + 0.8676470588235294 x_151
+   + 1.813333333333333 x_158 + 2.681818181818182 x_159
+   + 1.862068965517241 x_161 + 2.11864406779661 x_162 + x_163
+   + 1.35593220338983 x_165 + 0.5 x_169 + 1.468354430379747 x_171
+   + 0.8051948051948052 x_172 + 1.115384615384615 x_176
+   + 0.8709677419354839 x_177 + 0.5675675675675675 x_179
+   + 1.782051282051282 x_180 + 0.9710144927536232 x_183
+   + 1.107692307692308 x_186 + 0.84375 x_187 + 1.171875 x_188
+   + 1.411764705882353 x_191 + 0.7297297297297297 x_192
+   + 1.535714285714286 x_194 + 0.640625 x_196 + 1.08 x_205
+   + 1.521739130434783 x_206 + 0.8235294117647058 x_207
+   + 3.387096774193548 x_208 + 1.537313432835821 x_210 + 1.21875 x_212
+   + 2 x_213 + 0.4743589743589743 x_214 + 1.537037037037037 x_215
+   + 0.547945205479452 x_222 + 1.56 x_223 + 0.6388888888888888 x_226
+   + 1.757575757575758 x_227 + 0.8771929824561403 x_233
+   + 1.029411764705882 x_234 + 0.4929577464788732 x_235
+   + 1.37037037037037 x_236 + 0.7164179104477612 x_238
+   + 0.5507246376811594 x_241 + 0.6666666666666666 x_242
+   + 1.333333333333333 x_243 + 0.7222222222222222 x_246 + 0.5625 x_251
+   + 2.914285714285714 x_255 + 0.7608695652173914 x_257
+   + 0.6290322580645161 x_258 + 0.8769230769230769 x_262
+   + 0.7123287671232876 x_267 + 2.324324324324324 x_268
+   + 0.4705882352941176 x_270 + 1.366666666666667 x_271
+   + 2.966666666666667 x_274 + 0.5555555555555556 x_279
+   + 0.3650793650793651 x_280 + 1.035714285714286 x_281 + 2.48 x_282
+   + 0.9615384615384616 x_289 + 0.4705882352941176 x_290
+   + 1.238095238095238 x_291 + 0.9464285714285714 x_292
+   + 0.5918367346938775 x_299 + 1.142857142857143 x_302
+   + 0.9473684210526315 x_303 + 0.8656716417910447 x_305
+   + 0.9512195121951219 x_306 + 0.6595744680851063 x_312
+   + 0.6842105263157895 x_313 + 0.7446808510638298 x_314
+   + 1.43859649122807 x_316 + 0.6724137931034483 x_317
+   + 0.5967741935483871 x_319 + 1.588235294117647 x_320 + 1.625 x_323
+   + 0.775 x_325 + 0.3658536585365854 x_326 + 1.608695652173913 x_327
+   + 0.5102040816326531 x_329 + 1.368421052631579 x_330
+   + 1.555555555555556 x_335 + 0.4363636363636363 x_337
+   + 0.5151515151515151 x_338 + 0.717948717948718 x_339
+   + 0.3478260869565217 x_341 + 0.5853658536585366 x_342
+   + 1.181818181818182 x_343 + 0.6 x_346 + 0.8333333333333334 x_350
+   + 0.2241379310344828 x_351 + 0.9310344827586207 x_354
+   + 0.7115384615384616 x_356 + 0.36 x_357 + 1.878048780487805 x_358
+   + 2.458333333333333 x_360 + 0.6818181818181818 x_361 + 0.44 x_362
+   + 0.9310344827586207 x_363 + 0.4666666666666667 x_364
+   + 0.7450980392156863 x_367 + 1.064516129032258 x_368 + 1.25 x_369
+   + 0.5769230769230769 x_370 + 0.525 x_372 + 0.5897435897435898 x_374
+   + 1.081632653061225 x_376 + 1.259259259259259 x_377
+   + 0.5531914893617021 x_379 + 0.2 x_380 + 0.75 x_383 + 0.6 x_385
+   + 0.5714285714285714 x_387 + 1.206896551724138 x_388
+   + 0.3541666666666667 x_392 + 1.1 x_395 + 0.7096774193548387 x_396
+   + 0.5 x_404 + 0.3870967741935484 x_408 + 0.3055555555555556 x_412
+   + 1.923076923076923 x_413 + 0.5833333333333334 x_415 + 0.24 x_416
+   + 0.3720930232558139 x_417 + 0.7222222222222222 x_419 + 0.46875 x_420
+   + 0.5769230769230769 x_421 + 1.041666666666667 x_423
+   + 0.3695652173913043 x_424 + 0.6428571428571429 x_425 + 0.24 x_426
+   + 0.4390243902439024 x_428 + 0.4358974358974359 x_429
+   + 1.214285714285714 x_430 + 0.3269230769230769 x_433
+   + 2.066666666666667 x_436 + 0.5517241379310345 x_440 + 1.2 x_441
+   + 0.3571428571428572 x_445 + 0.75 x_446 + 1.666666666666667 x_452
+   + 1.076923076923077 x_453 + 0.7142857142857143 x_454 + 0.4 x_458
+   + 0.4814814814814815 x_462 + 0.8 x_465 + 0.1081081081081081 x_467
+   + 0.2272727272727273 x_469 + 0.3 x_470 + 0.6666666666666666 x_472
+   + 0.7 x_473 + 0.4545454545454545 x_476 + 1.142857142857143 x_477
+   + 0.5 x_480 + 0.1 x_481 + 0.1875 x_483 + 0.8125 x_491
+   + 0.2173913043478261 x_492 + 0.5 x_494 + 1.6 x_496
+   + 0.1666666666666667 x_498 + 0.1818181818181818 x_500
+   + 0.1666666666666667 x_502 + 0.3333333333333333 x_507
+   + 0.3076923076923077 x_517 + 0.25 x_518 + 0.1428571428571428 x_520
+   + 0.5 x_523 <= 4.522988650646354
+ const_AstToTovRatio: 2.60752688172043 x_2 + 2.002949852507375 x_7
+   + 2.469101123595506 x_8 + 5.56198347107438 x_10 + 2.044871794871795 x_11
+   + 1.441767068273092 x_12 + 2.867088607594937 x_13
+   + 2.409090909090909 x_18 + 2.130653266331658 x_20
+   + 2.115577889447236 x_21 + 2.463054187192118 x_24
+   + 2.663157894736842 x_25 + 2.36 x_26 + 2.872727272727273 x_28
+   + 2.359550561797753 x_29 + 2.133333333333333 x_30
+   + 2.734848484848485 x_31 + 2.50920245398773 x_35
+   + 1.476190476190476 x_37 + 2.170588235294117 x_38
+   + 2.892086330935252 x_41 + 2.134615384615385 x_44 + 1.9 x_45
+   + 4.583333333333333 x_47 + 2.5 x_48 + 1.382352941176471 x_49 + 2.24 x_50
+   + 1.864406779661017 x_54 + 3.28235294117647 x_56 + 2.528 x_67
+   + 1.880658436213992 x_68 + 1.480392156862745 x_71
+   + 2.333333333333333 x_73 + 4.612903225806452 x_75 + 2.0625 x_77
+   + 2.276729559748428 x_78 + 2.065476190476191 x_82
+   + 1.642857142857143 x_83 + 1.967567567567568 x_84
+   + 1.605633802816901 x_85 + 1.311258278145695 x_87
+   + 3.827586206896552 x_92 + 2.496402877697842 x_93
+   + 1.886363636363636 x_95 + 1.157407407407407 x_96
+   + 2.825174825174825 x_97 + 2.048913043478261 x_98
+   + 2.563380281690141 x_99 + 2.033333333333333 x_100 + x_101
+   + 2.121495327102804 x_104 + 3.388349514563107 x_107
+   + 1.629213483146067 x_115 + 1.639751552795031 x_116
+   + 3.103896103896104 x_117 + 2.207547169811321 x_118
+   + 1.914285714285714 x_119 + 2.894736842105263 x_120
+   + 2.548387096774194 x_125 + 4.142857142857143 x_128
+   + 3.190909090909091 x_129 + 1.456521739130435 x_134 + 1.95 x_135
+   + 1.666666666666667 x_137 + 2.859649122807018 x_138 + 2.23 x_141
+   + 2.272727272727273 x_142 + 2.133971291866029 x_146
+   + 2.828947368421053 x_148 + 2.813953488372093 x_150
+   + 2.866666666666667 x_151 + 1.868613138686131 x_158
+   + 1.882022471910112 x_159 + 2.71559633027523 x_161
+   + 1.603174603174603 x_162 + 2.786666666666667 x_163
+   + 1.654320987654321 x_165 + 3.131578947368421 x_169
+   + 1.495726495726496 x_171 + 2.158730158730159 x_172
+   + 1.659090909090909 x_176 + 1.072727272727273 x_177
+   + 2.023255813953488 x_179 + 1.707142857142857 x_180
+   + 2.294117647058823 x_183 + 2.945205479452055 x_186
+   + 1.781818181818182 x_187 + 1.802631578947368 x_188
+   + 1.742268041237113 x_191 + 1.745454545454545 x_192
+   + 2.977011494252873 x_194 + 4.452380952380953 x_196
+   + 2.872727272727273 x_205 + 2.929577464788732 x_206
+   + 1.649122807017544 x_207 + 2.150943396226415 x_208
+   + 1.836538461538461 x_210 + 2.113924050632912 x_212
+   + 2.766990291262136 x_213 + 1.736842105263158 x_214
+   + 1.166666666666667 x_215 + 2.634146341463415 x_222
+   + 2.677966101694915 x_223 + 1.617021276595745 x_226
+   + 3.23728813559322 x_227 + 2.882352941176471 x_233
+   + 1.535211267605634 x_234 + 3 x_235 + 1.946666666666667 x_236
+   + 2.469387755102041 x_238 + 2.461538461538462 x_241
+   + 3.702702702702703 x_242 + 2.716049382716049 x_243
+   + 3.830188679245283 x_246 + 1.837837837837838 x_251
+   + 1.25242718446602 x_255 + 5.361111111111111 x_257 + 2.075 x_258
+   + 1.448275862068966 x_262 + 1.830188679245283 x_267
+   + 1.586206896551724 x_268 + 1.696969696969697 x_270
+   + 1.759036144578313 x_271 + 1.311111111111111 x_274
+   + 2.390243902439024 x_279 + 3.5 x_280 + 1.11864406779661 x_281
+   + 1.507936507936508 x_282 + 1.588235294117647 x_289
+   + 1.818181818181818 x_290 + 1.754716981132076 x_291
+   + 1.925925925925926 x_292 + 1.833333333333333 x_299
+   + 2.75609756097561 x_302 + 2.381818181818182 x_303
+   + 1.406779661016949 x_305 + 2.1 x_306 + 1.875 x_312 + 2.525 x_313
+   + 1.472222222222222 x_314 + 0.9759036144578314 x_316 + 2.025 x_317
+   + 2.157894736842105 x_319 + 1.981818181818182 x_320 + 2.45 x_323
+   + 1.03125 x_325 + 4.8125 x_326 + 1.578947368421053 x_327
+   + 4.076923076923077 x_329 + 1.433962264150943 x_330
+   + 1.964912280701754 x_335 + 2.6 x_337 + 4.333333333333333 x_338
+   + 2.241379310344827 x_339 + 2.470588235294118 x_341 + 2.8 x_342
+   + 1.875 x_343 + 4.363636363636363 x_346 + 2.064516129032258 x_350
+   + 2.5 x_351 + 2.072727272727273 x_354 + 1.973684210526316 x_356
+   + 3.789473684210526 x_357 + 1.628205128205128 x_358 + 2.75 x_360
+   + 1.258064516129032 x_361 + 1.173913043478261 x_362 + 1.5 x_363
+   + 3.318181818181818 x_364 + 1.794871794871795 x_367
+   + 2.382352941176471 x_368 + 1.923076923076923 x_369 + 1.9375 x_370
+   + 3.5 x_372 + 1.833333333333333 x_374 + 1.814814814814815 x_376
+   + 1.571428571428571 x_377 + 1.62962962962963 x_379
+   + 2.888888888888889 x_380 + 1.5 x_383 + 1.189189189189189 x_385
+   + 3.058823529411764 x_387 + 2.111111111111111 x_388
+   + 1.666666666666667 x_392 + 2.434782608695652 x_395
+   + 1.652173913043478 x_396 + 2.157894736842105 x_404
+   + 2.538461538461538 x_408 + 3.333333333333333 x_412 + 1.5 x_413
+   + 2.863636363636364 x_415 + 1.538461538461539 x_416
+   + 1.941176470588235 x_417 + 1.259259259259259 x_419 + 2 x_420
+   + 0.8064516129032258 x_421 + 1.230769230769231 x_423
+   + 2.833333333333333 x_424 + 1.6 x_425 + 4.857142857142857 x_426
+   + 3.684210526315789 x_428 + 2.722222222222222 x_429
+   + 1.277777777777778 x_430 + 1.055555555555556 x_433 + 1.75 x_436
+   + 1.529411764705882 x_440 + 1.947368421052632 x_441
+   + 2.818181818181818 x_445 + 1.307692307692308 x_446
+   + 1.545454545454545 x_452 + 1.6 x_453 + 1.6875 x_454 + x_458
+   + 1.571428571428571 x_462 + 1.888888888888889 x_465 + 2.4 x_467
+   + 3.166666666666667 x_469 + 2 x_470 + 0.4 x_472 + 0.6 x_473
+   + 2.333333333333333 x_476 + 1.333333333333333 x_477 + 1.25 x_480
+   + 5.5 x_481 + 4 x_483 + 0.9285714285714286 x_491 + 2 x_492 + x_494
+   + 1.111111111111111 x_496 + 2 x_498 + 0.8 x_500 + 3 x_502
+   + 1.333333333333333 x_507 + 2 x_508 + 2 x_513 + 0.4 x_517
+   + 0.6666666666666666 x_518 + 3 x_519 + 1.5 x_520 + x_525
+   >= 7.649831990992016
+ const_3P_Perc: 37 x_2 + 35 x_7 + 34 x_8 + 38 x_10 + 35 x_11 + 39 x_12
+   + 33 x_13 + 33 x_18 + 37 x_20 + 39 x_21 + 37 x_24 + 40 x_25 + 36 x_26
+   + 38 x_28 + 37 x_29 + 36 x_30 + 38 x_31 + 37 x_35 + 44 x_37 + 39 x_38
+   + 39 x_41 + 34 x_44 + 27 x_45 + 37 x_47 + 39 x_48 + 35 x_49 + 31 x_50
+   + 37 x_54 + 40 x_56 + 33 x_67 + 32 x_68 + 37 x_71 + 36 x_73 + 41 x_75
+   + 40 x_77 + 32 x_78 + 33 x_82 + 41 x_83 + 30 x_84 + 38 x_85 + 31 x_87
+   + 34 x_92 + 39 x_93 + 28 x_95 + 42 x_96 + 34 x_97 + 34 x_98 + 33 x_99
+   + 36 x_100 + 34 x_101 + 37 x_104 + 33 x_107 + 39 x_115 + 40 x_116
+   + 35 x_117 + 41 x_118 + 38 x_119 + 37 x_120 + 44 x_125 + 41 x_128
+   + 30 x_129 + 37 x_134 + 38 x_135 + 43 x_137 + 29 x_138 + 38 x_141
+   + 39 x_142 + 24 x_146 + 37 x_148 + 39 x_150 + 35 x_151 + 31 x_158
+   + 35 x_159 + 31 x_161 + 28 x_162 + 33 x_163 + 22 x_165 + 41 x_169
+   + 31 x_171 + 34 x_172 + 36 x_176 + 38 x_177 + 41 x_179 + 31 x_180
+   + 33 x_183 + 43 x_186 + 39 x_187 + 42 x_188 + 32 x_191 + 37 x_192
+   + 35 x_194 + 36 x_196 + 38 x_205 + 32 x_206 + 35 x_207 + 29 x_208
+   + 35 x_210 + 29 x_212 + 37 x_214 + 35 x_215 + 42 x_222 + 32 x_223
+   + 41 x_226 + 37 x_227 + 43 x_233 + 39 x_234 + 37 x_235 + 36 x_236
+   + 37 x_238 + 38 x_241 + 35 x_242 + 35 x_243 + 36 x_246 + 37 x_251
+   + 31 x_255 + 39 x_257 + 32 x_258 + 34 x_262 + 25 x_267 + 36 x_268
+   + 32 x_270 + 34 x_271 + 40 x_274 + 35 x_279 + 34 x_280 + 33 x_281
+   + 34 x_282 + 34 x_289 + 45 x_290 + 35 x_291 + 40 x_292 + 42 x_299
+   + 34 x_302 + 38 x_303 + 39 x_305 + 32 x_306 + 38 x_312 + 35 x_313
+   + 33 x_314 + 38 x_316 + 33 x_317 + 39 x_319 + 34 x_320 + 28 x_323
+   + 34 x_325 + 40 x_326 + 38 x_327 + 39 x_329 + 34 x_330 + 25 x_335
+   + 33 x_337 + 43 x_338 + 40 x_339 + 37 x_341 + 32 x_342 + 40 x_343
+   + 33 x_346 + 38 x_350 + 40 x_351 + 29 x_354 + 33 x_356 + 36 x_357
+   + 35 x_358 + 16 x_360 + 39 x_361 + 39 x_362 + 38 x_363 + 36 x_364
+   + 43 x_367 + 32 x_368 + 35 x_369 + 32 x_370 + 27 x_372 + 32 x_374
+   + 33 x_376 + 27 x_377 + 34 x_379 + 43 x_380 + 34 x_383 + 29 x_385
+   + 37 x_387 + 26 x_388 + 35 x_392 + 43 x_395 + 28 x_396 + 29 x_404
+   + 31 x_408 + 33 x_412 + 40 x_413 + 17 x_415 + 30 x_416 + 25 x_417
+   + 21 x_419 + 35 x_420 + 27 x_421 + 39 x_423 + 41 x_424 + 30 x_425
+   + 35 x_426 + 29 x_428 + 22 x_429 + 53 x_430 + 27 x_433 + 21 x_436
+   + 34 x_440 + 30 x_441 + 21 x_445 + 30 x_446 + 37 x_452 + 29 x_453
+   + 50 x_454 + 24 x_458 + 28 x_462 + 21 x_465 + 19 x_467 + 30 x_469
+   + 28 x_470 + 52 x_472 + 23 x_473 + 30 x_476 + 29 x_477 + 23 x_480
+   + 12 x_481 + 19 x_483 + 22 x_491 + 17 x_492 + 18 x_494 + 20 x_496
+   + 15 x_498 + 20 x_500 + 50 x_502 + 50 x_507 + 14 x_520 + 28 x_523
+   >= 120.2424242424242
+ const_AvgSteals: 0.8507462686567164 x_1 + 1.055555555555556 x_6 + x_9
+   + 0.8591549295774648 x_19 + 0.8846153846153846 x_23
+   + 0.8064516129032258 x_33 + 0.6753246753246753 x_34
+   + 1.608695652173913 x_36 + 0.8051948051948052 x_39
+   + 1.415384615384615 x_42 + 1.243243243243243 x_43
+   + 1.108695652173913 x_46 + 0.6811594202898551 x_51
+   + 0.9146341463414634 x_52 + 0.9861111111111112 x_53
+   + 1.459459459459459 x_57 + 0.6875 x_60 + 1.233333333333333 x_61
+   + 1.142857142857143 x_65 + 1.341463414634146 x_66 + 1.4 x_70
+   + 0.8026315789473685 x_72 + 1.5 x_74 + 1.013698630136986 x_76
+   + 0.7931034482758621 x_79 + 1.455882352941176 x_80
+   + 1.075471698113208 x_88 + 0.4634146341463415 x_89
+   + 0.7846153846153846 x_90 + 0.9298245614035088 x_91
+   + 0.8043478260869565 x_94 + 1.105263157894737 x_106 + x_108 + x_111
+   + 0.8 x_112 + 0.8428571428571429 x_113 + 1.516666666666667 x_114
+   + 0.78125 x_122 + 0.8933333333333333 x_123 + 1.555555555555556 x_126
+   + 0.6493506493506493 x_127 + 0.5822784810126582 x_130
+   + 0.7619047619047619 x_131 + 0.7682926829268293 x_136
+   + 1.701754385964912 x_139 + 0.95 x_144 + 0.7627118644067796 x_145
+   + 0.7346938775510204 x_147 + 0.4313725490196079 x_152
+   + 0.5569620253164557 x_153 + 0.5538461538461539 x_155
+   + 0.6933333333333334 x_156 + 0.4385964912280702 x_157 + 0.975 x_160
+   + 0.3888888888888889 x_164 + 1.594594594594595 x_167
+   + 0.7021276595744681 x_168 + 1.025974025974026 x_170
+   + 0.8333333333333334 x_173 + 0.5405405405405406 x_174
+   + 0.5064935064935064 x_175 + 0.3544303797468354 x_181 + 0.8125 x_184
+   + 1.233333333333333 x_185 + 1.878048780487805 x_189 + 0.3625 x_190
+   + 0.676056338028169 x_193 + 0.5063291139240507 x_195
+   + 0.647887323943662 x_197 + 0.5915492957746479 x_199
+   + 0.9841269841269841 x_200 + 0.9206349206349206 x_201
+   + 0.918918918918919 x_202 + 0.9242424242424242 x_204
+   + 0.3709677419354839 x_209 + 0.9393939393939394 x_216
+   + 0.8571428571428571 x_217 + 0.453125 x_221 + 0.5942028985507246 x_224
+   + 0.4262295081967213 x_225 + 0.5945945945945946 x_228
+   + 0.8591549295774648 x_229 + 0.8723404255319149 x_230
+   + 0.4459459459459459 x_231 + 0.7619047619047619 x_232
+   + 0.7777777777777778 x_237 + 0.4680851063829787 x_239
+   + 0.8085106382978723 x_240 + 0.8245614035087719 x_245
+   + 0.8260869565217391 x_247 + 0.7333333333333333 x_248
+   + 0.6557377049180327 x_250 + 0.48 x_252 + 0.5666666666666667 x_253
+   + 0.6666666666666666 x_254 + 0.711864406779661 x_256
+   + 0.9459459459459459 x_259 + 0.75 x_260 + 0.4482758620689655 x_261
+   + 1.074074074074074 x_263 + 0.6417910447761194 x_264
+   + 1.056603773584906 x_265 + 0.5925925925925926 x_266
+   + 0.5238095238095238 x_275 + 1.022727272727273 x_278
+   + 0.3278688524590164 x_283 + 0.288135593220339 x_284
+   + 0.459016393442623 x_285 + 0.4 x_286 + 1.022222222222222 x_288
+   + 0.6279069767441861 x_293 + 0.5818181818181818 x_294
+   + 0.4833333333333333 x_296 + 0.6078431372549019 x_297
+   + 0.4810126582278481 x_298 + 0.5217391304347826 x_300 + 0.55 x_304
+   + 0.2903225806451613 x_307 + 0.8 x_308 + 0.589041095890411 x_309
+   + 0.4642857142857143 x_310 + 0.8888888888888888 x_311
+   + 0.4927536231884058 x_315 + 0.3720930232558139 x_318
+   + 0.3142857142857143 x_321 + 0.8484848484848485 x_322
+   + 0.8666666666666667 x_328 + 0.9722222222222222 x_331
+   + 0.5384615384615384 x_333 + 0.8333333333333334 x_334 + 0.475 x_336
+   + 0.8571428571428571 x_349 + 1.85 x_352 + 0.5 x_353
+   + 0.4385964912280702 x_359 + 0.4807692307692308 x_366 + 0.46 x_373
+   + 0.2962962962962963 x_375 + 1.125 x_378 + 0.2571428571428571 x_382
+   + 0.6216216216216216 x_384 + 0.2162162162162162 x_390
+   + 0.4242424242424243 x_391 + 0.4594594594594595 x_393
+   + 0.2647058823529412 x_397 + 0.1875 x_398 + 2.2 x_399
+   + 0.2340425531914894 x_400 + 0.4137931034482759 x_401
+   + 0.6521739130434783 x_403 + 0.2580645161290323 x_405
+   + 0.3076923076923077 x_406 + 0.6428571428571429 x_410
+   + 0.196078431372549 x_414 + 0.3260869565217391 x_418 + 0.125 x_422
+   + 0.18 x_427 + 0.4444444444444444 x_431 + 0.3214285714285715 x_434
+   + 0.0952380952380952 x_435 + 0.1794871794871795 x_437
+   + 0.5555555555555556 x_438 + 0.6666666666666666 x_439 + 0.3 x_442
+   + 0.4 x_444 + 0.4375 x_447 + 0.2 x_449 + 0.2941176470588235 x_450
+   + 0.1428571428571428 x_451 + 0.1304347826086956 x_455 + 0.3125 x_456
+   + 0.6 x_457 + 0.125 x_459 + 0.1428571428571428 x_460
+   + 0.1538461538461539 x_461 + 0.1333333333333333 x_463
+   + 0.2380952380952381 x_464 + 0.1428571428571428 x_466
+   + 0.3333333333333333 x_468 + 0.2380952380952381 x_474
+   + 0.2307692307692308 x_478 + 0.1666666666666667 x_482
+   + 0.1176470588235294 x_484 + 0.3333333333333333 x_485 + 0.25 x_486
+   + 0.1 x_487 + 0.1111111111111111 x_488 + 1.666666666666667 x_489
+   + 0.6666666666666666 x_490 + 0.25 x_493 + 0.3157894736842105 x_495
+   + 0.0833333333333333 x_497 + 0.0769230769230769 x_499
+   + 0.0833333333333333 x_501 + 0.1666666666666667 x_503 + 0.6 x_504
+   + 0.0666666666666667 x_505 + 0.3333333333333333 x_506
+   + 0.6666666666666666 x_510 + 0.1111111111111111 x_514
+   + 0.6666666666666666 x_526 >= 2.759761416855675
+ const_AvgRboundsF: 11.91044776119403 x_1 + 8.666666666666666 x_6 + 7.8 x_9
+   + 9.267605633802816 x_19 + 6.923076923076923 x_23
+   + 6.064516129032258 x_33 + 7.012987012987013 x_34
+   + 5.36231884057971 x_36 + 3.883116883116883 x_39
+   + 7.738461538461539 x_42 + 5.594594594594595 x_43 + 11 x_46
+   + 7.057971014492754 x_51 + 3.158536585365854 x_52 + 7.25 x_53
+   + 4.837837837837838 x_57 + 7.515625 x_60 + 5.7 x_61
+   + 5.825396825396825 x_65 + 5.719512195121951 x_66
+   + 5.363636363636363 x_70 + 6.684210526315789 x_72
+   + 5.756410256410256 x_74 + 5.917808219178082 x_76
+   + 6.310344827586207 x_79 + 6.073529411764706 x_80
+   + 5.113207547169812 x_88 + 3.780487804878049 x_89 + 6.4 x_90
+   + 4.333333333333333 x_91 + 7.521739130434782 x_94
+   + 7.754385964912281 x_106 + 4.483333333333333 x_108
+   + 4.739130434782608 x_111 + 3.653333333333333 x_112
+   + 5.642857142857143 x_113 + 6.133333333333334 x_114 + 4.03125 x_122
+   + 4.64 x_123 + 10.02777777777778 x_126 + 4.831168831168831 x_127
+   + 4.012658227848101 x_130 + 6.761904761904762 x_131
+   + 3.878048780487805 x_136 + 6.350877192982456 x_139 + 3.5875 x_144
+   + 4.983050847457627 x_145 + 8.387755102040817 x_147
+   + 4.823529411764706 x_152 + 3.379746835443038 x_153
+   + 5.723076923076923 x_155 + 3.586666666666666 x_156
+   + 7.017543859649122 x_157 + 8.175 x_160 + 5.541666666666667 x_164
+   + 5.891891891891892 x_167 + 5.914893617021277 x_168
+   + 3.38961038961039 x_170 + 6.518518518518518 x_173
+   + 2.256756756756757 x_174 + 2.376623376623376 x_175
+   + 3.443037974683544 x_181 + 5.09375 x_184 + 7.2 x_185
+   + 5.341463414634147 x_189 + 3.4875 x_190 + 6.169014084507042 x_193
+   + 3.430379746835443 x_195 + 2.957746478873239 x_197
+   + 3.154929577464789 x_199 + 4.555555555555555 x_200
+   + 3.92063492063492 x_201 + 3.405405405405405 x_202
+   + 4.378787878787879 x_204 + 5.016129032258065 x_209
+   + 3.924242424242424 x_216 + 4.952380952380953 x_217 + 4.5 x_221
+   + 4.579710144927536 x_224 + 2.967213114754098 x_225
+   + 3.621621621621621 x_228 + 4.422535211267606 x_229
+   + 3.468085106382979 x_230 + 3.310810810810811 x_231
+   + 3.777777777777778 x_232 + 3.977777777777778 x_237
+   + 5.595744680851064 x_239 + 4.574468085106383 x_240
+   + 5.56140350877193 x_245 + 3.91304347826087 x_247 + 3.04 x_248
+   + 3.377049180327869 x_250 + 4.46 x_252 + 3.666666666666667 x_253
+   + 2.769230769230769 x_254 + 4.220338983050848 x_256
+   + 3.702702702702703 x_259 + 4.681818181818182 x_260
+   + 4.206896551724138 x_261 + 4.851851851851852 x_263
+   + 2.014925373134328 x_264 + 4.20754716981132 x_265
+   + 2.691358024691358 x_266 + 4.952380952380953 x_275
+   + 3.363636363636364 x_278 + 3.081967213114754 x_283
+   + 2.677966101694915 x_284 + 3.655737704918033 x_285 + 2.84 x_286
+   + 3.933333333333333 x_288 + 3.720930232558139 x_293
+   + 2.363636363636364 x_294 + 4.666666666666667 x_296
+   + 2.941176470588236 x_297 + 2.113924050632912 x_298
+   + 3.91304347826087 x_300 + 3.5 x_304 + 5.709677419354839 x_307
+   + 4.933333333333334 x_308 + 1.657534246575342 x_309
+   + 3.053571428571428 x_310 + 5.555555555555555 x_311
+   + 2.63768115942029 x_315 + 2.930232558139535 x_318
+   + 3.714285714285714 x_321 + 4.212121212121212 x_322
+   + 2.733333333333333 x_328 + 5.055555555555555 x_331
+   + 2.134615384615385 x_333 + 4.291666666666667 x_334 + 2.9 x_336
+   + 4.285714285714286 x_349 + 3.9 x_352 + 2.25 x_353
+   + 1.578947368421053 x_359 + 2.403846153846154 x_366 + 2.26 x_373
+   + 2.222222222222222 x_375 + 5.125 x_378 + 2.428571428571428 x_382
+   + 2.351351351351351 x_384 + 3.243243243243243 x_390
+   + 2.545454545454545 x_391 + 2.216216216216216 x_393
+   + 2.794117647058823 x_397 + 1.8125 x_398 + 3.466666666666667 x_399
+   + 1.106382978723404 x_400 + 3.172413793103448 x_401
+   + 4.086956521739131 x_403 + 2.709677419354839 x_405
+   + 2.807692307692307 x_406 + 4.142857142857143 x_410
+   + 1.529411764705882 x_414 + 1.021739130434783 x_418 + 1.425 x_422
+   + 1.32 x_427 + 7.222222222222222 x_431 + 1.964285714285714 x_434
+   + 0.5238095238095238 x_435 + 1.615384615384615 x_437
+   + 5.222222222222222 x_438 + 3.133333333333333 x_439 + 1.45 x_442
+   + 2.45 x_444 + 3.125 x_447 + 1.56 x_449 + 2.235294117647059 x_450
+   + 1.228571428571429 x_451 + 1.08695652173913 x_455 + 1.75 x_456
+   + 5.6 x_457 + 1.041666666666667 x_459 + 1.428571428571429 x_460
+   + 1.615384615384615 x_461 + 1.533333333333333 x_463
+   + 1.238095238095238 x_464 + 1.285714285714286 x_466
+   + 1.303030303030303 x_468 + 1.666666666666667 x_474
+   + 2.461538461538462 x_478 + 4.2 x_479 + x_482 + 0.8823529411764706 x_484
+   + 2.222222222222222 x_485 + 0.85 x_486 + 0.7 x_487
+   + 0.6111111111111112 x_488 + 5 x_489 + 1.833333333333333 x_490
+   + 0.875 x_493 + 0.5263157894736842 x_495 + 0.75 x_497
+   + 0.8461538461538461 x_499 + 1.666666666666667 x_501
+   + 1.333333333333333 x_503 + 1.8 x_504 + 0.4666666666666667 x_505
+   + 2.666666666666667 x_506 + 3 x_510 + 1.142857142857143 x_511
+   + 0.5555555555555556 x_512 + 0.3333333333333333 x_514 + 0.5 x_515
+   + 0.8 x_516 + 2 x_524 + 0.6666666666666666 x_526 >= 14.90323659832284
+ const_AvgRboundsC: 12.74285714285714 x_0 + 13.9 x_3
+   + 12.77777777777778 x_4 + 12.625 x_5 + 10.35526315789474 x_14
+   + 9.615384615384615 x_15 + 9.931506849315069 x_16
+   + 9.74390243902439 x_17 + 10.34615384615385 x_22
+   + 10.90277777777778 x_27 + 11.6078431372549 x_32
+   + 8.918918918918919 x_40 + 6.569444444444445 x_55
+   + 12.17241379310345 x_58 + 5.025 x_59 + 10.68421052631579 x_62
+   + 5.975 x_63 + 9.614035087719298 x_64 + 7.728395061728395 x_69
+   + 7.357142857142857 x_81 + 8.219178082191782 x_86
+   + 8.318181818181818 x_102 + 6.585714285714285 x_103
+   + 10.15909090909091 x_105 + 6.807017543859649 x_109
+   + 6.477611940298507 x_110 + 7.25 x_121 + 7.40625 x_124
+   + 7.850746268656716 x_132 + 6.111111111111111 x_133
+   + 5.260273972602739 x_140 + 6.15 x_143 + 10.15 x_149
+   + 8.527272727272727 x_154 + 8.157894736842104 x_166
+   + 6.175675675675675 x_178 + 6.092105263157895 x_182
+   + 7.803921568627451 x_198 + 5.515625 x_203 + 8.03125 x_211
+   + 4.803571428571429 x_218 + 7.444444444444445 x_219 + 6.62 x_220
+   + 4.772727272727272 x_244 + 3.803030303030303 x_249
+   + 3.806451612903226 x_269 + 2.046875 x_272 + 5.736842105263158 x_273
+   + 8.157894736842104 x_276 + 7.775 x_277 + 5.071428571428571 x_287
+   + 3.766666666666667 x_295 + 3.523809523809524 x_301
+   + 3.205128205128205 x_324 + 5.642857142857143 x_332
+   + 2.888888888888889 x_340 + 3.261904761904762 x_344
+   + 3.69811320754717 x_345 + 4.222222222222222 x_347
+   + 2.145454545454546 x_348 + 4.315789473684211 x_355 + 5.9 x_365
+   + 2 x_371 + 5.823529411764706 x_381 + 8.714285714285714 x_386
+   + 4.769230769230769 x_389 + 2.111111111111111 x_394
+   + 2.45945945945946 x_402 + 1.6875 x_407 + 3.325 x_409
+   + 2.763157894736842 x_411 + 1.421052631578947 x_432
+   + 3.153846153846154 x_443 + 2.04 x_448 + 1.157894736842105 x_471
+   + 5.25 x_475 + 8 x_509 >= 7.451618299161418
+ const_AvgBlocks: 0.6428571428571429 x_0 + 0.4 x_3 + 0.6944444444444444 x_4
+   + 1.1375 x_5 + 0.8157894736842105 x_14 + 0.6794871794871795 x_15
+   + 0.726027397260274 x_16 + 0.8902439024390244 x_17
+   + 1.153846153846154 x_22 + 1.444444444444444 x_27
+   + 2.176470588235294 x_32 + 0.918918918918919 x_40
+   + 2.013888888888889 x_55 + 2.396551724137931 x_58 + 1.85 x_59
+   + 1.087719298245614 x_62 + 0.9 x_63 + 1.245614035087719 x_64
+   + 0.5679012345679012 x_69 + 1.428571428571429 x_81
+   + 1.342465753424658 x_86 + 1.303030303030303 x_102 + 1.4 x_103
+   + 1.227272727272727 x_105 + 1.771929824561403 x_109
+   + 1.492537313432836 x_110 + 0.6029411764705882 x_121 + 1.109375 x_124
+   + 1.641791044776119 x_132 + 0.3055555555555556 x_133
+   + 0.9726027397260274 x_140 + 0.85 x_143 + 0.975 x_149
+   + 0.9454545454545454 x_154 + 0.9649122807017544 x_166
+   + 0.6351351351351351 x_178 + 0.4868421052631579 x_182
+   + 0.6666666666666666 x_198 + 0.671875 x_203 + 2.21875 x_211
+   + 0.9107142857142857 x_218 + 1.583333333333333 x_219 + 0.84 x_220
+   + 0.1060606060606061 x_244 + 0.6212121212121212 x_249
+   + 0.6774193548387096 x_269 + 0.875 x_272 + 0.4912280701754386 x_273
+   + 0.9473684210526315 x_276 + 0.45 x_277 + 0.4821428571428572 x_287
+   + 0.65 x_295 + 0.4285714285714285 x_301 + 0.5897435897435898 x_324
+   + 0.8214285714285714 x_332 + 0.6944444444444444 x_340
+   + 0.2380952380952381 x_344 + 0.3584905660377358 x_345
+   + 0.8333333333333334 x_347 + 0.3818181818181818 x_348
+   + 0.3684210526315789 x_355 + 1.65 x_365 + 0.3043478260869565 x_371
+   + 1.058823529411765 x_381 + 0.0714285714285714 x_386
+   + 0.3846153846153846 x_389 + 0.4666666666666667 x_394
+   + 0.4594594594594595 x_402 + 0.65625 x_407 + 0.275 x_409
+   + 0.3947368421052632 x_411 + 0.0789473684210526 x_432
+   + 0.6923076923076923 x_443 + 0.56 x_448 + 0.2105263157894737 x_471
+   + 1.25 x_475 >= 0.8288423552441345
+ const_AvgBlocksSubiti: 0.9 x_0 + 0.8428571428571429 x_3
+   + 1.166666666666667 x_4 + 0.675 x_5 + 1.078947368421053 x_14
+   + 0.5897435897435898 x_15 + 0.4931506849315068 x_16
+   + 0.573170731707317 x_17 + 0.7051282051282052 x_22
+   + 0.7222222222222222 x_27 + 0.7647058823529411 x_32
+   + 0.6756756756756757 x_40 + 0.5 x_55 + 0.6896551724137931 x_58
+   + 0.25 x_59 + 0.543859649122807 x_62 + 0.5 x_63
+   + 0.6140350877192983 x_64 + 0.4814814814814815 x_69
+   + 0.4285714285714285 x_81 + 0.8904109589041096 x_86
+   + 0.4696969696969697 x_102 + 0.3142857142857143 x_103
+   + 0.5681818181818182 x_105 + 0.5087719298245614 x_109
+   + 0.582089552238806 x_110 + 0.4558823529411765 x_121 + 0.265625 x_124
+   + 0.3134328358208955 x_132 + 0.5555555555555556 x_133
+   + 0.2876712328767123 x_140 + 0.1333333333333333 x_143 + 0.375 x_149
+   + 0.6545454545454545 x_154 + 0.8771929824561403 x_166
+   + 0.3513513513513514 x_178 + 0.2105263157894737 x_182
+   + 0.3137254901960784 x_198 + 0.203125 x_203 + 1.09375 x_211
+   + 0.1964285714285714 x_218 + 0.6388888888888888 x_219 + 0.54 x_220
+   + 0.2727272727272727 x_244 + 0.2575757575757576 x_249
+   + 0.2096774193548387 x_269 + 0.125 x_272 + 0.1754385964912281 x_273
+   + 0.7368421052631579 x_276 + 0.725 x_277 + 0.25 x_287
+   + 0.4333333333333333 x_295 + 0.3809523809523809 x_301
+   + 0.0512820512820513 x_324 + 0.3928571428571428 x_332
+   + 0.0277777777777778 x_340 + 0.3809523809523809 x_344
+   + 0.169811320754717 x_345 + 0.1944444444444444 x_347
+   + 0.1090909090909091 x_348 + 0.131578947368421 x_355 + 0.3 x_365
+   + 0.1956521739130435 x_371 + 0.0588235294117647 x_381
+   + 0.7142857142857143 x_386 + 0.4615384615384616 x_389
+   + 0.1555555555555556 x_394 + 0.2162162162162162 x_402 + 0.09375 x_407
+   + 0.175 x_409 + 0.2368421052631579 x_411 + 0.1578947368421053 x_432
+   + 0.3076923076923077 x_443 + 0.08 x_448 + 0.1578947368421053 x_471
+   + 2 x_509 <= 0.8102062487303853
+ const_AvgFG_Perc: 57 x_0 + 58 x_3 + 52 x_4 + 62 x_5 + 49 x_14 + 48 x_15
+   + 53 x_16 + 70 x_17 + 69 x_22 + 67 x_27 + 51 x_32 + 56 x_40 + 48 x_55
+   + 66 x_58 + 50 x_59 + 58 x_62 + 46 x_63 + 62 x_64 + 54 x_69 + 56 x_81
+   + 54 x_86 + 58 x_102 + 61 x_103 + 60 x_105 + 70 x_109 + 39 x_110
+   + 46 x_121 + 55 x_124 + 53 x_132 + 50 x_133 + 67 x_140 + 42 x_143
+   + 56 x_149 + 55 x_154 + 59 x_166 + 61 x_178 + 51 x_182 + 47 x_198
+   + 46 x_203 + 49 x_211 + 72 x_218 + 70 x_219 + 52 x_220 + 45 x_244
+   + 50 x_249 + 65 x_269 + 51 x_272 + 54 x_273 + 44 x_276 + 50 x_277
+   + 64 x_287 + 59 x_295 + 44 x_301 + 79 x_324 + 58 x_332 + 52 x_340
+   + 53 x_344 + 64 x_345 + 58 x_347 + 68 x_348 + 42 x_355 + 64 x_365
+   + 42 x_371 + 66 x_381 + 60 x_386 + 46 x_389 + 50 x_394 + 60 x_402
+   + 44 x_407 + 43 x_409 + 55 x_411 + 50 x_432 + 64 x_443 + 67 x_448
+   + 58 x_471 + 76 x_475 + 66 x_509 >= 89.68560606060606
 Bounds
 Binaries
- x_S._Gilgeous-Alexander x_J._Harden x_T._Young x_T._Haliburton
- x_C._Cunningham x_A._Edwards x_J._Hart x_D._Booker x_T._Herro x_S._Curry
- x_J._Giddey x_D._Garland x_D._Mitchell x_J._Brunson x_A._Reaves
- x_L._Doncic x_D._White x_D._Lillard x_Z._LaVine x_D._Bane x_J._Murray
- x_D._Daniels x_A._Thompson x_C._Paul x_C._Braun x_J._Green x_D._Fox
- x_C._White x_P._Pritchard x_T._Maxey x_R._Westbrook x_J._Poole x_A._Simons
- x_T._Jones x_K._Irving x_M._Monk x_L._Ball x_M._Beasley x_J._Morant
- x_Q._Grimes x_S._Sharpe x_F._VanVleet x_S._Pippen_Jr. x_S._Castle
- x_N._Powell x_D._Schroder x_K._George x_C._Carrington x_D._Vassell
- x_B._Mathurin x_C._McCollum x_S._Dinwiddie x_K._Thompson x_C._Sexton
- x_J._Holiday x_L._Dort x_A._Wiggins x_B._Podziemski x_T._Jerome
- x_M._Conley x_T._McConnell x_B._Hield x_B._Beal x_K._Ellis x_A._Nembhard
- x_N._Alexander-Walker x_D._DiVincenzo x_I._Collier x_C._LeVert
- x_D._Mitchell x_C._Wallace x_K._Porter_Jr. x_S._Henderson x_D._Russell
- x_B._Coulibaly x_K._Dunn x_A._Thompson x_I._Joe x_K._Johnson
- x_K._Caldwell-Pope x_M._Christie x_J._Champagnie x_G._Trent_Jr. x_A._Black
- x_K._Huerter x_L._Kennard x_O._Agbaji x_G._Allen x_K._George x_M._Moody
- x_J._Alvarado x_M._McBride x_M._Strus x_A._Dosunmu x_P._Watson x_D._Murray
- x_C._Anthony x_T._Rozier x_B._Simmons x_D._Knecht x_G._Dick x_A._Green
- x_J._Shead x_A._Coffey x_I._Quickley x_V._Krejci x_J._Green x_S._Merrill
- x_B._Bogdanovic x_T._Mann x_K._Williams x_A._Caruso x_J._Butler x_C._Payne
- x_J._Juzang x_J._Suggs x_T._Jones x_G._Payton_II x_J._Strawther
- x_R._Council_IV x_J._Clarkson x_J._Green x_N._Smith_Jr. x_J._Ivey
- x_G._Vincent x_B._Sheppard x_J._Hawkins x_C._Thomas x_J._Walter x_S._Curry
- x_B._Boston_Jr. x_R._Rollins x_A._Burks x_L._Ball x_M._Sasser
- x_A._Jackson_Jr. x_B._Brown x_G._Mathews x_S._Milton x_D._Jeffries
- x_J._Hardy x_T._Horton-Tucker x_A._Holiday x_M._Smart x_M._Brogdon
- x_J._Okogie x_J._Dowtin x_J._McCain x_J._Pickett x_S._Mykhailiuk
- x_K._Simpson x_P._Larsson x_C._Gillespie x_E._Gordon x_J._Konchar
- x_P._Connaughton x_B._Williams x_K._Lowry x_A._Mitchell x_C._Houstan
- x_B._Wesley x_R._Sheppard x_C._Joseph x_V._Micic x_E._Payton x_A._Reeves
- x_L._Shamet x_J._Goodwin x_M._Morris x_C._Porter_Jr. x_K._Wallace
- x_L._Walker_IV x_A._Lawson x_D._Wright x_C._Jones x_R._Dillingham
- x_V._Williams_Jr. x_J._Tyson x_J._Clark x_W._Moore_Jr. x_J._Howard
- x_Q._Jackson x_A._Johnson x_G._Harris x_D._Exum x_T._Queen x_D._Carter
- x_B._Scheierman x_J._Carter x_T._Mann x_R._Beekman x_J._Furphy
- x_J._Springer x_J._Miller x_T._Shannon_Jr. x_R._Rupert x_B._Hyland
- x_J._McLaughlin x_J._Rhoden x_C._Spencer x_T._Kolek x_P._Spencer
- x_D._Smith x_J._Walsh x_D._Baugh x_P._Mills x_J._Hood-Schifino x_G._Temple
- x_J._Martin x_D._Melton x_L._Quinones x_M._Fultz x_D._Lee x_B._James
- x_K._Bufkin x_A._Flagler x_Y._Kawamura x_E._Harkless x_D._Plowden
- x_N._Williams x_R._Dennis x_T._Etienne x_S._Cissoko x_M._Jones
- x_T._Washington_Jr. x_J._Davison x_T._Alexander x_J._Christopher
- x_J._Bouyea x_C._Christie x_S._Umude x_J._Young x_D._Duke_Jr.
- x_K._McCullar_Jr. x_R._Harper_Jr. x_B._McGowens x_T._Newton x_M._McClung
- x_D._Jenkins x_I._Stevens x_J._Bridges x_T._Davis x_Z._Pullin
- x_G._Antetokounmpo x_J._Tatum x_L._James x_E._Mobley x_P._Siakam
- x_K._Durant x_M._Porter_Jr. x_J._Williams x_D._DeRozan x_S._Barnes
- x_J._Jackson_Jr. x_V._Wembanyama x_J._Randle x_M._Bridges x_D._Avdija
- x_O._Anunoby x_M._Bridges x_F._Wagner x_J._Brown x_J._McDaniels
- x_J._Butler x_K._Murray x_T._Camara x_T._Harris x_R._Barrett x_D._Green
- x_T._Murphy_III x_H._Barnes x_S._Aldama x_C._Johnson x_P._Banchero
- x_P._Washington x_A._Wiggins x_N._Marshall x_D._Brooks x_G._Yabusele
- x_K._Oubre_Jr. x_D._Hunter x_R._O'Neale x_J._Johnson x_K._Johnson
- x_O._Toppin x_K._Porzingis x_J._Champagnie x_T._Eason x_T._Prince
- x_R._Hachimura x_B._Portis x_A._Gordon x_J._Wells x_K._Kuzma x_Z._Risacher
- x_J._Smith_Jr. x_J._Collins x_I._Stewart x_K._Leonard x_L._Markkanen
- x_D._Jones_Jr. x_J._Sochan x_D._Robinson x_T._Hardaway_Jr. x_G._Niang
- x_B._Clarke x_Z._Williamson x_P._George x_M._Buzelis x_M._Diabate
- x_J._Wilson x_B._Sensabaugh x_S._Hauser x_Z._Williams x_D._Finney-Smith
- x_H._Highsmith x_J._Jaquez_Jr. x_T._Jackson-Davis x_J._LaRavia x_J._Mogbo
- x_Z._Collins x_T._Lyles x_C._Kispert x_R._Dunn x_J._Isaac x_J._Grant
- x_T._da_Silva x_P._Williams x_A._Nesmith x_J._Williams x_J._Kuminga
- x_P._Achiuwa x_N._Jovic x_J._Walker x_K._Anderson x_C._Boucher x_T._Martin
- x_N._Batum x_D._Wade x_K._Middleton x_K._Olynyk x_A._Bona x_B._Miller
- x_D._Banton x_C._Martin x_R._Holland_II x_K._Matkovic x_J._Edwards
- x_S._Mamukelashvili x_J._Battle x_O._Ighodaro x_S._Fontecchio x_C._Martin
- x_T._Watford x_I._Okoro x_T._Salaun x_C._Whitmore x_J._Phillips
- x_N._Clowney x_J._Walker x_R._Holmes x_M._Wagner x_D._Terry x_G._Santos
- x_B._Ingram x_K._Murray x_K._Martin x_T._Vukcevic x_M._Gueye x_P._Reed
- x_J._Vanderbilt x_L._Waters_III x_L._Nance_Jr. x_K._Edwards x_T._Evbuomwan
- x_H._Jones x_J._Tate x_Z._Nnaji x_O._Prosper x_C._Williams x_D._Jones
- x_G._Williams x_D._Barlow x_J._Cain x_T._Gibson x_D._Roddy x_O._Dieng
- x_M._Kleber x_J._Green x_M._Thybulle x_M._Branham x_G._Jackson x_K._Love
- x_M._Bagley_III x_T._Craig x_K._Brooks_Jr. x_H._Tyson x_J._Minott
- x_I._Jones x_A._Gill x_D._Timme x_M._Lewis x_D._McDermott x_K._Brown
- x_C._Okeke x_A._Reese x_D._Whitehead x_J._Thor x_D._Saric x_D._Peterson
- x_L._Stevens x_M._Beauchamp x_T._Smith x_K._Johnson x_I._Jackson
- x_P._Baldwin_Jr. x_E._Freeman x_P._Nance x_M._Morris x_A._Ducas
- x_K._Knox_II x_X._Tillman x_C._Livingston x_V._Cancar x_N._Tomlin
- x_P._Dadiet x_J._Toppin x_J._Crowder x_S._Jones x_E._Bates x_J._Ingles
- x_T._Hendricks x_J._Rowe x_B._Klintman x_J._Minaya x_E._Liddell
- x_L._Miller x_L._Travers x_E._Miller x_H._Ingram x_I._Crawford x_P._Tucker
- x_M._Norris x_U._Chomche x_J._McVeigh x_A._Watson x_J._Johnson
- x_T._Flowers x_R._Minix x_B._Key x_N._Jokic x_D._Sabonis x_K._Towns
- x_I._Zubac x_A._Sengun x_B._Adebayo x_N._Vucevic x_J._Allen x_J._Duren
- x_R._Gobert x_A._Davis x_O._Okongwu x_M._Turner x_W._Kessler x_B._Lopez
- x_I._Hartenstein x_N._Reid x_J._Poeltl x_J._Valanciunas x_N._Claxton
- x_Y._Missi x_Z._Edey x_G._Bitadze x_M._Williams x_D._Gafford x_A._Sarr
- x_W._Carter_Jr. x_K._Ware x_D._Clingan x_K._Filipowski x_L._Kornet
- x_A._Horford x_D._Ayton x_C._Capela x_N._Richards x_M._Plumlee x_K._Looney
- x_J._Nurkic x_J._Smith x_C._Holmgren x_J._Hayes x_D._Lively_II x_D._Sharpe
- x_J._Robinson-Earl x_T._Bryant x_N._Queta x_J._Huff x_S._Adams x_J._Embiid
- x_A._Drummond x_D._Jordan x_D._Eubanks x_Q._Post x_K._Jones x_B._Biyombo
- x_B._Bol x_J._Landale x_J._Sims x_C._Bassey x_D._Powell x_M._Potter
- x_R._Williams x_D._Reath x_M._Robinson x_O._Tshiebwe x_C._Castleton
- x_A._Len x_C._Koloko x_B._Carlson x_T._Thompson x_T._Jemison x_L._Garza
- x_T._Bradley x_A._Hukporti x_P._Hall x_N._Dante x_T._Smith x_J._Edwards
+ x_2 x_7 x_8 x_10 x_11 x_12 x_13 x_18 x_20 x_21 x_24 x_25 x_26 x_28 x_29
+ x_30 x_31 x_35 x_37 x_38 x_41 x_44 x_45 x_47 x_48 x_49 x_50 x_54 x_56 x_67
+ x_68 x_71 x_73 x_75 x_77 x_78 x_82 x_83 x_84 x_85 x_87 x_92 x_93 x_95 x_96
+ x_97 x_98 x_99 x_100 x_101 x_104 x_107 x_115 x_116 x_117 x_118 x_119 x_120
+ x_125 x_128 x_129 x_134 x_135 x_137 x_138 x_141 x_142 x_146 x_148 x_150
+ x_151 x_158 x_159 x_161 x_162 x_163 x_165 x_169 x_171 x_172 x_176 x_177
+ x_179 x_180 x_183 x_186 x_187 x_188 x_191 x_192 x_194 x_196 x_205 x_206
+ x_207 x_208 x_210 x_212 x_213 x_214 x_215 x_222 x_223 x_226 x_227 x_233
+ x_234 x_235 x_236 x_238 x_241 x_242 x_243 x_246 x_251 x_255 x_257 x_258
+ x_262 x_267 x_268 x_270 x_271 x_274 x_279 x_280 x_281 x_282 x_289 x_290
+ x_291 x_292 x_299 x_302 x_303 x_305 x_306 x_312 x_313 x_314 x_316 x_317
+ x_319 x_320 x_323 x_325 x_326 x_327 x_329 x_330 x_335 x_337 x_338 x_339
+ x_341 x_342 x_343 x_346 x_350 x_351 x_354 x_356 x_357 x_358 x_360 x_361
+ x_362 x_363 x_364 x_367 x_368 x_369 x_370 x_372 x_374 x_376 x_377 x_379
+ x_380 x_383 x_385 x_387 x_388 x_392 x_395 x_396 x_404 x_408 x_412 x_413
+ x_415 x_416 x_417 x_419 x_420 x_421 x_423 x_424 x_425 x_426 x_428 x_429
+ x_430 x_433 x_436 x_440 x_441 x_445 x_446 x_452 x_453 x_454 x_458 x_462
+ x_465 x_467 x_469 x_470 x_472 x_473 x_476 x_477 x_480 x_481 x_483 x_491
+ x_492 x_494 x_496 x_498 x_500 x_502 x_507 x_508 x_513 x_517 x_518 x_519
+ x_520 x_521 x_523 x_525 x_527 x_1 x_6 x_9 x_19 x_23 x_33 x_34 x_36 x_39
+ x_42 x_43 x_46 x_51 x_52 x_53 x_57 x_60 x_61 x_65 x_66 x_70 x_72 x_74 x_76
+ x_79 x_80 x_88 x_89 x_90 x_91 x_94 x_106 x_108 x_111 x_112 x_113 x_114
+ x_122 x_123 x_126 x_127 x_130 x_131 x_136 x_139 x_144 x_145 x_147 x_152
+ x_153 x_155 x_156 x_157 x_160 x_164 x_167 x_168 x_170 x_173 x_174 x_175
+ x_181 x_184 x_185 x_189 x_190 x_193 x_195 x_197 x_199 x_200 x_201 x_202
+ x_204 x_209 x_216 x_217 x_221 x_224 x_225 x_228 x_229 x_230 x_231 x_232
+ x_237 x_239 x_240 x_245 x_247 x_248 x_250 x_252 x_253 x_254 x_256 x_259
+ x_260 x_261 x_263 x_264 x_265 x_266 x_275 x_278 x_283 x_284 x_285 x_286
+ x_288 x_293 x_294 x_296 x_297 x_298 x_300 x_304 x_307 x_308 x_309 x_310
+ x_311 x_315 x_318 x_321 x_322 x_328 x_331 x_333 x_334 x_336 x_349 x_352
+ x_353 x_359 x_366 x_373 x_375 x_378 x_382 x_384 x_390 x_391 x_393 x_397
+ x_398 x_399 x_400 x_401 x_403 x_405 x_406 x_410 x_414 x_418 x_422 x_427
+ x_431 x_434 x_435 x_437 x_438 x_439 x_442 x_444 x_447 x_449 x_450 x_451
+ x_455 x_456 x_457 x_459 x_460 x_461 x_463 x_464 x_466 x_468 x_474 x_478
+ x_479 x_482 x_484 x_485 x_486 x_487 x_488 x_489 x_490 x_493 x_495 x_497
+ x_499 x_501 x_503 x_504 x_505 x_506 x_510 x_511 x_512 x_514 x_515 x_516
+ x_524 x_526 x_0 x_3 x_4 x_5 x_14 x_15 x_16 x_17 x_22 x_27 x_32 x_40 x_55
+ x_58 x_59 x_62 x_63 x_64 x_69 x_81 x_86 x_102 x_103 x_105 x_109 x_110
+ x_121 x_124 x_132 x_133 x_140 x_143 x_149 x_154 x_166 x_178 x_182 x_198
+ x_203 x_211 x_218 x_219 x_220 x_244 x_249 x_269 x_272 x_273 x_276 x_277
+ x_287 x_295 x_301 x_324 x_332 x_340 x_344 x_345 x_347 x_348 x_355 x_365
+ x_371 x_381 x_386 x_389 x_394 x_402 x_407 x_409 x_411 x_432 x_443 x_448
+ x_471 x_475 x_509 x_522
 End
