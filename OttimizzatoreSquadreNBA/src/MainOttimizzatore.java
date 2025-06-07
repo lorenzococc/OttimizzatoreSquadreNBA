@@ -48,7 +48,6 @@ public class MainOttimizzatore {
 			
 			int B = 95; //Crediti Dunkest
 			int N = listaGiocatori.size(); // Specificare il numero di giocatori tra cui scegliere
-			int MPG = 48;
 			int NumOfPlayers = 10;
 			
 
@@ -375,7 +374,6 @@ public class MainOttimizzatore {
 				}
 			}
 			
-			
 		// Aggiunta della funzione obiettivo: max sum ( value[j][i] * x[j][i] )
 			
 			GRBLinExpr f1 = new GRBLinExpr();
@@ -443,25 +441,18 @@ public class MainOttimizzatore {
 			
 			for(int j = 0; j<3; j++) {
 				for(int i = 0; i<x[j].length; i++) {
-					f6.addTerm( -1 * GP[j][i], x[j][i]);
+					f6.addTerm( (-1 * GP[j][i]), x[j][i]);
 				}
 			}
 			
 		
 			
 		
-			model.setObjective(f0, GRB.MAXIMIZE);
-						
-		//altri possibili vincoli
+			model.setObjective(f6, GRB.MAXIMIZE);
+			//TODO
 			
 			
-			
-//			addConstr_height(model, listaGiocatori, h, x, NumOfPlayers, N);
-//			addConstr_gamesPlayed(model, listaGiocatori, gp, x, NumOfPlayers, N);
-//			addConstr_age(model, listaGiocatori, age, x, NumOfPlayers, N);
-//			addConstr_defense(model, listaGiocatori, def, x, NumOfPlayers, N);
-			
-			 // Scrittura del modello in formato .lp
+		// Scrittura del modello in formato .lp
             model.write("model.lp");
 		
 						
@@ -470,20 +461,46 @@ public class MainOttimizzatore {
 			model.optimize();
 			
 			
+			
+			
 			for(int j = 0; j<3; j++) {
 				for(int i = 0; i<x[j].length; i++) {
 					if(x[j][i].get(GRB.DoubleAttr.X) == 1) {
 						System.out.println(x[j][i].get(GRB.StringAttr.VarName) + " :\t" + arrayGiocatori[j][i].getPlayer() + " " +
-								x[j][i].get(GRB.DoubleAttr.X) + "(" + Pos[j][i] + " - " + Team[j][i] +")");						
+								x[j][i].get(GRB.DoubleAttr.X) + "(" + Pos[j][i] + " - " + Team[j][i] +")");	
 					}
 				}
 			}
+			
+			
+			
+			//Aggiunta dei giocatori scelti all'array
+			ArrayList<Giocatore> giocatoriScelti = new ArrayList<>();
+			for(int j = 0; j<3; j++) {
+				for(int i = 0; i<x[j].length; i++) {
+					if(x[j][i].get(GRB.DoubleAttr.X) == 1) {
+						for(Giocatore g: listaGiocatori) {
+							if(g.getPlayer().contentEquals(PLAYER[j][i]) && g.getTeam() == Team[j][i] && g.getPTS() == PTS[j][i]) { //Esistono casi di omonimia 
+								giocatoriScelti.add(g);
+							}
+						}
+					}
+				}
+			}
+			for(Giocatore g: giocatoriScelti)System.out.println(g.getPlayer());
+		
+		//Calcolo i valori di tutte le funzioni obiettivo usando i giocatori scelti con la f.o. usata
+		//Scrittura in formato csv
+			
+//			Writer.writeObj(calcolaObjF0(giocatoriScelti),  calcolaObjF1(giocatoriScelti), calcolaObjF2(giocatoriScelti), calcolaObjF3(giocatoriScelti),
+//					calcolaObjF4(giocatoriScelti), calcolaObjF5(giocatoriScelti), calcolaObjF6(giocatoriScelti), giocatoriScelti);
+//			
 			
 		// Scrittura della soluzione in formato .sol
             model.write("solution.sol");
             
         //Salvataggio della squadra
-            Writer.write(x, Pos, Team, arrayGiocatori);
+            Writer.writeTeam(x, Pos, Team, arrayGiocatori);
             
         // Pulizia
             model.dispose();
@@ -493,6 +510,69 @@ public class MainOttimizzatore {
 			
 	}catch(Exception e) {}
 	}
+	
+	
+	private static double calcolaObjF0(ArrayList<Giocatore> giocatori) {
+		double sum = 0;
+		for(Giocatore g: giocatori) {
+			sum += g.getPDK();
+		}
+		
+		return sum;
+	}
+	
+	private static double calcolaObjF1(ArrayList<Giocatore> giocatori) {
+		double sum = 0;
+		for(Giocatore g: giocatori) {
+			sum += decideValue(g);
+		}
+		
+		return sum;
+	}
+	private static double calcolaObjF2(ArrayList<Giocatore> giocatori) {
+		double sum = 0;
+		for(Giocatore g: giocatori) {
+			sum += (g.getPTS()+ g.getAST() ) / g.getGP() + g.getPERC_FG();
+		}
+		
+		return sum;
+	}
+	private static double calcolaObjF3(ArrayList<Giocatore> giocatori) {
+		double sum = 0;
+		for(Giocatore g: giocatori) {
+			sum += (g.getBLK()+ g.getSTL()) / g.getGP();
+		}
+		
+		return sum;
+	}
+	private static double calcolaObjF4(ArrayList<Giocatore> giocatori) {
+		double sum = 0;
+		for(Giocatore g: giocatori) {
+			int perc_2P = calculate2P_perc(g.getMFG()- g.getM3P(), g.getAFG() - g.getA3P());
+			sum +=  perc_2P +  g.getPERC_3P() + g.getPERC_FT();
+		}
+		
+		return sum;
+	}
+	private static double calcolaObjF5(ArrayList<Giocatore> giocatori) {
+		double sum = 0;
+		for(Giocatore g: giocatori) {
+			int perc_2P = calculate2P_perc(g.getMFG()- g.getM3P(), g.getAFG() - g.getA3P());
+			sum += 2 *  perc_2P + 3 * g.getPERC_3P() + g.getPERC_FT();
+		}
+		
+		return sum;
+	}
+	private static double calcolaObjF6(ArrayList<Giocatore> giocatori) {
+		double sum = 0;
+		for(Giocatore g: giocatori) {
+			sum -= g.getGP();
+		}
+		return sum;
+	}
+	
+	
+	
 
 	private static double calcolaPercentualiMedie(int[][] percentage) {
 		int numOfplayers = 0;
@@ -695,7 +775,7 @@ public class MainOttimizzatore {
 				PERC_FG[posNumber][contaPos]  = g.getPERC_FG();
 				M2P[posNumber][contaPos]  = g.getMFG() - g.getM3P();
 				A2P[posNumber][contaPos]  = g.getAFG() - g.getA3P();
-				PERC_2P[posNumber][contaPos]  = calculate2P_perc(M2P[posNumber][contaPos], PERC_2P[posNumber][contaPos]);
+				PERC_2P[posNumber][contaPos]  = calculate2P_perc(M2P[posNumber][contaPos], A2P[posNumber][contaPos]);
 				M3P[posNumber][contaPos]  = g.getM3P();
 				A3P[posNumber][contaPos]  = g.getA3P();
 				PERC_3P[posNumber][contaPos]  = g.getPERC_3P();
